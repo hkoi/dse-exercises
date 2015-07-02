@@ -1,0 +1,47 @@
+<h2>Declaring variables to store the input</h2>
+<p>It is guaranteed that $a$, $b$ and $C$ are all integers. Therefore we can use any suitable integer type to store the values.</p>
+<pre class="pascal">var a, b, c: integer;</pre>
+<pre class="npascal">int a, b, c;</pre>
+
+<h2>Reading input from the standard input (keyboard)</h2>
+We have already practiced reading one single input in the previous two exercises. Calling the <span class="pascal">\texttt{readln} function</span><span class="c">\texttt{scanf} function</span><span class="java">\texttt{nextInt} method</span> again will continue reading the next unread input. Complete the program segment to finish reading the input.
+
+<pre class="pascal">readln(a);
+___________________
+___________________
+</pre>
+<pre class="c">scanf("%d", &amp;a);
+___________________
+___________________
+</pre>
+<pre class="java">
+Scanner in = new Scanner(System.in);
+a = in.nextInt();
+______________________
+______________________
+</pre>
+
+<h2>Computing the area</h2>
+<p>Next, let us compute the area and store it into a new variable \texttt{area}. We need to make use of the sin function. In computers, trigonometric functions, angles are passed and returned as floating point numbers in radians. To convert an angle from degrees to radians, multiply it by Pi and divide it by 180.</p>
+
+<p><span class="pascal">In Pascal, \texttt{sin} is a built-in function. The area can be computed like this:</span>
+<span class="c">In C, the \texttt{sin} is available in the \texttt{math} library. Therefore we need to add \texttt{#include <math.h>} to the beginning of the program. After that, the area can be computed like this: </span>
+<span class="java">In Java, we need to use the \texttt{Math.sin} function in the \texttt{java.lang} package. Therefore, \texttt{import java.lang.*;} has to be added to the beginning of the program. After that, the area can be computed like this: </span>
+<pre class="pascal">area: double;
+...
+area := a * b * sin(c / 3.14159265 / 180) / 2;
+</pre>
+<pre class="npascal">double area = a * b * sin(c / 3.14159265 / 180) / 2;</pre>
+<span class="java">Alternatively, \texttt{Math.toRadians} can also be used to convert \texttt{c} from degree to radians:
+<pre class="java">double area = a * b * Math.toRadians(c) / 2;</pre>
+</p>
+
+<h2>Output</h2>
+<p>Finally the area is ready to be output. For detailed steps to format a `double` value, please refer to the worksheet of exercise D102 - Bus Fare.</p>
+
+<h2>Bonus questions</h2>
+<ul>
+  <li>Rewrite the program so that it accepts real number inputs.</li>
+  <li>Instead of two side lengths and the included angle, write a program that computes the area of a triangle given its three side lengths. (Hint: Heron's formula).</li>
+  <li>Can you form a triangle using three straight lines of lengths $a$, $b$ and $c$? (Hint: triangle inequalities).
+</ul>

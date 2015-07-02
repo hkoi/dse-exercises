@@ -1,0 +1,55 @@
+<h2>Input</h2>
+<p>Before the full fare there is a dollar sign. To ignore the dollar sign, we can <span class="pascal">declare a \texttt{dummy} variable of data type _________. Therefore, we can now use the \texttt{read} function to read the dollar sign into the variable.</span><span class="c">declare a \texttt{dummy} variable of data type _________. Therefore, we can now use the \texttt{scanf} function to read the dollar sign into the variable.</span><span>Call \texttt{System.in.read()} once.</span></p>
+<p>For the fare itself, we should declare variable \texttt{fare} of data type \texttt{double}. Then we can call the <span class="pascal">\texttt{read} function</span><span class="c">\texttt{scanf} function</span><span>\texttt{nextDouble} method</span> to obtain the value.</p>
+
+<p span="pascal">We can combine the two \texttt{read} into one by passing both variables to the function.</p>
+<p span="c">We can combine the two \texttt{scanf} into one by changing the format string appropriately and passing both variable addresses to the function. Note that for the \texttt{scanf} function, we need to use \texttt{%lf} for the double data type.</p>
+
+<pre class="pascal">read(dummy, fare);
+</pre>
+<pre class="c">_____ dummy;
+double fare;
+scanf("%__%lf", &amp;dummy, &amp;fare);
+</pre>
+<pre class="java">
+Scanner in = new Scanner(System.in);
+_____ dummy = in.next_____();
+double fare = in.nextDouble();
+</pre>
+
+<h2>Converting the fare to integer</h2>
+<p>Let us convert the fare from a real number with 1 decimal place to an integer, that is, express the fare in ten cents instead of dollars. This can be done by multiplying the fare by 10. To avoid precision error, round the result to the nearest integer, and then store the result into an integer variable \texttt{tencents}.</p>
+
+<p><span class="pascal">In Pascal, \texttt{round} is a built-in function.</span>
+<span class="c">In C, \texttt{round} is available in the \texttt{math} library. Therefore we need to add \texttt{#include <math.h>} to the beginning of the program.</span>
+<span class="java">In Java, we need to use the \texttt{Math.round} function in the \texttt{java.lang} package. Therefore, \texttt{import java.lang.*;} has to be added to the beginning of the program. Note that \texttt{Math.round}, when called with \texttt{double} parameter, returns a \texttt{long} data type, so we should cast it to an \texttt{int} by adding \texttt{(int)} before the result.</span>
+<pre class="pascal">tencents: integer;
+...
+tencents := round(fare * 10);
+</pre>
+<pre class="c">int tencents = round(fare * 10);</pre>
+<pre class="java">int tencents = (int)Math.round(fare * 10);</pre>
+</p>
+
+<h2>Calculating the half fare</h2>
+<p>We would like to store the half fare (in ten cents) in a new integer variable \texttt{tencentshalved}. Use an \texttt{if} control structure to check whether it is odd or even. When \texttt{tencents} is even, \texttt{tencents} is divisble by 2. Therefore no rounding is necessary. On the contrary, when \texttt{tencents} is odd, the half fare has to be rounded up. This can be done in two ways:
+<p class="pascal">\texttt{tencentshalved := (tencents + 1) div 2;} or \texttt{tencentshalved := tencents / 2 + 1;}</p>
+<p class="npascal">\texttt{tencentshalved = (tencents + 1) / 2;} or \texttt{tencentshalved = tencents / 2 + 1;}</p>
+
+<h2>Outputting the half fare to standard output</h2>
+<p>Finally we can convert the half fare in ten cents back to dollars.
+<span class="pascal">Pass \texttt{'\$\'} and \texttt{tencentshalved / 10} to the \texttt{writeln} function. Since the question requires that the fare to be displayed with 1 decimal place, we add \texttt{:0:1} (which means minimum width = 0 and 1 decimal place) immediately after the value.</span>
+<span class="c">We will use the \texttt{printf} function. Since the question requires that the fare to be displayed with 1 decimal place, we use \texttt{"$%.1lf"} (or \texttt{"$%.1f"}) as the format string (\texttt{lf} means \texttt{double} data type and \texttt{.1} means 1 decimal place). Pass \texttt{tencentshalved / 10.0} as the second parameter to \texttt{printf}.</span>
+<span class="java">Since the question requires that the area to be displayed with 1 decimal place,
+  one of the ways is to use the \texttt{System.out.format} function instead of \texttt{System.out.println}. It is similar to \texttt{printf} in the C programming language -- the first parameter is the format string, which should be \texttt{"$%.1f"} (\texttt{f} means \texttt{double} data type and \texttt{.1} means 1 decimal place) in this case. Pass \texttt{tencentshalved / 10.0} as the second parameter to the function.</span>
+<pre class="pascal">writeln(tencentshalved / 10 :0:1);</pre>
+<pre class="c">printf("$%.1lf", tencentshalved / 10.0);</pre>
+<pre class="java">System.out.format("$%.1f", tencentshalved / 10.0);</pre>
+</p>
+
+<h2>Bonus questions</h2>
+<ul>
+  <li class="pascal">In the outputting step, change \texttt{tencentshalved / 10} to \texttt{tencentshalved div 10}. What would happen? Explain the differences.</li>
+  <li class="npascal">In the outputting step, change \texttt{tencentshalved / 10.0} to \texttt{tencentshalved / 10}. What would happen? Explain the differences.</li>
+  <li>Change the program to read an extra integer input: the type of Octopus card used. (0 = Adult, 1 = Child, 2 = Senior citizen). Display the fare according to the card type.</li>
+</ul>
