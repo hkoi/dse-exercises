@@ -1,0 +1,6 @@
+{
+  "name_en": "Fibonacci numbers",
+  "name_zh": "斐波那契數",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

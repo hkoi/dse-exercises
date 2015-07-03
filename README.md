@@ -35,7 +35,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D106</td><td>Ordinal number</td>               <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D107</td><td>Square and triangle numbers</td>  <td>2015-06-22</td><td>          </td><td>2015-07-01</td><td>          </td>
+  <tr><td>D107</td><td>Square and trianglar numbers</td> <td>2015-06-22</td><td>          </td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D108</td><td>Simple calculator</td>            <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

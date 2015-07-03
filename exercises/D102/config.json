@@ -1,0 +1,6 @@
+{
+  "name_en": "Bus fare",
+  "name_zh": "巴士收費",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2"
+}

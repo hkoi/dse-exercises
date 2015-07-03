@@ -1,0 +1,6 @@
+{
+  "name_en": "",
+  "name_zh": "",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

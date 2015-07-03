@@ -1,0 +1,6 @@
+{
+  "name_en": "Giving changes",
+  "name_zh": "找贖",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp_ut"
+}

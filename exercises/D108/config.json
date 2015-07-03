@@ -1,0 +1,6 @@
+{
+  "name_en": "Simple calculator",
+  "name_zh": "簡單算式運算",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

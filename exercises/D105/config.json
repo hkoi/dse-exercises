@@ -1,0 +1,6 @@
+{
+  "name_en": "Date comparison",
+  "name_zh": "比較日期",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}
