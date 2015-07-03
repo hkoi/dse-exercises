@@ -1,0 +1,6 @@
+{
+  "name_en": "Prime or Composite",
+  "name_zh": "質數和合成數",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

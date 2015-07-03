@@ -1,0 +1,6 @@
+{
+  "name_en": "3n+1 problem",
+  "name_zh": "3n+1 問題",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

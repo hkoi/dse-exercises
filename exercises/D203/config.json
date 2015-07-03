@@ -1,0 +1,6 @@
+{
+  "name_en": "Pak 7",
+  "name_zh": "拍7",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2"
+}

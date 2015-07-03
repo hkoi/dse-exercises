@@ -1,0 +1,6 @@
+{
+  "name_en": "GCD and LCM",
+  "name_zh": "最大公因數、最小公倍數",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

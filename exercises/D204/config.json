@@ -1,0 +1,6 @@
+{
+  "name_en": "Output a diamond",
+  "name_zh": "輸出菱形",
+  "regex": "(#| |\\n)*",
+  "checker": "fcmp2_ts"
+}

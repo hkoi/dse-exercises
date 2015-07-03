@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 5/400 = 1.25%)
+##Exercises (Overall progress: 37/400 = 7.50%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -49,25 +49,25 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D203</td><td>Pak 7</td>                        <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D203</td><td>Pak 7</td>                        <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D204</td><td>Output shapes</td>                <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D204</td><td>Output shapes</td>                <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D205</td><td>Primality Test</td>               <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D205</td><td>Primality test</td>               <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D206</td><td>Collatz conjecture</td>           <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D206</td><td>3n+1 Problem</td>                 <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D207</td><td>GCD and LCM</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D208</td><td>Guessing game</td>                <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Strings (7)</td></tr>
-  <tr><td>D301</td><td>String length and words</td>      <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D301</td><td>Story generator</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D302</td><td>Story generator</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D302</td><td>String length and words</td>      <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D303</td><td>String reverse and interleave</td><td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D303</td><td>String reverse and palindrome</td><td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D304</td><td>Hangman</td>                      <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
