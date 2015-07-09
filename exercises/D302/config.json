@@ -1,0 +1,6 @@
+{
+  "name_en": "String length and words",
+  "name_zh": "字串長度及字數",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

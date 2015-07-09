@@ -1,0 +1,12 @@
+[2, 
+["abcdcba\n", "abcdcba\nYes\n"],
+["hkoi\n", "iokh\nNo\n"],
+["a\n", "a\nYes\n"],
+["bb\n", "bb\nYes\n"],
+["ab\n", "ba\nNo\n"],
+["aba\n", "aba\nYes\n"],
+["abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwx\n", "xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba\nNO\n"],
+["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nYES\n"],
+["aaabbbccccbbbaaa\n", "aaabbbccccbbbaaa\nYES\n"],
+["abcabc\n", "cbacba\nNO\n"]
+]

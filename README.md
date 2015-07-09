@@ -63,13 +63,13 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Strings (7)</td></tr>
-  <tr><td>D301</td><td>Story generator</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D302</td><td>String length and words</td>      <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D302</td><td>String length and words</td>      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D303</td><td>String reverse and palindrome</td><td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D303</td><td>String reverse and palindrome</td><td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D304</td><td>Hangman</td>                      <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D304</td><td>Hangman</td>                      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D305</td><td>Email validator</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

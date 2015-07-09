@@ -1,0 +1,6 @@
+{
+  "name_en": "String reverse and palindrome",
+  "name_zh": "字串倒置及回文",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}
