@@ -15,17 +15,17 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 37/400 = 7.50%)
+##Exercises (Overall progress: 53/400 = 13.25%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th>
                                                          <th>Worksheet</th> <th>中文</th>      <th>Teaching</th>  <th>中文</th>      </tr>
-  <tr><td colspan="10">Basics, If (10)</td></tr>
-  <tr><td>D101</td><td>Phone number</td>                 <td>2015-06-17</td><td>          </td><td>2015-06-17</td><td>2015-06-17</td>
+  <tr><td colspan="10">Basics, If (9)</td></tr>
+  <tr><td>D101</td><td>Phone number</td>                 <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>          </td>
                                                          <td>2015-06-17</td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D102</td><td>Bus fare</td>                     <td>2015-06-17</td><td>          </td><td>2015-06-17</td><td>2015-06-17</td>
+  <tr><td>D102</td><td>Bus fare</td>                     <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>          </td>
                                                          <td>2015-06-17</td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D103</td><td>Area of triangle</td>             <td>2015-06-16</td><td>          </td><td>2015-06-16</td><td>          </td>
                                                          <td>2015-06-17</td><td>          </td><td>          </td><td>          </td></tr>
@@ -40,8 +40,6 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D108</td><td>Simple calculator</td>            <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D109</td><td>Giving changes</td>               <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
-                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D110</td><td>Checksum calculation</td>         <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Loops (8)</td></tr>
@@ -62,7 +60,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D208</td><td>Guessing game</td>                <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Strings (7)</td></tr>
+  <tr><td colspan="10">Strings (8)</td></tr>
   <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D302</td><td>String length and words</td>      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
@@ -71,11 +69,13 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D304</td><td>Hangman</td>                      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D305</td><td>Email validator</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D305</td><td>Check digit calculation</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D306</td><td>Tic-tac-toe</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D306</td><td>Email address validator</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D307</td><td>Check substring</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D307</td><td>Tic-tac-toe</td>                  <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D308</td><td>Substrings</td>                   <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Arrays (6)</td></tr>

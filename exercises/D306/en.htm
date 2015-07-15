@@ -1,0 +1,25 @@
+<p>You are about to write a simplified email address validation program. For this problem, assume that email addresses must follow the following rules:</p>
+<ul>
+  <li>An email address consists of two parts \texttt{username}\texttt{@}\texttt{host}
+  <li>Username part:
+  	<ul>
+  	  <li>It should consist of one or more of the following characters: \texttt{0}-\texttt{9}, \texttt{a}-\texttt{z}, \texttt{A}-\texttt{Z}, \texttt{.} or \texttt{+}.
+  	  <li>\texttt{.} may not appear in the beginning, or at the end, or consecutively.
+  	</ul>
+  </li>
+  <li>Host part:
+  	<ul>
+  	  <li>It should consist of three or more of the following characters: \texttt{0}-\texttt{9}, \texttt{a}-\texttt{z}, \texttt{A}-\texttt{Z}, \texttt{-} or \texttt{.}.
+  	  <li>\texttt{.} may not appear in the beginning, or at the end, or consecutively. It also has to appear at least once.
+  	  <li>\texttt{-} may not appear next to \texttt{.}</li>
+  	</ul>
+  </li>
+</ui>
+
+<p>You should only implement the above rules. Do not make additional assumptions.</p>
+
+<h1>Input and Output</h1>
+
+<p>The input is a string. The length of the string between 1 and 50. It will not contain spaces \texttt{ }.</p>
+
+<p>Check whether the string is a valid email address. It it is, output \texttt{Valid}. Output \texttt{Invalid} otherwise.</p>

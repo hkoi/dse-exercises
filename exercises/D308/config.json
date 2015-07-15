@@ -1,0 +1,6 @@
+{
+  "name_en": "Substrings",
+  "name_zh": "子字串",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

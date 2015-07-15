@@ -1,0 +1,14 @@
+<p>The Hong Kong Identity Card consists of 1 or 2 English letter(s) and 6 numeric digits. A check digit, which could be \texttt{0} to \texttt{9} or \texttt{A},  is appended in brackets. It is calculated as follows:</p>
+<ul>
+  <li>For letters, \texttt{A} is converted to value 10, \texttt{B} to value 11, and so on. (Similar to base 36).
+  <li>If there are two letters, i.e. $l_1 l_2 d_1 d_2 d_3 d_4 d_5 d_6$. The sum is $s = 9l_1 + 8l_2 + 7d_1 + 6d_2 + 5d_3 + 4d_4 + 3d_5 + 2d_1$.</p>
+  <li>If there is letter, i.e. $l\ d_1 d_2 d_3 d_4 d_5 d_6$. The sum is $s = 9 \times 36 + 8l + 7d_1 + 6d_2 + 5d_3 + 4d_4 + 3d_5 + 2d_1$.</p>
+  <li>The check digit $c$ shall be the smallest non-negative integer such that $s + c \equiv 0 (\text{mod} 11)$. If $c$ is 10, \texttt{A} is used instead.
+</ul>
+<p>Write a program to calculate the check digit.</p>
+
+<h1>Input and Output</h1>
+
+<p>The input consists of the partial HKID number: 1 or 2 English letter(s) followed by 6 numeric digits.</p>
+
+<p>Output the full HKID number including the check digit in brackets.</p>

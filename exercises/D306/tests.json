@@ -1,0 +1,18 @@
+[4, 
+["abc+123@def.ghi\n", "Valid\n"],
+["Email@hkoi\n", "Invalid\n"],
+["online..judge@hkoi.org\n", "Invalid\n"],
+["+.+@X.Y\n", "Valid\n"],
+[".abc@gmail.com\n", "Invalid\n"],
+["def.@gmail.com\n", "Invalid\n"],
+["0123456789@gmail.com\n", "Valid\n"],
+["abcdefghijklmnopqrstuvwxyz@yahoo.com.hk\n", "Valid\n"],
+["ABCDEFGHIJKLMNOPQRSTUVWXYZ@a.b.c.d.e\n", "Valid\n"],
+["a.b.c.d.e.f@g.a-h.i\n", "Valid\n"],
+["+@-a.b\n", "Valid\n"],
+["abc@--ab.cd--\n", "Valid\n"],
+["abc@ab.-cd\n", "Invalid\n"],
+["abc@ab-.cd\n", "Invalid\n"],
+["abc@.abcd\n", "Invalid\n"],
+["abc@abcd.\n", "Invalid\n"]
+]
