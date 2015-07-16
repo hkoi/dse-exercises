@@ -1,0 +1,6 @@
+{
+  "name_en": "Sorted or not?",
+  "name_zh": "排序檢測",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

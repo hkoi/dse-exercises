@@ -1,0 +1,6 @@
+{
+  "name_en": "Scrabble",
+  "name_zh": "拼字遊戲",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

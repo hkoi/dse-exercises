@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 53/400 = 13.25%)
+##Exercises (Overall progress: 58/400 = 14.50%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -60,7 +60,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D208</td><td>Guessing game</td>                <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Strings (8)</td></tr>
+  <tr><td colspan="10">Strings (9)</td></tr>
   <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D302</td><td>String length and words</td>      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
@@ -77,19 +77,19 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D308</td><td>Substrings</td>                   <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D309</td><td>Case-insensitive comparison</td>  <td>2015-07-16</td><td>          </td><td>2015-07-16</td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Arrays (6)</td></tr>
-  <tr><td>D401</td><td>MTR distance</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td colspan="10">Arrays (5)</td></tr>
+  <tr><td>D401</td><td>Sorted or not?</td>               <td>2015-07-16</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D402</td><td>Scrabble</td>                     <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D403</td><td>Sorted or not?</td>               <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D404</td><td>Supermarket</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D404</td><td>MTR fare</td>                     <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D405</td><td>MTR fare</td>                     <td>          </td><td>          </td><td>          </td><td>          </td>
-                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D406</td><td>Simple maze</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D405</td><td>Simple maze</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">File manipulation (4)</td></tr>

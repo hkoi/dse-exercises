@@ -1,0 +1,16 @@
+[6, 
+["5\n1\n2\n2\n3\n4\n", "Increasing\n"],
+["4\n6\n6\n-3\n-3\n", "Decreasing\n"],
+["4\n-5\n2\n6\n9\n", "Strictly increasing\n"],
+["2\n10\n0\n", "Strictly decreasing\n"],
+["3\n0\n0\n0\n", "Same\n"],
+["3\n0\n1\n-1\n", "Not sorted\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"],
+["\n", "\n"]
+]

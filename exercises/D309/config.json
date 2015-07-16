@@ -1,0 +1,6 @@
+{
+  "name_en": "Case-insensitive comparison",
+  "name_zh": "大小寫忽略比較",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

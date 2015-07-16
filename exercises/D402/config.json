@@ -1,0 +1,6 @@
+{
+  "name_en": "Supermarket",
+  "name_zh": "超級市場",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}
