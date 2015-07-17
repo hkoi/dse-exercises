@@ -1,0 +1,10 @@
+<p>Your class is going to Heung Shing Oceanland for the annual school trip! There is a specially designed maze in the park. The maze is made up of $H \times W$ cells, where each cell could be blocked or empty. The entrance is located at the north-west corner and the exit is located at the South-east corner. To keep the difficulty low (so that guests won't get too confused), it is guaranteed that one can go from the entrance to the exit by only going east and south each time. See the example below.</p>
+<p>Starting from the entrance (red cell), you can reach the exit (blue cell) by going \texttt{SESEEESSSEE}. Please note that for some mazes, there could be more than one possible routes.</p>
+<p>You want to beat all your classmates by solving the maze as quick as possible. Write a program to help you find the shortest path.</p>
+
+<h1>Input and Output</h1>
+
+<p>The first line contains two integers $H$ and $W$, the height and the width of the maze. ($1 \le H, W \le 20$)
+<br>The next $H$ lines describe the maze. It has the same orientation as the above sample. Empty cells are represented by \texttt{.} while blocked cells are represented by \texttt{#}. The northwest corner and the southeast corner are empty.
+
+<p>Output the shortest path from the entrance to the exit. The path is a sequence of steps given as a string: \texttt{S} (for south) and \texttt{E} (for east). Hint: the length of the string should be $H + W - 2$.</p>

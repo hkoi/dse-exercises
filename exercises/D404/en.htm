@@ -1,0 +1,12 @@
+<p>The Heung Shing MTR System has $N$ stations connected by a line. The stations are numbered $1$ to $N$ from one end to the other end of the line. The following table shows the fare matrix. The orange part shows the adult fare while the blue part shows the concessionary fare.</p>
+<p>Formally, the $j^\text{th}$ cell on the $i^\text{th}$ row where $i \lt j$ contains the adult fare between stations $i$ and $j$. The $j^\text{th}$ cell on the $i^\text{th}$ row where $i \gt j$ contains the child fare between stations $i$ and $j$.
+<p>Develop a journey planner that displays the fare depending on the "From" and "To" stations as well as the fare type.</p>
+
+<h1>Input and Output</h1>
+
+<p>The first line contains $N$, the number of stations. ($1 \le N \le 100$)
+<br>The $N$ lines is a matrix in the format described above. Each cell contains a number with one decimal place. The cells on the diagonal are filled with \texttt{0.0}.<br>
+<br>The next line contains $M$, the number of queries. ($1 \le M \le 100$)
+<br>Each of the $M$ lines contain a query: the number of the "From" station, the number of the "To" station and the fare type. (\texttt{A} for Adult and \texttt{C} for Concessionary)
+
+<p>Answer each query by outputting the fare (one decimal place) in a separate line.</p>

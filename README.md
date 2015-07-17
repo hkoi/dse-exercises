@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 62/400 = 15.50%)
+##Exercises (Overall progress: 64/400 = 16.00%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -87,9 +87,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D404</td><td>MTR fare</td>                     <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D405</td><td>Simple maze</td>                  <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">File manipulation (4)</td></tr>
