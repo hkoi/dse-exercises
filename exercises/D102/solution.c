@@ -11,6 +11,6 @@ int main() {
     } else {
         tencentshalved = tencents / 2 + 1;
     }
-    printf("$%.1f", tencentshalved / 10.0);
+    printf("$%.1f\n", tencentshalved / 10.0);
     return 0;
 }

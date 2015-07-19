@@ -4,11 +4,11 @@ int main() {
   scanf("%d", &a);
   int b = a / 10000000;
   if (b == 2) {
-    printf("fixed");
+    printf("Fixed\n");
   } else if (b == 3) {
-    printf("fixed");
+    printf("Fixed\n");
   } else {
-    printf("mobile");
+    printf("Mobile\n");
   }
   return 0;
 }

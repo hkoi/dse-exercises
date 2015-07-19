@@ -4,9 +4,9 @@ begin
   readln(a);
   b := a div 10000000;
   if (b = 2) then
-    writeln('fixed')
+    writeln('Fixed')
   else if (b = 3) then
-    writeln('fixed')
+    writeln('Fixed')
   else
-    writeln('mobile');
+    writeln('Mobile');
 end.
