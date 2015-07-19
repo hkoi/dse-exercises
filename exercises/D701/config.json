@@ -1,0 +1,6 @@
+{
+  "name_en": "Queue",
+  "name_zh": "隊列",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

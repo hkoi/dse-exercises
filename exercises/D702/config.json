@@ -1,0 +1,6 @@
+{
+  "name_en": "Stack",
+  "name_zh": "堆疊 (棧)",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

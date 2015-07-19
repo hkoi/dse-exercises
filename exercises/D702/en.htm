@@ -1,0 +1,18 @@
+<p>Stack is a data structure that allows data to be accessed "First-in-last-out" effciently. Specifically, it supports the following operations.</p>
+<ul>
+	<li>\texttt{PUSH} $x$: Insert $x$ to the top of the stack.
+	<li>\texttt{TOP}: Returns the element at the top of the stack if there is any.
+	<li>\texttt{POP}: Remove an element from the top of the stack if there is any. 
+	<li>\texttt{SIZE}: Returns the number of the elements in the stack currently.
+</ul>
+<p>In this exercise, we will implement a stack that handles integers.</p>
+
+<h1>Input and Output</h1>
+
+<p>The first line contains integer $N$, the number of operations. ($1 \le N \le 1000)</p>
+<p>Each of the next $N$ lines describe an operation: \texttt{PUSH}, \texttt{TOP}, \texttt{POP} or \texttt{SIZE}.<br>If the operation is \texttt{PUSH}, it will be followed by an integer $x_i$ ($1 \le x_i \le 10^9$).</p>
+
+<p>When the operation is \texttt{TOP}, output the integer at the front of the stack if there is any. Output \texttt{Empty} if the stack is currently empty.
+</p>
+<p>When the operation is \texttt{POP} and the stack is current empty, output \texttt{Cannot pop}.<br>
+<p>When the operation is \texttt{SIZE}, output the number of elements in the stack currently.<br>
