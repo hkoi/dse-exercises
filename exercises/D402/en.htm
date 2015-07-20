@@ -1,11 +1,12 @@
 <p>You are a programmer of a supermarket chain ParkNCome. You are developing a new POS system. The system should be able to store a database of the products and perform customer checkouts.</p>
 <p>First, the system should read the list of products in the supermarket. Each product has a UPC barcode and a unit price. The UPC barcode is a 13 digit number while the price is a positive number with one decimal place. Then, the system would scan the barcodes of the items in the customer's cart one by one. Search the product in the database and sum up the prices. Finally, display the total price.</p>
 
-<h1>Input and Output</h1>
+<h1>Input</h1>
 
-<p>The first line contains an integer $N$, the number of products in the supermarket. ($1 \le N \le 100$)<br>
-The next $N$ lines each describe a product: $C_i$ and $P_i$, the UPC barcode and unit price respectively. $C_i$ is a 13 digit integer without leading zeros. $P_i$ is a positive number with one decimal place. ($0.1 \le P_i \le 100.0$). The UPC barcodes are distinct.<br>
-The next line contains an integer $M$, the number of items in the customer's cart.<br>
-The next $M$ lines each describe an item: its UPC barcode, which is 13 digit integer without leading zeros. It is guaranteed that the product exists. However, the same barcode may appear more than once, meaning that the customer buys more than one of the product.
+<p>The first line contains an integer $N$, the number of products in the supermarket. ($1 \le N \le 100$)
+<p>The next $N$ lines each describe a product: $C_i$ and $P_i$, the UPC barcode and unit price respectively. $C_i$ is a 13 digit integer without leading zeros. $P_i$ is a positive number with one decimal place. ($0.1 \le P_i \le 100.0$). The UPC barcodes are distinct.
+<p>The next line contains an integer $M$, the number of items in the customer's cart.
+<p>The next $M$ lines each describe an item: its UPC barcode, which is 13 digit integer without leading zeros. It is guaranteed that the product exists. However, the same barcode may appear more than once, meaning that the customer buys more than one of the product.
 
+<h1>Output</h1>
 <p>Output the total price with one decimal place.</p>

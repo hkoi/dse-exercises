@@ -1,0 +1,6 @@
+{
+  "name_en": "Linked List Manipulation",
+  "name_zh": "鏈表: 操作",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

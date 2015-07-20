@@ -1,0 +1,7 @@
+[3, 
+["6 4\n1 2 3 4 5 6\n2 6 5 1 0 3\n13\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\n", "4\n1\n2\n6\n3\n5\n0\n"],
+["6 4\n1 2 3 4 5 6\n2 6 5 1 0 3\n11\nNEXT\nNEXT\nUPDATE 10\nNEXT\nUPDATE 8\nHEAD\nNEXT\nNEXT\nQUERY\nNEXT\nQUERY\n", "10\n8\n"],
+["3 2\n1 2 3\n0 3 1\n7\nNEXT\nNEXT\nQUERY\nNEXT\nQUERY\nHEAD\nQUERY", "1\nEnd\n3\n"],
+["\n", "\n"],
+["\n", "\n"]
+]
