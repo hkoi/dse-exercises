@@ -1,0 +1,6 @@
+{
+  "name_en": "Bubble Sort",
+  "name_zh": "冒泡排序法",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}

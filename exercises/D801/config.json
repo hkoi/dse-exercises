@@ -1,0 +1,6 @@
+{
+  "name_en": "Binary Search",
+  "name_zh": "對分檢索 (二分搜尋法)",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}
