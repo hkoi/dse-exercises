@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 72/400 = 18.00%)
+##Exercises (Overall progress: 78/400 = 19.50%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -45,13 +45,13 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
   <tr><td colspan="10">Loops (8)</td></tr>
   <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>          </td><td>2015-07-01</td><td>          </td>
+  <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>2015-07-21</td><td>2015-07-01</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D203</td><td>Pak 7</td>                        <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
+  <tr><td>D203</td><td>Pak 7</td>                        <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D204</td><td>Output shapes</td>                <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
+  <tr><td>D204</td><td>Output shapes</td>                <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D205</td><td>Primality test</td>               <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
+  <tr><td>D205</td><td>Primality test</td>               <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D206</td><td>3n+1 Problem</td>                 <td>2015-07-03</td><td>          </td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
@@ -115,9 +115,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D703</td><td>Linked list representation</td>   <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D703</td><td>Linked list representation</td>   <td>2015-07-20</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D704</td><td>Linked list manipulation</td>     <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D704</td><td>Linked list manipulation</td>     <td>2015-07-20</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D705</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
