@@ -1,0 +1,6 @@
+{
+  "name_en": "Quick Sort",
+  "name_zh": "快速排序法",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

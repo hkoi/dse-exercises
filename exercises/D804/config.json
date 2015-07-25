@@ -1,0 +1,6 @@
+{
+  "name_en": "Merging Arrays",
+  "name_zh": "陣列合併",
+  "regex": "(.|\\n)*",
+  "checker": "ncmp"
+}

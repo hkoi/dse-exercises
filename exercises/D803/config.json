@@ -1,0 +1,6 @@
+{
+  "name_en": "Insertion Sort",
+  "name_zh": "插入排序法",
+  "regex": "(.|\\n)*",
+  "checker": "lcmp2_ci"
+}
