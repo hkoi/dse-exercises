@@ -4,10 +4,10 @@
 
 <h1>Input</h1>
 
-<p>The first line contains $N$, the number of stations. ($1 \le N \le 100$)
-<p>The $N$ lines is a matrix in the format described above. Each cell contains a number with one decimal place. The cells on the diagonal are filled with \texttt{0.0}.
+<p>The first line contains $N$, the number of stations. ($2 \le N \le 100$)
+<p>The $N$ lines is a matrix in the format described above. Each cell contains a number between 0.1 and 100.0 with one decimal place. The cells on the diagonal are filled with \texttt{0.0}.
 <p>The next line contains $M$, the number of queries. ($1 \le M \le 100$)
-<p>Each of the $M$ lines contain a query: the number of the "From" station, the number of the "To" station and the fare type. (\texttt{A} for Adult and \texttt{C} for Concessionary)
+<p>Each of the $M$ lines contain a query: the number of the "From" station, the number of the "To" station (must be different from "From" station) and the fare type (\texttt{A} for Adult and \texttt{C} for Concessionary).
 
 <h1>Output</h1>
 <p>Answer each query by outputting the fare (one decimal place) in a separate line.</p>
