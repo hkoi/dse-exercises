@@ -51,11 +51,11 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D204</td><td>Text graphics</td>                <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D205</td><td>Primality test</td>               <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>          </td>
+  <tr><td>D205</td><td>Prime factorization</td>          <td>2015-08-01</td><td>          </td><td>2015-08-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D206</td><td>3n+1 Problem</td>                 <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>          </td>
+  <tr><td>D206</td><td>3n+1 Problem</td>                 <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>          </td>
+  <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
      
   <tr><td colspan="10">Strings (9)</td></tr>

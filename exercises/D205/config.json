@@ -1,6 +1,6 @@
 {
-  "name_en": "Prime or Composite",
-  "name_zh": "質數和合成數",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "name_en": "Prime factorization",
+  "name_zh": "質因數分解",
+  "regex": "\\d+=\\d+(\\*\\d+)*\\n",
+  "checker": "none"
 }
