@@ -24,7 +24,7 @@ int main(int argc, char * argv[])
         if (fabs(j - x) > 0.0001) {
             quitf(_wa, "expected %.3lf got %.3lf", x, j);
         }
-        quitf(_wa, "1 root: %.3lf", x);
+        quitf(_ok, "1 root: %.3lf", x);
     } else {
         double x = (-b - sqrt(d)) / (2.0 * a);
         double y = (-b + sqrt(d)) / (2.0 * a);
@@ -41,7 +41,7 @@ int main(int argc, char * argv[])
         if (fabs(k - y) > 0.0001) {
             quitf(_wa, "2nd root expected %.3lf got %.3lf", x, j);
         }
-        quitf(_wa, "2 roots: %.3lf %.3lf", x, y);
+        quitf(_ok, "2 roots: %.3lf %.3lf", x, y);
     }
     return 0;
 }
