@@ -6,7 +6,7 @@ begin
 		for j := 1 to 10 do
 		begin
 			k := i * 10 + j;
-			if ((i = n) or (j = n) or (k mod n = 0)) then
+			if ((k div 10 = n) or (k mod 10 = n) or (k mod n = 0)) then
 				write('Clap')
 			else
 				write(k);

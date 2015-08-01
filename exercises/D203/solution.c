@@ -5,7 +5,7 @@ int main() {
 	for (i = 0; i < 10; i++) {
 		for (j = 1; j <= 10; j++) {
 			int k = i * 10 + j;
-			if (i == n || j == n || k % n == 0) {
+			if (k / 10 == n || k % 10 == n || k % n == 0) {
 				printf("Clap");
 			} else {
 				printf("%d", k);
