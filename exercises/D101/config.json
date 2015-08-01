@@ -1,6 +1,6 @@
 {
   "name_en": "Phone Number",
   "name_zh": "電話號碼",
-  "regex": "(.|\\n)*",
+  "regex": "[A-Za-z]*\\n",
   "checker": "lcmp2_ci"
 }

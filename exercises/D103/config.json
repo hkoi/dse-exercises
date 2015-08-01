@@ -1,6 +1,6 @@
 {
   "name_en": "Area of triangle",
   "name_zh": "三角形面積",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2"
+  "regex": "\\d+\\.\\d{3}\\n",
+  "checker": "acmp3"
 }
