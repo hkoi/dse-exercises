@@ -1,6 +1,6 @@
 {
   "name_en": "Square and triangular numbers",
   "name_zh": "平方數及三角形數",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "(Both|Square|Triangular|Neither)\\n",
+  "checker": "none"
 }

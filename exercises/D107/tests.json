@@ -1,15 +1,19 @@
-[3, 
+[4,
 ["10\n", "Triangular\n"],
 ["25\n", "Square\n"],
 ["37\n", "Neither\n"],
+["36\n", "Both\n"],
 ["4\n", "Square\n"],
 ["2\n", "Neither\n"],
+["1\n", "Both\n"],
 ["3\n", "Triangular\n"],
 ["9\n", "Square\n"],
 ["152399025\n", "Square\n"],
 ["275103696\n", "Triangular\n"],
 ["275103700\n", "Neither\n"],
+["48024900\n", "Both\n"],
 ["768328011268709089\n", "Square\n"],
 ["999999220947949566\n", "Triangular\n"],
-["999999999999999999\n", "Neither\n"]
+["999999999999999999\n", "Neither\n"],
+["73804512832419600\n", "Both\n"]
 ]
