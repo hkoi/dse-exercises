@@ -1,6 +1,6 @@
 {
   "name_en": "Simple calculator",
   "name_zh": "簡單算式運算",
-  "regex": "\\d+\\n",
+  "regex": "-?\\d+\\n",
   "checker": "none"
 }
