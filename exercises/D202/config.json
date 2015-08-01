@@ -1,6 +1,6 @@
 {
   "name_en": "Factors",
   "name_zh": "因數",
-  "regex": "(.|\\n)*",
-  "checker": "ncmp"
+  "regex": "(\\d+\\n)+",
+  "checker": "none"
 }

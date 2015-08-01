@@ -43,9 +43,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Loops (7)</td></tr>
-  <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>          </td>
+  <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>2015-07-21</td><td>2015-07-01</td><td>          </td>
+  <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>2015-07-21</td><td>2015-07-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D203</td><td>Pak 7</td>                        <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
