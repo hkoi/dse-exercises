@@ -1,6 +1,6 @@
 {
   "name_en": "Ordinal number",
   "name_zh": "序數",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "\\d+(st|nd|rd|th)\\n",
+  "checker": "none"
 }
