@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 98/400 = 24.50%)
+##Exercises (Overall progress: 100/400 = 25.00%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -37,9 +37,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D107</td><td>Square and trianglar numbers</td> <td>2015-06-22</td><td>2015-07-18</td><td>2015-07-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D108</td><td>Simple calculator</td>            <td>2015-07-01</td><td>2015-07-18</td><td>2015-07-01</td><td>          </td>
+  <tr><td>D108</td><td>Simple calculator</td>            <td>2015-07-01</td><td>2015-07-18</td><td>2015-07-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D109</td><td>Giving changes</td>               <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>          </td>
+  <tr><td>D109</td><td>Giving changes</td>               <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Loops (7)</td></tr>
