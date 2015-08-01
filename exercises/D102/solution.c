@@ -3,7 +3,7 @@
 int main() {
     char dummy;
     double fare;
-    scanf("%c%lf", &dummy, &fare);
+    scanf("%c %lf", &dummy, &fare);
     int tencents = round(fare * 10);
     int tencentshalved;
     if (tencents % 2 == 0) {
