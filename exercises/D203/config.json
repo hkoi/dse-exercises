@@ -1,6 +1,6 @@
 {
-  "name_en": "Pak 7",
+  "name_en": "Clap 7",
   "name_zh": "拍7",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2"
+  "regex": "((Clap|\\d+)( (Clap|\\d+)){9}\\n){10}",
+  "checker": "none"
 }
