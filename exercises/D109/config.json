@@ -1,6 +1,6 @@
 {
   "name_en": "Giving changes",
   "name_zh": "找贖",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ut"
+  "regex": "(\\d+\\n)+",
+  "checker": "ulcmp2"
 }
