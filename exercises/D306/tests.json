@@ -13,6 +13,11 @@
 ["abc@--ab.cd--\n", "Valid\n"],
 ["abc@ab.-cd\n", "Invalid\n"],
 ["abc@ab-.cd\n", "Invalid\n"],
-["abc@.abcd\n", "Invalid\n"],
-["abc@abcd.\n", "Invalid\n"]
+["abc@-.cd.com\n", "Invalid\n"],
+["abc@.abcd.com\n", "Invalid\n"],
+["abc@abcd.com.\n", "Invalid\n"],
+["abcdef.com\n", "Invalid\n"],
+["abc@@def.com\n", "Invalid\n"],
+["a-b@abc.com\n", "Invalid\n"],
+["abc@a+b.com\n", "Invalid\n"]
 ]

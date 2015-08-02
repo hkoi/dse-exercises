@@ -1,6 +1,6 @@
 {
   "name_en": "Email address validator",
   "name_zh": "電郵地址檢驗器",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "(Valid|Invalid)\\n",
+  "checker": "none"
 }
