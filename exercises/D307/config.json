@@ -1,6 +1,6 @@
 {
   "name_en": "Tic-tac-toe",
   "name_zh": "井字過三關",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "(Draw|X wins|O wins|Not ended)\\n",
+  "checker": "none"
 }
