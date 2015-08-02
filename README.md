@@ -69,7 +69,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D305</td><td>Check digit calculation</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D306</td><td>Email address validator</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
+  <tr><td>D306</td><td>Email address validator</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D307</td><td>Tic-tac-toe</td>                  <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
