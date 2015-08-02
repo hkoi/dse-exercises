@@ -1,5 +1,5 @@
 var
-    n, len, i: longint;
+    n, len, count, i: longint;
     s: string;
 begin
     readln(s);
