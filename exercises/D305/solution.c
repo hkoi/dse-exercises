@@ -16,6 +16,12 @@ int main() {
     sum += 4 * (s[len - 3] - '0');
     sum += 3 * (s[len - 2] - '0');
     sum += 2 * (s[len - 1] - '0');
-    printf("%s(%X)\n", s, 11 - sum % 11);
+    if (sum % 11 == 0) {
+        printf("%s(0)\n", s);
+    } else if (sum % 11 == 1) {
+        printf("%s(A)\n", s);
+    } else {
+        printf("%s(%d)\n", s, 11 - sum % 11);
+    }
     return 0;
 }

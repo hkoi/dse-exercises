@@ -1,9 +1,9 @@
 <p>The Hong Kong Identity Card consists of 1 or 2 English letter(s) and 6 numeric digits. A check digit, which could be \texttt{0} to \texttt{9} or \texttt{A},  is appended in brackets. It is calculated as follows:</p>
 <ul>
   <li>For letters, \texttt{A} is converted to value 10, \texttt{B} to value 11, and so on. (Similar to base 36).
-  <li>If there are two letters, i.e. $l_1 l_2 d_1 d_2 d_3 d_4 d_5 d_6$. The sum is $s = 9l_1 + 8l_2 + 7d_1 + 6d_2 + 5d_3 + 4d_4 + 3d_5 + 2d_1$.</p>
-  <li>If there is one letter, i.e. $l\ d_1 d_2 d_3 d_4 d_5 d_6$. The sum is $s = 9 \times 36 + 8l + 7d_1 + 6d_2 + 5d_3 + 4d_4 + 3d_5 + 2d_1$.</p>
-  <li>The check digit $c$ shall be the smallest non-negative integer such that $s + c \equiv 0 (\text{mod} 11)$. If $c$ is 10, \texttt{A} is used instead.
+  <li>If there are two letters, i.e. $L_1 L_2 D_1 D_2 D_3 D_4 D_5 D_6$. The sum is $s = 9L_1 + 8L_2 + 7D_1 + 6D_2 + 5D_3 + 4D_4 + 3D_5 + 2D_1$.</p>
+  <li>If there is one letter, i.e. $L D_1 D_2 D_3 D_4 D_5 D_6$. The sum is $s = 9 \times 36 + 8L + 7D_1 + 6D_2 + 5D_3 + 4D_4 + 3D_5 + 2D_1$.</p>
+  <li>The check digit $c$ shall be the smallest non-negative integer such that $s + c \equiv 0\ (\text{mod}\ 11)$. If $c$ is 10, \texttt{A} is used instead.
 </ul>
 <p>Write a program to calculate the check digit.</p>
 

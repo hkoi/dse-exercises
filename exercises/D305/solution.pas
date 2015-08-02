@@ -15,7 +15,9 @@ begin
     sum := sum + 3 * (ord(s[len - 1]) - 48);
     sum := sum + 2 * (ord(s[len]) - 48);
     write(s);
-    if (sum mod 11 = 1) then
+    if (sum mod 11 = 0) then
+        writeln('(0)')
+    else if (sum mod 11 = 1) then
         writeln('(A)')
     else
         writeln('(', 11 - sum mod 11, ')')
