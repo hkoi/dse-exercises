@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 111/400 = 27.75%)
+##Exercises (Overall progress: 112/400 = 28.00%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -65,7 +65,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D303</td><td>String reverse and palindrome</td><td>2015-07-08</td><td>2015-08-02</td><td>2015-07-08</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D304</td><td>Hangman</td>                      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>          </td>
+  <tr><td>D304</td><td>Hangman</td>                      <td>2015-07-08</td><td>          </td><td>2015-07-08</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D305</td><td>Check digit calculation</td>      <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

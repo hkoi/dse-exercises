@@ -1,6 +1,6 @@
 {
   "name_en": "Hangman",
   "name_zh": "Hangman",
-  "regex": "\\n*([a-z_]\\n)+",
+  "regex": "\\n*([a-z_]+\\n)+",
   "checker": "lcmp"
 }
