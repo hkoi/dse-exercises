@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 char s[256];
 int main() {
     gets(s);

@@ -5,8 +5,8 @@
 ["bb\n", "bb\nYes\n"],
 ["ab\n", "ba\nNo\n"],
 ["aba\n", "aba\nYes\n"],
-["abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwx\n", "xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba\nNO\n"],
-["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nYES\n"],
-["aaabbbccccbbbaaa\n", "aaabbbccccbbbaaa\nYES\n"],
-["abcabc\n", "cbacba\nNO\n"]
+["abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwx\n", "xwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba\nNo\n"],
+["xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\n", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\nYes\n"],
+["aaabbbccccbbbaaa\n", "aaabbbccccbbbaaa\nYes\n"],
+["abcabc\n", "cbacba\nNo\n"]
 ]
