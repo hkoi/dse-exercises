@@ -2,5 +2,5 @@
   "name_en": "Story generator",
   "name_zh": "故事製造機",
   "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "checker": "custom"
 }
