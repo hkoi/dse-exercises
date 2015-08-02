@@ -41,4 +41,3 @@ begin
             end;
     writeln('Draw')
 end.
-        
