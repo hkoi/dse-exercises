@@ -1,5 +1,4 @@
 #include "testlib.h"
-#include <cmath>
 
 using namespace std;
 
@@ -11,9 +10,9 @@ int main(int argc, char * argv[])
     string c = inf.readLine();
     string d = inf.readLine();
     string e = inf.readLine();
-    string s = "", t;
-    while (t = ouf.readLine()) {
-    	s += t;
+    string s = "";
+    while (!ouf.seekEof()) {
+        s += ouf.readLine();
     }
     ensuref(s.find(a) != -1, "A not found");
     ensuref(s.find(b) != -1, "B not found");
