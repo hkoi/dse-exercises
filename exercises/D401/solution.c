@@ -1,13 +1,13 @@
 #include <stdio.h>
 int a[1000001];
 int main() {
-    int n;
+    int n, i, j;
     scanf("%d", &n);
-    for (int i = 2; i <= n; i++) {
+    for (i = 2; i <= n; i++) {
         if (a[i] == 0) {
             printf("%d\n", i);
             if (i > 1000) continue;
-            for (int j = i * i; j <= n; j += i) {
+            for (j = i * i; j <= n; j += i) {
                 a[j] = 1;
             }
         }
