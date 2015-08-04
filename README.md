@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 115/400 = 28.75%)
+##Exercises (Overall progress: 117/400 = 29.25%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -79,9 +79,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="10">Arrays (5)</td></tr>
-  <tr><td>D401</td><td>Sorted or not?</td>               <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>          </td>
+  <tr><td>D401</td><td>Sieve of Eratosthenes</td>        <td>2015-08-04</td><td>          </td><td>2015-08-04</td><td>2015-08-04</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>          </td>
+  <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>2015-08-04</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

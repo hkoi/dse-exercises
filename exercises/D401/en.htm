@@ -1,15 +1,21 @@
-<p>Given an array of integers $A$, check whether the array is sorted or not.</p>
+<p>Previously we have done an exercise about finding a number's factors, which can help us determine if the number is prime or not.</p>
+<p>If we want to generate a list of primes, instead of checking the primality of each number, the <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes" target="_blank">Sieve of Eratosthenes</a> is a more efficient way to do so. This is how it is performed:</p>
+<ul>
+<li>Let's say you want a list of all primes $\le N$. Create a list of all integers from $2$ to $N$.</li>
+<li>Repeat the following until the list is empty:</li>
+<ul>
+    <li>The smallest integer $p$ in the list is prime.
+    <li>Remove all multiples of $p$ from the list. (or even more efficient: remove all multiples of $p$ that are $\ge p^2$)
+</ul>
+</li>
+</ul>
+<p>Very often, the list is implemented using an array of boolean of size $N$. Initially the array is all true (except 0 and 1 which are false), meaning that the numbers exist in the list. To delete a number $x$, change the $x^\text{th}$ element of the array to false. Please read the pseudo-code in the Wikipedia article for more details.</p>
+<p>Write a program to generate a list of primes from $1$ to $N$.</p>
 
 <h1>Input</h1>
 
-<p>The first line contains an integer $N$, the size of the array. ($2 \le N \le 100000$)</p>
-<p>The $i^\text{th}$ line of the $N$ lines is $A_i$, the $i^\text{th}$ element of array $A$. ($-10^9 \le A_i \le 10^9$).</p>
+<p>The only line contains an integer $N$. ($2 \le N \le 10^7$)</p>
 
 <h1>Output</h1>
 
-<p>If the elements of array $A$ are all the same, output \texttt{Same}.
-<p>If the elements of array $A$ are strictly increasing, output \texttt{Strictly increasing}.
-<p>If the elements of array $A$ are strictly decreasing, output \texttt{Strictly decreasing}.
-<p>If the elements of array $A$ are increasing (but not the same or strictly increasing), output \texttt{Increasing}.
-<p>If the elements of array $A$ are decreasing (but not the same or strictly decreasing), output \texttt{Decreasing}.
-<p>Otherwise, output \texttt{Not sorted}.
+<p>Output the primes in increasing order in separate lines.</p>
