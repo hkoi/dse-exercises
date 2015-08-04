@@ -1,6 +1,6 @@
 {
   "name_en": "Heung Shing MTR Fare",
   "name_zh": "「香城鐵路」車費",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2"
+  "regex": "(\\d+\\.\\d\\n)+",
+  "checker": "none"
 }

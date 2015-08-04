@@ -1,6 +1,6 @@
 {
   "name_en": "Simple Maze",
   "name_zh": "簡單迷宮",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "[ES]+\\n*",
+  "checker": "custom"
 }
