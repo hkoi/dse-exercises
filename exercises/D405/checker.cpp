@@ -5,6 +5,7 @@ int main(int argc, char * argv[]) {
     registerTestlibCmd(argc, argv);
     int h = inf.readInt();
     int w = inf.readInt();
+    inf.readString();
     for (int i = 0; i < h; i++) {
         s[i] = inf.readString();
     }
@@ -17,9 +18,9 @@ int main(int argc, char * argv[]) {
         } else {
             y++;
         }
-        ensuref(x < h, "x out of bounds");
-        ensuref(y < w, "y out of bounds");
-        ensuref(s[x][y] == '.', "pos %d %d blocked", x, y);
+        ensuref(x < h, "i=%d: x out of bounds %s", i, t.c_str());
+        ensuref(y < w, "i=%d: y out of bounds %s", i, t.c_str());
+        ensuref(s[x][y] == '.', "i=%d: pos %d %d %s", i, x, y, t.c_str());
     }
     quitf(_ok, "%s", t.c_str());
     return 0;
