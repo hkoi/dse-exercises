@@ -83,7 +83,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>2015-08-04</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>          </td>
+  <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>          </td><td>2015-07-29</td><td>2015-08-04</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>          </td><td>2015-07-29</td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
