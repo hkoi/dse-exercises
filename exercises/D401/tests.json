@@ -1,9 +1,5 @@
-[6, 
-["5\n1\n2\n2\n3\n4\n", "Increasing\n"],
-["4\n6\n6\n-3\n-3\n", "Decreasing\n"],
-["4\n-5\n2\n6\n9\n", "Strictly increasing\n"],
-["2\n10\n0\n", "Strictly decreasing\n"],
-["3\n0\n0\n0\n", "Same\n"],
-["3\n0\n1\n-1\n", "Not sorted\n"],
-7
+[1, 
+["30\n", "2\n3\n5\n7\n11\n13\n17\n19\n23\n29\n"],
+["2\n", "2\n"],
+1
 ]
