@@ -1,0 +1,25 @@
+<p>您將要寫一個簡化了的電子郵件地址驗證程式。對於這個問題，假定電子郵件地址是有效的，當且僅當滿足以下規則:</p>
+<ul>
+  <li>一個電子郵件地址由兩部份組成，兩部份被 \texttt{@} 符號分開，像這樣: 用戶名\texttt{@}域名
+  <li>用戶名部分:
+    <ul>
+      <li>它應該包括以下一個或多個字符: \texttt{0}-\texttt{9}、\texttt{a}-\texttt{z}、\texttt{A}-\texttt{Z}、\texttt{.} or \texttt{+}。
+      <li>\texttt{.} 不可在開始，或結尾，或連續地出現。
+    </ul>
+  </li>
+  <li>域名部分:
+    <ul>
+      <li>應該包括三個或以上下列的字符: \texttt{0}-\texttt{9}、\texttt{a}-\texttt{z}、\texttt{A}-\texttt{Z}、\texttt{-} 或 \texttt{.}。
+      <li>\texttt{.} 不可在開始，或結尾，或連續地出現。它至少會出現一次。
+      <li>\texttt{-} 不可出現 \texttt{.} 的旁邊</li>
+    </ul>
+  </li>
+</ui>
+
+<p>你應該只實現上述的規則，不要作更多的假設。</p>
+
+<h1>輸入與輸出</h1>
+
+<p>輸入為一條字串，長度介乎1至50之間。字串不包含空格。</p>
+
+<p>檢查字串是否是一個有效的電子郵件地址。如為有效，輸出 \texttt{Valid}，否則輸出 \texttt{Invalid}。</p>
