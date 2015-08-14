@@ -1,5 +1,5 @@
 [2, 
-["7\nPUSH 3\nPUSH 6\nSIZE\nTOP\nPOP\nTOP\nSIZE\n", "2\n6\n3\n0\n"],
+["7\nPUSH 3\nPUSH 6\nSIZE\nTOP\nPOP\nTOP\nSIZE\n", "2\n6\n3\n1\n"],
 ["5\nPOP\nSIZE\nTOP\nPUSH 12\nSIZE\n", "Cannot pop\n0\nEmpty\n1\n"],
-["\n", "\n"]
+6
 ]
