@@ -15,7 +15,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 121/400 = 30.25%)
+##Exercises (Overall progress: 130/400 = 32.50%)
 
 Currently, 50 exercises are proposed. We expect that more exercises will be added later.
 
@@ -71,7 +71,7 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D306</td><td>Email address validator</td>      <td>2015-07-15</td><td>2015-08-12</td><td>2015-07-15</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D307</td><td>Tic-tac-toe</td>                  <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>2015-08-02</td>
+  <tr><td>D307</td><td>Tic-tac-toe</td>                  <td>2015-07-15</td><td>2015-08-14</td><td>2015-07-15</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D308</td><td>Substrings</td>                   <td>2015-07-15</td><td>          </td><td>2015-07-15</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
@@ -111,9 +111,9 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
   <tr><td colspan="10">Data structures (6)</td></tr>
-  <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D703</td><td>Linked list representation</td>   <td>2015-07-20</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
