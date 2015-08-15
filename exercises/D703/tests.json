@@ -1,7 +1,6 @@
 [3, 
-["6 4\n1 2 3 4 5 6\n2 6 5 1 0 3\n13\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\n", "4\n1\n2\n6\n3\n5\n0\n"],
-["6 4\n1 2 3 4 5 6\n2 6 5 1 0 3\n11\nNEXT\nNEXT\nUPDATE 10\nNEXT\nUPDATE 8\nHEAD\nNEXT\nNEXT\nQUERY\nNEXT\nQUERY\n", "10\n8\n"],
-["3 2\n1 2 3\n0 3 1\n7\nNEXT\nNEXT\nQUERY\nNEXT\nQUERY\nHEAD\nQUERY", "1\nEnd\n3\n"],
-["\n", "\n"],
-["\n", "\n"]
+["6 4\n1 2 3 4 5 6\n2 6 5 1 0 3\n13\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\n", "4\n1\n2\n6\n3\n5\nEnd\n"],
+["6 1\n6 5 4 3 2 1\n2 0 1 0 1 2\n6\nQUERY\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\n", "6\n5\nEnd\nCannot next\n"],
+["3 2\n1 2 3\n0 3 1\n8\nNEXT\nNEXT\nQUERY\nNEXT\nQUERY\nNEXT\nHEAD\nQUERY", "1\nEnd\nCannot next\n2\n"],
+6
 ]

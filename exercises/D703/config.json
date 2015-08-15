@@ -1,6 +1,6 @@
 {
   "name_en": "Linked List Representation",
   "name_zh": "鏈表: 表達",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "regex": "((Cannot next|End|\\d+)\\n)*",
+  "checker": "none"
 }
