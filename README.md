@@ -119,7 +119,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D704</td><td>Linked list: insertion</td>       <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D705</td><td>Linked list: deletion</td>        <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D705</td><td>Linked list: deletion</td>        <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D706</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

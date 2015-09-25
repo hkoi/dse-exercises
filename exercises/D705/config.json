@@ -1,0 +1,6 @@
+{
+  "name_en": "Linked list: deletion",
+  "name_zh": "鏈表: 刪除",
+  "regex": "\\d+\\n(-1|\\d+ \\d+ \\d+)\\n",
+  "checker": "custom"
+}

@@ -8,17 +8,15 @@ begin
     for i := 1 to n do
         read(b[i]);
     read(x, y);
-    if (y = 0) then
+    if (y = 1) then
     begin
-        writeln(n + 1);
-        writeln(x, ' 0');
+        writeln(b[h]);
         writeln('-1');
         halt
     end;
     p := h;
-    for i := 1 to y - 1 do
+    for i := 1 to y - 2 do
         p := b[p];
     writeln(h);
-    writeln(x, ' ', b[p]);
-    writeln(p, ' ', a[p], ' ', n + 1)
+    writeln(p, ' ', a[p], ' ', b[b[p]])
 end.

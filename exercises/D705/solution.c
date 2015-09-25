@@ -9,16 +9,16 @@ int main() {
     for (i = 1; i <= n; i++) {
         scanf("%d", &b[i]);
     }
-    int x, y;
-    scanf("%d %d", &x, &y);
-    if (y == 0) {
-        printf("%d\n%d %d\n-1\n", n + 1, x, h);
+    int y;
+    scanf("%d", &y);
+    if (y == 1) {
+        printf("%d\n-1\n", b[h]);
         return 0;
     }
     p = h;
-    for (i = 1; i < y; i++) {
+    for (i = 1; i < y - 1; i++) {
         p = b[p];
     }
-    printf("%d\n%d %d\n%d %d %d\n", h, x, b[p], p, a[p], n + 1);
+    printf("%d\n%d %d %d\n", h, p, a[p], b[b[p]]);
     return 0;
 }

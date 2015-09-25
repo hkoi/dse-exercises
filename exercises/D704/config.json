@@ -1,6 +1,6 @@
 {
-  "name_en": "Linked List Manipulation",
-  "name_zh": "鏈表: 操作",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2_ci"
+  "name_en": "Linked list: insertion",
+  "name_zh": "鏈表: 插入",
+  "regex": "\\d+\\n\\d+ \\d+\\n(-1|\\d+ \\d+ \\d+)\\n",
+  "checker": "custom"
 }
