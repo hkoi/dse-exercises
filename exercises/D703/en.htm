@@ -4,17 +4,14 @@
 	<li>\texttt{NEXT}: Move the pointer to the next element.
 	<li>\texttt{QUERY}: Query the value of the element pointed by the pointer.
 </ul>
-<p>In this exercise, we will learn how a linked list is represented using an array. The rest of the features, such as insertion and deletion, will be discussed in the next exercise.</p>
+<p>In this exercise, we will learn how a linked list is represented using an array. Write a program to walk through a linked list.</p>
 
 <h1>Input</h1>
 
-<p>The first line contains two integers $N$ and $H$. $N$ is the size of the array storing the linked list. ($1 \le N \le 100$). $H$ is the index of the first element in the linked list. ($0 \le H \le N$) If $H = 0$, it means that the linked list is empty.</p>
+<p>The first line contains two integers $N$ and $H$. $N$ is the size of the array storing the linked list. ($1 \le N \le 10000$). $H$ is the index of the first element in the linked list. ($0 \le H \le N$) If $H = 0$, it means that the linked list is empty.</p>
 <p>The next line contains $N$ integers, of which the $i^\text{th}$ is the value stored at index $i$. The integers are between $1$ and $10^9$.</p>
 <p>The next line contains $N$ integers, of which the $i^\text{th}$ is the "next pointer" -- index of the element after the element at index $i$. For the last element in the linked list, the number is 0. It is possible that some indexes are not reachable, as they could be deleted or uninitialized elements. Those unreachable indexes may contain any value or next pointer.</p>
-<p>The next line contains an integer $M$, the number of operations. ($1 \le M \le 1000$)</p>
-<p>Each of the next $M$ lines describe an operation: \texttt{FIRST}, \texttt{NEXT} or \texttt{QUERY}.</p>
-<p>Initially, the pointer points at the first element at index $H$ or the null element if the linked list is empty ($H = 0$).</p>
 
 <h1>Output</h1>
-<p>When the operation is \texttt{NEXT}, but the pointer is already pointing at the null element (which indicates the end of linked list), output \texttt{Cannot next}.</p>
-<p>When the operation is \texttt{QUERY}, output the value of the element pointed by the pointer. If the pointer is pointing at the null element, output \texttt{End} instead.
+<p>Starting from the head of the linked list, print out the values one by one in separate lines.</p>
+<p>Finally, output the word \texttt{End} in a separate line.</p>

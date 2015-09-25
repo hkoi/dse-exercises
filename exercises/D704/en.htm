@@ -1,14 +1,19 @@
 <p>Note: You need to complete the previous exercise first. Now add the following operations.</p>
 <ul>
-	<li>\texttt{INSERTHEAD} $x$: Insert an element with value $x$ before the first element in the linked list. (Do not change the pointer)
-	<li>\texttt{INSERTAFTER} $x$: Insert an element with value $x$ after the element currently pointed at. (Do not change the pointer)
-	<li>\texttt{DELETE}: Delete the element currently pointed at. (Move pointer to the next element)
-	<li>\texttt{SIZE}: Find out the number of elements in the linked list, excluding the null element.
+	<li>\texttt{INSERTHEAD} $x$: Insert an element with value $x$ before the first element in the linked list. (Do not change the pointer)</li>
+	<li>\texttt{INSERTAFTER} $x$: Insert an element with value $x$ after the element currently pointed at. (Do not change the pointer). If the pointer was pointing at the null element, the operation is invalid.</li>
+	<li>\texttt{DELETE}: Delete the element currently pointed at. (Move pointer to the element after the deleted element)</li>
+	<li>\texttt{SIZE}: Find out the number of elements in the linked list, excluding the null element.</li>
 </ul>
 
 <h1>Input</h1>
-<p>The input format follows that of the previous exercise's. Except that there are additional kinds of operations.
+<p>The linked list is initially empty.</p>
+<p>The first line contains an integer $M$, the number of operations. ($1 \le M \le 1000$)</p>
+<p>Each of the next $M$ lines describe an operation: \texttt{FIRST}, \texttt{NEXT}, \texttt{QUERY}, \texttt{INSERTHEAD}, \texttt{INSERTAFTER}, \texttt{DELETE} and \texttt{SIZE}. For \texttt{INSERTHEAD} and \texttt{INSERTAFTER}, it is followed by integer $x$ in the same line, separated by a space. ($1 \le x \le 10^9$)</p>
 
 <h1>Output</h1>
-<p>When the operation is \texttt{QUERY}, output the value of the element pointed by the pointer. If the pointer is pointing at the null element (index = 0, which indicates end of linked list), output \texttt{End} instead.</p>
+<p>When the operation is \texttt{NEXT}, but the pointer is already pointing at the null element (which indicates the end of linked list), output \texttt{Cannot next}.</p>
+<p>When the operation is \texttt{QUERY}, output the value of the element pointed by the pointer. If the pointer is pointing at the null element, output \texttt{End} instead.</p>
+<p>When the operation is \texttt{INSERTAFTER}, but the pointer is pointing at the null element, output \texttt{Cannot insert}.</p>
+<p>When the operation is \texttt{DELETE}, but the pointer is already pointing at the null element, output \texttt{Cannot delete}.</p>
 <p>When the operation is \texttt{SIZE}, output the number of elements in the linked list currently.</p>

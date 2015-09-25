@@ -17,7 +17,7 @@ Includes answers to the worksheet, sample solution program, as well as answers t
 
 ##Exercises (Overall progress: 132/400 = 33.00%)
 
-Currently, 50 exercises are proposed. We expect that more exercises will be added later.
+Currently, 55 exercises are proposed. We expect that more exercises will be added later.
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th>
@@ -110,21 +110,23 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D604</td><td>Tower of Hanoi</td>               <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
-  <tr><td colspan="10">Data structures (6)</td></tr>
+  <tr><td colspan="10">Data structures (7)</td></tr>
   <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D703</td><td>Linked list representation</td>   <td>2015-07-20</td><td>          </td><td>2015-08-15</td><td>2015-08-15</td>
+  <tr><td>D703</td><td>Linked list representation</td>   <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D704</td><td>Linked list manipulation</td>     <td>2015-07-20</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D704</td><td>Linked list: insertion</td>       <td>2015-09-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D705</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D705</td><td>Linked list: deletion</td>        <td>2015-09-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D706</td><td>Bidirectional linked list</td>    <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D706</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D707</td><td>Bidirectional linked list</td>    <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Algorithms (6)</td></tr>          
+  <tr><td colspan="10">Algorithms (10)</td></tr>          
   <tr><td>D801</td><td>Binary search</td>                <td>2015-07-23</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D802</td><td>Bubble sort</td>                  <td>2015-07-23</td><td>          </td><td>          </td><td>          </td>
@@ -137,4 +139,13 @@ Currently, 50 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D806</td><td>Quick sort</td>                   <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D807</td><td>Counting sort</td>                <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D808</td><td>Advanced sorting</td>             <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D809</td><td>Lower bound and Upper bound</td>  <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D810</td><td>Quick select</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+
 </table>
