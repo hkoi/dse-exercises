@@ -1,19 +1,15 @@
-<p>Note: You need to complete the previous exercise first. Now add the following operations.</p>
-<ul>
-	<li>\texttt{INSERTHEAD} $x$: Insert an element with value $x$ before the first element in the linked list. (Do not change the pointer)</li>
-	<li>\texttt{INSERTAFTER} $x$: Insert an element with value $x$ after the element currently pointed at. (Do not change the pointer). If the pointer was pointing at the null element, the operation is invalid.</li>
-	<li>\texttt{DELETE}: Delete the element currently pointed at. (Move pointer to the element after the deleted element)</li>
-	<li>\texttt{SIZE}: Find out the number of elements in the linked list, excluding the null element.</li>
-</ul>
+<p>Note: You need to complete the exercise \texttt{D703} first.</p>
+
+<p>After reading the linked list, you need to insert a new element with value $x$ after the $y^\text{th}$ element. If $y$ is 0, that means to insert an element before the head of the linked list.</p>
+
+<p>You should try to make minimal changes to the linked list. Specifically, you are allowed to create one new element and change one existing element. You can also change the HEAD pointer if you want.</p>
 
 <h1>Input</h1>
-<p>The linked list is initially empty.</p>
-<p>The first line contains an integer $M$, the number of operations. ($1 \le M \le 1000$)</p>
-<p>Each of the next $M$ lines describe an operation: \texttt{FIRST}, \texttt{NEXT}, \texttt{QUERY}, \texttt{INSERTHEAD}, \texttt{INSERTAFTER}, \texttt{DELETE} and \texttt{SIZE}. For \texttt{INSERTHEAD} and \texttt{INSERTAFTER}, it is followed by integer $x$ in the same line, separated by a space. ($1 \le x \le 10^9$)</p>
+<p>The first three lines follow the same format as the previous exercise \texttt{D703}.</p>
+<p>The fourth line contains two integers $x$ and $y$. ($1 \le x \le 10^9$, $0 \le y \le\ $ size of the linked list).</p>
 
 <h1>Output</h1>
-<p>When the operation is \texttt{NEXT}, but the pointer is already pointing at the null element (which indicates the end of linked list), output \texttt{Cannot next}.</p>
-<p>When the operation is \texttt{QUERY}, output the value of the element pointed by the pointer. If the pointer is pointing at the null element, output \texttt{End} instead.</p>
-<p>When the operation is \texttt{INSERTAFTER}, but the pointer is pointing at the null element, output \texttt{Cannot insert}.</p>
-<p>When the operation is \texttt{DELETE}, but the pointer is already pointing at the null element, output \texttt{Cannot delete}.</p>
-<p>When the operation is \texttt{SIZE}, output the number of elements in the linked list currently.</p>
+<p>In the first line, output a single integer $H$, the (possibly changed) head of the linked list.</p>
+<p>The second line should describe the new element created. Use array index $N + 1$ to store the new element. Output its value and next pointer separated by a space.</p>
+<p>The third line should describe the element changed. If you decide not to change any existing element, output \texttt{No change}. Otherwise, output the array index of the changed element, new value and new next pointer separated by spaces.</p>
+<p>Note: sometimes there are multiple possible answers. You may output any of them. (See samples 1/2, 3/4 and 5/6)</p>
