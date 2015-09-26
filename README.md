@@ -129,7 +129,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td colspan="10">Algorithms (10)</td></tr>          
   <tr><td>D801</td><td>Binary search</td>                <td>2015-07-23</td><td>          </td><td>2015-09-26</td><td>2015-09-26</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D802</td><td>Bubble sort</td>                  <td>2015-07-23</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D802</td><td>Bubble sort</td>                  <td>2015-07-23</td><td>          </td><td>2015-09-26</td><td>2015-09-26</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
