@@ -1,5 +1,5 @@
 #include <stdio.h>
-int a[50000];
+int a[2000];
 int main() {
     int n, d, i, j, t, ans = 0;
     scanf("%d %d", &n, &d);
