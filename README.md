@@ -2,6 +2,8 @@
 
 The HKOI Organizing Committee will be providing a platform for secondary school students to practice programming (via HKOI Online Judge). Exercises will be available in both Chinese and English, and in Pascal and C programming language. Note: not intended for assessment purposes as all contents are available to the public.
 
+Special thanks to Ian Wong from Pui Ching Middle School for his help to translate statements into Chinese.
+
 ##License
 Creative Commons Attribution-ShareAlike 4.0 International. The full text of the license is available at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
 
@@ -131,7 +133,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D802</td><td>Bubble sort</td>                  <td>2015-07-23</td><td>          </td><td>2015-09-26</td><td>2015-09-26</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>          </td><td>2015-09-29</td><td>2015-09-29</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D804</td><td>Merging arrays</td>               <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
