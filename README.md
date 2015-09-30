@@ -59,7 +59,9 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-     
+  <tr><td>D208</td><td>Receipt printer</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+
   <tr><td colspan="10">Strings (9)</td></tr>
   <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>2015-07-27</td><td>2015-07-08</td><td>2015-08-02</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
@@ -146,8 +148,6 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D808</td><td>Advanced sorting</td>             <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D809</td><td>Lower bound and Upper bound</td>  <td>          </td><td>          </td><td>          </td><td>          </td>
-                                                         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D810</td><td>Quick select</td>                 <td>          </td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
 </table>
