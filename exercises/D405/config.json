@@ -1,5 +1,5 @@
 {
-  "name_en": "Simple Maze",
+  "name_en": "Simple maze",
   "name_zh": "簡單迷宮",
   "regex": "[ES]+\\n*",
   "checker": "custom"
