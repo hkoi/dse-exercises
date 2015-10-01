@@ -11,7 +11,7 @@ begin
     if (y = 0) then
     begin
         writeln(n + 1);
-        writeln(x, ' 0');
+        writeln(x, ' ', h);
         writeln('-1');
         halt
     end;

@@ -21,9 +21,8 @@ int main(int argc, char * argv[]) {
         v.push_back(a[p]);
         p = b[p];
     }
-    int x = inf.readInt();
     int y = inf.readInt();
-    v.erase(y - 1);
+    v.erase(v.begin() + y - 1);
 
     int nh = ouf.readInt(1, n, "newhead");
     int ci = ouf.readInt(-1, n, "changei");

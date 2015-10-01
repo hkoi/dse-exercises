@@ -1,6 +1,6 @@
 {
   "name_en": "Insertion sort",
   "name_zh": "插入排序法",
-  "regex": "(\\d+( \\d+)*\\n)+",
+  "regex": "(-?\\d+( -?\\d+)*\\n)+",
   "checker": "none"
 }
