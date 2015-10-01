@@ -59,7 +59,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D208</td><td>Receipt printer</td>              <td>          </td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D208</td><td>Maximum and second maximum</td>   <td>2015-10-01</td><td>          </td><td>2015-10-01</td><td>2015-10-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
   <tr><td colspan="10">Strings (9)</td></tr>

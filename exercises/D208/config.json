@@ -1,0 +1,6 @@
+{
+  "name_en": "Maximum and second maximum",
+  "name_zh": "最大及第二大數",
+  "regex": "\\d+\\n\\d+\\n",
+  "checker": "none"
+}
