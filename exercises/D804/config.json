@@ -1,5 +1,5 @@
 {
-  "name_en": "Merging Arrays",
+  "name_en": "Merging arrays",
   "name_zh": "陣列合併",
   "regex": "-?\\d+( -?\\d+)*\\n",
   "checker": "none"

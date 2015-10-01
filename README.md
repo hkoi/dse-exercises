@@ -17,7 +17,7 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 132/400 = 33.00%)
+##Exercises (Overall progress: 148/440 = 33.64%)
 
 Currently, 55 exercises are proposed. We expect that more exercises will be added later.
 
@@ -137,7 +137,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>          </td><td>2015-09-29</td><td>2015-09-29</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D804</td><td>Merging arrays</td>               <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
+  <tr><td>D804</td><td>Merging arrays</td>               <td>2015-07-25</td><td>          </td><td>2015-10-01</td><td>2015-10-01</td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D805</td><td>Merge sort</td>                   <td>2015-07-25</td><td>          </td><td>          </td><td>          </td>
                                                          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
