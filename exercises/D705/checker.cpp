@@ -24,7 +24,7 @@ int main(int argc, char * argv[]) {
     int y = inf.readInt();
     v.erase(v.begin() + y - 1);
 
-    int nh = ouf.readInt(1, n, "newhead");
+    int nh = ouf.readInt(0, n, "newhead");
     int ci = ouf.readInt(-1, n, "changei");
     if (ci == 0) {
         quitf(_wa, "changei is 0");
