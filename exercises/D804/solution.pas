@@ -1,22 +1,39 @@
 var
-    a: array[1..100] of longint;
-    n, i, j, x: longint;
+    a, b: array[1..100000] of longint;
+    n, m, i, j, k: longint;
 begin
-    read(n);
+    read(n, m);
     for i := 1 to n do
+        read(a[i]);
+    for i := 1 to m do
+        read(b[i]);
+    j := 1;
+    k := 1;
+    for i := 1 to n + m do
     begin
-        read(x);
-        j := i - 1;
-        while (j >= 1) do
+        if (j = n + 1) then
         begin
-            if (x > a[j]) then
-                break;
-            a[j + 1] := a[j];
-            dec(j)
+            write(b[k]);
+            inc(k)
+        end
+        else if (k = m + 1) then
+        begin
+            write(a[j]);
+            inc(j)
+        end
+        else if (a[j] < b[k]) then
+        begin
+            write(a[j]);
+            inc(j)
+        end
+        else
+        begin
+            write(b[k]);
+            inc(k)
         end;
-        a[j + 1] := x;
-        for j := 1 to i - 1 do
-            write(a[j], ' ');
-        writeln(a[i])
+        if (i = n + m) then
+            writeln
+        else
+            write(' ')
     end
 end.
