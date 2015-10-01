@@ -1,5 +1,5 @@
 {
-  "name_en": "Phone Number",
+  "name_en": "Phone number",
   "name_zh": "電話號碼",
   "regex": "[A-Za-z]*\\n",
   "checker": "lcmp2_ci"

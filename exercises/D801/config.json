@@ -1,5 +1,5 @@
 {
-  "name_en": "Binary Search",
+  "name_en": "Binary search",
   "name_zh": "對分檢索 (二分搜尋法)",
   "regex": "((Yes|No)\\n)+",
   "checker": "none"

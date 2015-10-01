@@ -1,5 +1,5 @@
 {
-  "name_en": "Bubble Sort",
+  "name_en": "Bubble sort",
   "name_zh": "冒泡排序法",
   "regex": "\\d+\\n-?\\d+( -?\\d+)*\\n",
   "checker": "none"
