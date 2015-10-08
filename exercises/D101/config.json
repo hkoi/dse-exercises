@@ -1,6 +1,6 @@
 {
   "name_en": "Phone number",
   "name_zh": "電話號碼",
-  "regex": "[A-Za-z]*\\n",
-  "checker": "lcmp2_ci"
+  "regex": "(Fixed|Mobile)\\n",
+  "checker": "none"
 }
