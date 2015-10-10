@@ -2,10 +2,10 @@
 <p>If we want to generate a list of primes, instead of checking the primality of each number, the <a href="https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes" target="_blank">Sieve of Eratosthenes</a> is a more efficient way to do so. This is how it is performed:</p>
 <ul>
 <li>Let's say you want a list of all primes $\le N$. Create a list of all integers from $2$ to $N$.</li>
-<li>Repeat the following until the list is empty:</li>
+<li>Repeat the following until the list is empty:
 <ul>
-    <li>The smallest integer $p$ in the list is prime.
-    <li>Remove all multiples of $p$ from the list. (or even more efficient: remove all multiples of $p$ that are $\ge p^2$)
+    <li>The smallest integer $p$ in the list is prime.</li>
+    <li>Remove all multiples of $p$ from the list.</li>
 </ul>
 </li>
 </ul>
