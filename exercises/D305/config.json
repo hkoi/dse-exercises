@@ -1,6 +1,6 @@
 {
   "name_en": "Check digit calculation",
   "name_zh": "檢查數位計算",
-  "regex": "([A-Z]{1,2}\\d{6}\\([0-9A]\\)\\n",
+  "regex": "[A-Z]{1,2}\\d{6}\\([0-9A]\\)\\n",
   "checker": "none"
 }
