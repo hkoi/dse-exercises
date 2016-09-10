@@ -17,13 +17,14 @@ A step-by-step tutorial to complete the exercises.
 ###Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises (Overall progress: 154/440 = 35.00%)
+##Exercises
+Currently, 57 exercises are proposed. We expect that more exercises will be added later.
 
-Currently, 55 exercises are proposed. We expect that more exercises will be added later.
+Overall progress: 161/228 = 70.06%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
-  <tr><td colspan="10">Basics, If (11)</td></tr>
+  <tr><td colspan="6">Basics, If (11)</td></tr>
   <tr><td>D100</td><td>A+B problem</td>                  <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D101</td><td>Phone number</td>                 <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>2015-06-17</td></tr>
   <tr><td>D102</td><td>Bus fare</td>                     <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>2015-06-17</td></tr>
@@ -36,7 +37,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D109</td><td>Giving changes</td>               <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D110</td><td>King movement</td>                <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
           
-  <tr><td colspan="10">Loops (7)</td></tr>
+  <tr><td colspan="6">Loops (8)</td></tr>
   <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>2015-07-21</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D203</td><td>Clap 7</td>                       <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>2015-08-01</td></tr>
@@ -46,7 +47,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td></tr>
   <tr><td>D208</td><td>Maximum and second maximum</td>   <td>2015-10-01</td><td>2015-10-08</td><td>2015-10-01</td><td>2015-10-01</td></tr>
 
-  <tr><td colspan="10">Strings (9)</td></tr>
+  <tr><td colspan="6">Strings (9)</td></tr>
   <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>2015-07-27</td><td>2015-07-08</td><td>2015-08-02</td></tr>
   <tr><td>D302</td><td>String length and words</td>      <td>2015-07-08</td><td>2015-07-28</td><td>2015-07-08</td><td>2015-08-02</td></tr>
   <tr><td>D303</td><td>String reverse and palindrome</td><td>2015-07-08</td><td>2015-08-02</td><td>2015-07-08</td><td>2015-08-02</td></tr>
@@ -57,26 +58,26 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D308</td><td>Substrings</td>                   <td>2015-07-15</td><td>2015-10-09</td><td>2015-07-15</td><td>2015-08-02</td></tr>
   <tr><td>D309</td><td>Case-insensitive comparison</td>  <td>2015-07-16</td><td>2015-10-09</td><td>2015-07-16</td><td>2015-08-02</td></tr>
           
-  <tr><td colspan="10">Arrays (5)</td></tr>
+  <tr><td colspan="6">Arrays (5)</td></tr>
   <tr><td>D401</td><td>Sieve of Eratosthenes</td>        <td>2015-08-04</td><td>2015-10-10</td><td>2015-08-04</td><td>2015-08-04</td></tr>
   <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>2015-10-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
   <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>2015-10-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
-  <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>          </td><td>2015-07-29</td><td>2015-08-04</td></tr>
-  <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>          </td><td>2015-07-29</td><td>2015-08-04</td></tr>
+  <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
+  <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
           
-  <tr><td colspan="10">File manipulation (4)</td></tr>
+  <tr><td colspan="6">File manipulation (4)</td></tr>
   <tr><td>D501</td><td>Weather statistics</td>           <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D502</td><td>Textual bar chart generator</td>  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D503</td><td>SVG bar chart generator</td>      <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D504</td><td>Give grades</td>                  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Writing custom functions (4)</td></tr>          
+  <tr><td colspan="6">Writing custom functions (4)</td></tr>          
   <tr><td>D601</td><td>Currency formatting</td>          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D602</td><td>Random number generator</td>      <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D603</td><td>Input helper with validation</td> <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D604</td><td>Tower of Hanoi</td>               <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
-  <tr><td colspan="10">Data structures (7)</td></tr>
+  <tr><td colspan="6">Data structures (7)</td></tr>
   <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td></tr>
   <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td></tr>
   <tr><td>D703</td><td>Linked list representation</td>   <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td></tr>
@@ -85,7 +86,7 @@ Currently, 55 exercises are proposed. We expect that more exercises will be adde
   <tr><td>D706</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D707</td><td>Bidirectional linked list</td>    <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
-  <tr><td colspan="10">Algorithms (9)</td></tr>          
+  <tr><td colspan="6">Algorithms (9)</td></tr>          
   <tr><td>D801</td><td>Binary search</td>                <td>2015-07-23</td><td>          </td><td>2015-09-26</td><td>2015-09-26</td></tr>
   <tr><td>D802</td><td>Bubble sort</td>                  <td>2015-07-23</td><td>          </td><td>2015-09-26</td><td>2015-09-26</td></tr>
   <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>          </td><td>2015-09-29</td><td>2015-09-29</td></tr>
