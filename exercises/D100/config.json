@@ -1,0 +1,6 @@
+{
+  "name_en": "Calculate A+B",
+  "name_zh": "計算 A+B",
+  "regex": "\\d+\\n",
+  "checker": "none"
+}

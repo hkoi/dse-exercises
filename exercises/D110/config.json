@@ -1,0 +1,6 @@
+{
+  "name_en": "King movement",
+  "name_zh": "移動國王",
+  "regex": "\\d+\\n",
+  "checker": "none"
+}
