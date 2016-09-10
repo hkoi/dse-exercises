@@ -1,6 +1,6 @@
 {
-  "name_en": "Merge Sort",
-  "name_zh": "合併排序法",
-  "regex": "(.|\\n)*",
-  "checker": "lcmp2"
+  "name_en": "Merging sub-arrays",
+  "name_zh": "合併子陣列",
+  "regex": "(\\d+( \\d+)*\\n)+",
+  "checker": "none"
 }
