@@ -20,7 +20,7 @@ Includes answers to the worksheet, sample solution program, as well as answers t
 ##Exercises
 Currently, 55 exercises are proposed. We expect that more exercises will be added later.
 
-Overall progress: 168/220 = 76.36%
+Overall progress: 172/220 = 78.18%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
@@ -90,7 +90,7 @@ Overall progress: 168/220 = 76.36%
   <tr><td>D803</td><td>Insertion sort</td>               <td>2015-07-25</td><td>2016-09-10</td><td>2015-09-29</td><td>2015-09-29</td></tr>
   <tr><td>D804</td><td>Merging arrays</td>               <td>2015-07-25</td><td>2016-09-10</td><td>2015-10-01</td><td>2015-10-01</td></tr>
   <tr><td>D805</td><td>Merging sub-arrays</td>           <td>2015-07-25</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
-  <tr><td>D806</td><td>Merge sort</td>                   <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D806</td><td>Merge sort</td>                   <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D807</td><td>Quick sort pivot</td>             <td>2015-07-25</td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D808</td><td>Quick sort analysis</td>          <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D809</td><td>Counting sort</td>                <td>          </td><td>          </td><td>          </td><td>          </td></tr>

@@ -1,9 +1,18 @@
-<p>Implement the Quick Sort sorting algorithm. Sort the given array in ascending order.</p>
+<p>Now we need to write a recursive function to divide a problem into sub-problems. Here is the pseudo-code for the recursive function, where the parameters are $l$ and $r$, which represents the sub-array $a[l..r]$:
+<ul>
+<li>If $l = r$ (size = 1), do nothing</li>
+<li>If the size ($r - l + 1$) is even: divide the problem into two equal-sized sub-problems.</li>
+<li>If the size ($r - l + 1$) is odd: divide the problem into two sub-problems. Here, let's make the left sub-problem 1 larger than the right one.</li>
+<li>Call recursively for the left sub-array.</li>
+<li>Call recursively for the right sub-array.</li>
+<li>Now that both sub-arrays have been sorted. Finally merge the two sub-arrays.</li>
+</ul></p>
+
+<p>Given the size of the array $N$, output the steps of merging sub-arrays that you would perform according to the pseudo-code above. From the previous exercise, hopefully you have found out that there will be exactly $N - 1$ steps. (Why?)</p>
 
 <h1>Input</h1>
 
-<p>The first line contains one integer $N$, the number of integers in the array ($1 \le N \le 100,000$).</p>
-<p>The next line contains $N$ integers separated by spaces. The integers are in $[-2147483648, 2147483647]$.</p>
+<p>The input contains an integer $N$, the size of the array to be sorted. ($2 \le N \le 100$)</p>
 
 <h1>Output</h1>
-<p>Output the sorted array in one line. The $N$ integers should be separated by spaces.</p>
+<p>Output $N - 1$ lines, the sub-array merging steps you have performed in order. Represent a step using 4 integers: $l_1$, $r_1$, $l_2$ and $r_2$, where $1 \le l_1 \le r_1 \lt l_2 \le r_2 \le N$ and $r_1 + 1 = l_2$, meaning that you have merged sub-arrays $a[l_1 .. r_1]$ and $a[l_2 .. r_2]$.</p>

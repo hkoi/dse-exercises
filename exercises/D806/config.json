@@ -1,6 +1,6 @@
 {
-  "name_en": "Quick Sort",
-  "name_zh": "快速排序法",
-  "regex": "(.|\\n)*",
-  "checker": "ncmp"
+  "name_en": "Merge sort",
+  "name_zh": "合併排序法",
+  "regex": "(\\d+ \\d+ \\d+ \\d+\\n)+",
+  "checker": "none"
 }
