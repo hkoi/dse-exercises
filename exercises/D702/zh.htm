@@ -1,0 +1,18 @@
+<p>堆疊(棧) 是一種為使數據後進先出 (LIFO) 而設計的數據結構，具體來說，它支援以下的操作：</p>
+<ul>
+  <li>\texttt{PUSH} $x$: 將 $x$ 插入至堆疊頂端
+  <li>\texttt{TOP}: 如有的話，傳回堆疊頂端的元素
+  <li>\texttt{POP}: 如有的話，刪除堆疊頂端的元素
+  <li>\texttt{SIZE}: 傳回堆疊內的元素數目
+</ul>
+<p>在這個練習中，請實現一個處理整數類型的堆疊。</p>
+
+<h1>輸入</h1>
+
+<p>第一行有一個整數 $N$，為操作的數目。 ($1 \le N \le 1000$)</p>
+<p>以下 $N$ 行每一行表示一個操作: \texttt{PUSH}, \texttt{TOP}, \texttt{POP} 或\texttt{SIZE}。<br>如果操作是 \texttt{PUSH}，那麼後面會接著一個整數 $x$ ($1 \le x \le 10^9$)。</p>
+
+<h1>輸出</h1>
+<p>當操作是 \texttt{TOP} 時，如有的話輸出堆疊頂端的整數，否則堆疊是空白時輸出 \texttt{Empty}。</p>
+<p>當操作是 \texttt{POP} ，且堆疊是空白時，輸出 \texttt{Cannot pop}。<br>
+<p>當操作是 \texttt{SIZE} 時，輸出一個整數: 堆疊內的元素數目。<br>

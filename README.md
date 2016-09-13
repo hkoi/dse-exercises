@@ -20,7 +20,7 @@ Includes answers to the worksheet, sample solution program, as well as answers t
 ##Exercises
 Currently, 55 exercises are proposed. We expect that more exercises will be added later.
 
-Overall progress: 172/220 = 78.18%
+Overall progress: 177/220 = 80.45%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
@@ -78,11 +78,11 @@ Overall progress: 172/220 = 78.18%
   <tr><td>D604</td><td>Tower of Hanoi</td>               <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 
   <tr><td colspan="6">Data structures (5)</td></tr>
-  <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td></tr>
-  <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>          </td><td>2015-08-14</td><td>2015-08-14</td></tr>
-  <tr><td>D703</td><td>Linked list representation</td>   <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td></tr>
-  <tr><td>D704</td><td>Linked list: insertion</td>       <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td></tr>
-  <tr><td>D705</td><td>Linked list: deletion</td>        <td>2015-09-25</td><td>          </td><td>2015-09-25</td><td>2015-09-25</td></tr>
+  <tr><td>D701</td><td>Queue</td>                        <td>2015-07-19</td><td>2016-09-13</td><td>2015-08-14</td><td>2015-08-14</td></tr>
+  <tr><td>D702</td><td>Stack</td>                        <td>2015-07-19</td><td>2016-09-13</td><td>2015-08-14</td><td>2015-08-14</td></tr>
+  <tr><td>D703</td><td>Linked list representation</td>   <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
+  <tr><td>D704</td><td>Linked list: insertion</td>       <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
+  <tr><td>D705</td><td>Linked list: deletion</td>        <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
   
   <tr><td colspan="6">Algorithms (9)</td></tr>          
   <tr><td>D801</td><td>Binary search</td>                <td>2015-07-23</td><td>2016-09-10</td><td>2015-09-26</td><td>2015-09-26</td></tr>

@@ -1,16 +1,16 @@
-<p>Linked list is a data structure that allows efficient sequential access and manipulation of data. Specifically, it supports the following operations.</p>
+<p>Linked list is a data structure that allows efficient sequential access and manipulation of data. When moving along a linked list, we need to use a pointer to store the current position. Specifically, it supports the following operations.</p>
 <ul>
-	<li>\texttt{HEAD}: Reset the pointer to the first element in the linked list.
-	<li>\texttt{NEXT}: Move the pointer to the next element.
-	<li>\texttt{QUERY}: Query the value of the element pointed by the pointer.
+	<li>\texttt{HEAD}: Reset the pointer to the first element in the linked list.</li>
+	<li>\texttt{NEXT}: Move the pointer to the next element.</li>
+	<li>\texttt{QUERY}: Query the value of the element pointed by the pointer.</li>
 </ul>
 <p>In this exercise, we will learn how a linked list is represented using an array. Write a program to walk through a linked list.</p>
 
 <h1>Input</h1>
 
 <p>The first line contains two integers $N$ and $H$. $N$ is the size of the array storing the linked list. ($1 \le N \le 10000$). $H$ is the index of the first element in the linked list. ($0 \le H \le N$) If $H = 0$, it means that the linked list is empty.</p>
-<p>The next line contains $N$ integers, of which the $i^\text{th}$ is the value stored at index $i$. The integers are between $1$ and $10^9$.</p>
-<p>The next line contains $N$ integers, of which the $i^\text{th}$ is the "next pointer" -- index of the element after the element at index $i$. For the last element in the linked list, the number is 0. It is possible that some indexes are not reachable, as they could be deleted or uninitialized elements. Those unreachable indexes may contain any value or next pointer.</p>
+<p>The next line contains $N$ integers, of which the $i^\text{th}$ is the value stored at array index $i$. The integers are between $1$ and $10^9$.</p>
+<p>The next line contains $N$ integers, of which the $i^\text{th}$ is the "next pointer" -- index of the element after the element at array index $i$. For the last element in the linked list, the number is 0. It is possible that some indexes are not reachable, as they could be deleted or uninitialized elements. Those unreachable indexes may contain any value or next pointer.</p>
 
 <h1>Output</h1>
 <p>Starting from the head of the linked list, print out the values one by one in separate lines.</p>
