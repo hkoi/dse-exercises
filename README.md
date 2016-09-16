@@ -93,6 +93,6 @@ Overall progress: 189/224 = 84.38%
   <tr><td>D805</td><td>Merging sub-arrays</td>           <td>2015-07-25</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D806</td><td>Merge sort</td>                   <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D807</td><td>Quick sort: partitioning</td>     <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
-  <tr><td>D808</td><td>Quick sort: analysis</td>         <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D808</td><td>Quick sort: analysis</td>         <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D809</td><td>Counting sort</td>                <td>          </td><td>          </td><td>          </td><td>          </td></tr>
 </table>

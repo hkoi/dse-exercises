@@ -1,0 +1,17 @@
+<p>Note: You need to complete the exercise \texttt{D807} first.</p>
+
+<p>First, modify your program in the previous exercise into a procedure that has two parameters $l$ and $r$. After partitioning $a[l..r]$, call recursively to sort $a[l..(i-1)]$ and $a[(i+1)..r]$. Note that when $l \gt r$ or $l \ge r$ (only 0 / 1 elements), the procedure should return without performing partition.</p>
+
+<p>For different distribution of array values, the speed of Quick Sort differs. We will perform analysis in this exercise.</p>
+
+<p>Assume that the size of the array is $N$, if we only considers calls that $l \le r$, the procedure will be called exactly $N$ times. (Why?) We can estimate the speed of the algorithm by summing up the number of elements processed $r - l + 1$ for each call. For example, let $a[1..4] = (5, 3, 1, 4)$, and if we output $(l, r)$ at the beginning of the procedure, we will get: $(1, 4)$, $(1, 2)$, $(2, 2)$, $(4, 4)$, and therefore the sum is $4 + 2 + 1 + 1 = 8$.</p>
+
+<p>Write a program to sort an array and output the sum of the elements processed.</p>
+
+<h1>Input</h1>
+<p>The first line contains one integer $N$, the number of integers in the array ($1 \le N \le 100,000$).</p>
+<p>The next line contains $N$ distinct integers separated by spaces. The integers are in $[-2147483648, 2147483647]$.</p>
+
+<h1>Output</h1>
+<p>Output two lines. The first line should contain the sorted array. The $N$ integers should be separated by spaces.</p>
+<p>On the second line output an integer: the sum of sizes.</p>

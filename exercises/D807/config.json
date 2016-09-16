@@ -1,6 +1,6 @@
 {
   "name_en": "Quick sort: partitioning",
   "name_zh": "快速排序法: 分割",
-  "regex": "\\d( \\d+)*\\n",
+  "regex": "\\d+( \\d+)*\\n",
   "checker": "none"
 }

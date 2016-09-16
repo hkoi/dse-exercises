@@ -1,0 +1,6 @@
+{
+  "name_en": "Quick sort: analysis",
+  "name_zh": "快速排序法: 分析",
+  "regex": "\\d+\\n\\d+( \\d+)*\\n",
+  "checker": "none"
+}
