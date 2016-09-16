@@ -1,9 +1,17 @@
-<p>Implement the Quick Sort sorting algorithm. Sort the given array in ascending order.</p>
+<p>Quick sort is another divide-and-conquer sorting algorithm. However, instead of sorting the array by merging after sorting two sub-arrays, Quick Sort first places an element, called pivot, in the correct position, thus dividing the other elements into two partitions: those less than or equal to the pivot, and those greater than the pivot. Lastly, recursively sort the two partitions.</p>
+
+<p>In this exercise we will implement the <a href="https://en.wikipedia.org/wiki/Quicksort#Lomuto_partition_scheme" target="_blank">Lomuto partition scheme</a>. Here are the steps to partition an array $a[l..r]$ under this scheme:
+<ol>
+<li>Select the last element $a[r]$ as the pivot $p$. A variable $i$ (initialized to $l$) is used to denote the position for the next value $a[j] \le p$ that should be placed into.</li>
+<li>Loop over $j = l, l + 1, \dots, r - 1$. If a value is $a[j] \le p$, it should be placed in the left partition. Therefore, place it into $a[i]$ by swapping values $a[i]$ and $a[j]$ and increase $i$ by $1$. If $a[i] \gt p$ there is no need to do anything because the values smaller than the pivot may be swapped into this position later. For example, for the array $a[1..4] = (5, 3, 1, 4)$, $p = a[4] = 4$, in the first step we do not need to move the value $a[1] = 5$. In the second step $a[2] = 3$ will swap with $a[i] = 5$, and the array becomes $(3, 5, 1, 4)$ and $i$ becomes $2$. In the third step, $a[3] = 1$ will swap with $a[i] = 1$, and the array becomes $(3, 1, 5, 4)$ and $i$ becomse $3$.</li>
+<li>As you can see, after the previous step, the array is partitioned into three parts: elements $\le p$, followed by elements $\gt p$, and finally a single element $p$. Now we need to place $a[r] = p$ into the correct position. A simple way to do so is to swap $a[r]$ with $a[i]$. For the above example, the array becomes $(3, 1, 4, 5)$.</li>
+</ol></p>
+
+<p>Write a program that implements the above scheme to partition an array and output the result.</p>
 
 <h1>Input</h1>
-
 <p>The first line contains one integer $N$, the number of integers in the array ($1 \le N \le 100,000$).</p>
-<p>The next line contains $N$ integers separated by spaces. The integers are in $[-2147483648, 2147483647]$.</p>
+<p>The next line contains $N$ distinct integers separated by spaces. The integers are in $[-2147483648, 2147483647]$.</p>
 
 <h1>Output</h1>
-<p>Output the sorted array in one line. The $N$ integers should be separated by spaces.</p>
+<p>Output the partitioned array in one line. The $N$ integers should be separated by spaces.</p>
