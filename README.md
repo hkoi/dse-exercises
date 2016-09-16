@@ -20,7 +20,7 @@ Includes answers to the worksheet, sample solution program, as well as answers t
 ##Exercises
 Currently, 55 exercises are proposed. We expect that more exercises will be added later.
 
-Overall progress: 177/220 = 80.45%
+Overall progress: 181/220 = 82.27%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
@@ -66,7 +66,7 @@ Overall progress: 177/220 = 80.45%
   <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
           
   <tr><td colspan="6">File manipulation (4)</td></tr>
-  <tr><td>D501</td><td>Weather statistics</td>           <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D501</td><td>Weather statistics</td>           <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
   <tr><td>D502</td><td>Textual bar chart generator</td>  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D503</td><td>SVG bar chart generator</td>      <td>          </td><td>          </td><td>          </td><td>          </td></tr>
   <tr><td>D504</td><td>Give grades</td>                  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
