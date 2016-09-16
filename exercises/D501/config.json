@@ -1,0 +1,6 @@
+{
+  "name_en": "Heung Shing Bank",
+  "name_zh": "香城銀行",
+  "regex": "\\d+\\n",
+  "checker": "none"
+}

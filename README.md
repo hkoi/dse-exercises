@@ -20,7 +20,7 @@ Includes answers to the worksheet, sample solution program, as well as answers t
 ##Exercises
 Currently, 56 exercises are proposed. We expect that more exercises will be added later.
 
-Overall progress: 185/224 = 82.59%
+Overall progress: 189/224 = 84.38%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
@@ -66,7 +66,7 @@ Overall progress: 185/224 = 82.59%
   <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
           
   <tr><td colspan="6">File manipulation (5)</td></tr>
-  <tr><td>D501</td><td>Heung Shing Bank</td>             <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D501</td><td>Heung Shing Bank</td>             <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
   <tr><td>D502</td><td>Weather statistics</td>           <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
   <tr><td>D503</td><td>Textual bar chart</td>            <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
   <tr><td>D504</td><td>SVG bar chart</td>                <td>          </td><td>          </td><td>          </td><td>          </td></tr>
