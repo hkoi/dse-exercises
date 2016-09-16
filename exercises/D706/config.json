@@ -1,0 +1,6 @@
+{
+  "name_en": "Cyclic queue",
+  "name_zh": "循環隊列",
+  "regex": "((Empty|Cannot pop|\\d+)\\n)*",
+  "checker": "none"
+}

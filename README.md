@@ -84,7 +84,7 @@ Overall progress: 196/228 = 85.96%
   <tr><td>D703</td><td>Linked list representation</td>   <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
   <tr><td>D704</td><td>Linked list: insertion</td>       <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
   <tr><td>D705</td><td>Linked list: deletion</td>        <td>2015-09-25</td><td>2016-09-13</td><td>2015-09-25</td><td>2015-09-25</td></tr>
-  <tr><td>D706</td><td>Cyclic queue</td>                 <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D706</td><td>Cyclic queue</td>                 <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
 
   <tr><td colspan="6">Algorithms (9)</td></tr>          
   <tr><td>D801</td><td>Binary search</td>                <td>2015-07-23</td><td>2016-09-10</td><td>2015-09-26</td><td>2015-09-26</td></tr>

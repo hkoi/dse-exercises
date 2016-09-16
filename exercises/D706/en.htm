@@ -1,0 +1,13 @@
+<p>This task is similar to \texttt{D701} except that there are many more elements to be pushed into and popped out of the queue. If you consider real life examples, a queue will usually process a lot of elements but the maximum number of elements simultaneously in the queue will usually be small. Therefore, a cyclic queue can help us save space by reusing memory.</p>
+
+<p>The memory limit of this task is 1 MB. Your queue has to process up to 1 million operations but the size of the queue will be at most 10000 at any time. The exact implementation is up to you.</p>
+
+<h1>Input</h1>
+<p>The first line contains integer $N$, the number of operations. ($1 \le N \le 10^6$)</p>
+<p>Each of the next $N$ lines describe an operation: \texttt{PUSH}, \texttt{FRONT}, \texttt{POP} or \texttt{SIZE}.<br>If the operation is \texttt{PUSH}, it will be followed by an integer $x$ ($1 \le x \le 10^9$).</p>
+
+<h1>Output</h1>
+<p>When the operation is \texttt{FRONT}, output the integer at the front of the queue if there is any, otherwise output \texttt{Empty} if the queue is currently empty.
+</p>
+<p>When the operation is \texttt{POP} and the queue is current empty, output \texttt{Cannot pop}.<br>
+<p>When the operation is \texttt{SIZE}, output an integer -- the number of elements in the queue currently.</p>
