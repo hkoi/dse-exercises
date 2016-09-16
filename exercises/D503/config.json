@@ -1,0 +1,6 @@
+{
+  "name_en": "Textual bar chart",
+  "name_zh": "文本棒形圖",
+  "regex": "(.\\d+)+\\n",
+  "checker": "none"
+}

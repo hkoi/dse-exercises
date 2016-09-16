@@ -18,9 +18,9 @@ A step-by-step tutorial to complete the exercises.
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
 ##Exercises
-Currently, 55 exercises are proposed. We expect that more exercises will be added later.
+Currently, 56 exercises are proposed. We expect that more exercises will be added later.
 
-Overall progress: 181/220 = 82.27%
+Overall progress: 185/224 = 82.59%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
@@ -65,11 +65,12 @@ Overall progress: 181/220 = 82.27%
   <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
   <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
           
-  <tr><td colspan="6">File manipulation (4)</td></tr>
-  <tr><td>D501</td><td>Weather statistics</td>           <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
-  <tr><td>D502</td><td>Textual bar chart generator</td>  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D503</td><td>SVG bar chart generator</td>      <td>          </td><td>          </td><td>          </td><td>          </td></tr>
-  <tr><td>D504</td><td>Give grades</td>                  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td colspan="6">File manipulation (5)</td></tr>
+  <tr><td>D501</td><td>Heung Shing Bank</td>             <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D502</td><td>Weather statistics</td>           <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
+  <tr><td>D503</td><td>Textual bar chart</td>            <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
+  <tr><td>D504</td><td>SVG bar chart</td>                <td>          </td><td>          </td><td>          </td><td>          </td></tr>
+  <tr><td>D505</td><td>Give grades</td>                  <td>          </td><td>          </td><td>          </td><td>          </td></tr>
           
   <tr><td colspan="6">Writing custom functions (4)</td></tr>          
   <tr><td>D601</td><td>Currency formatting</td>          <td>          </td><td>          </td><td>          </td><td>          </td></tr>

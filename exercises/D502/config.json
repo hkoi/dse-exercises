@@ -1,0 +1,6 @@
+{
+  "name_en": "Weather statistics",
+  "name_zh": "天氣統計",
+  "regex": "\\d+ \\d+\\n",
+  "checker": "none"
+}
