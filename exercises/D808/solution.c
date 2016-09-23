@@ -4,6 +4,7 @@ int ans;
 void sort(int l, int r) {
     ans += r - l + 1;
     if (l >= r) return ;
+    int t, i, j, p;
     p = a[r];
     i = l;
     for (j = l; j <= r - 1; j++) {
@@ -17,6 +18,8 @@ void sort(int l, int r) {
     t = a[i];
     a[i] = a[r];
     a[r] = t;
+    sort(l, i - 1);
+    sort(i + 1, r);
 }
 int main() {
     int n, i, j, p, t;
