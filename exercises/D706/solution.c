@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 int q[10001];
 char s[10];
 int main() {
