@@ -1,23 +1,23 @@
-#HKDSE ICT Elective Module D Software Development Practical Exercises by HKOI Organizing Committee
+# HKDSE ICT Elective Module D Software Development Practical Exercises by HKOI Organizing Committee
 
 The HKOI Organizing Committee will be providing a platform for secondary school students to practice programming (via HKOI Online Judge). Exercises will be available in both Chinese and English, and in Pascal and C programming language. Note: not intended for assessment purposes as all contents are available to the public.
 
 Special thanks to Ian Wong from Pui Ching Middle School for his help to translate statements into Chinese.
 
-##License
+## License
 Creative Commons Attribution-ShareAlike 4.0 International. The full text of the license is available at https://creativecommons.org/licenses/by-sa/4.0/legalcode.
 
-##Structure of an exercise
-###Statement
+## Structure of an exercise
+### Statement
 The statement contains the main problem description, the input specifications and output specifications. At the end there will be a few sample test cases.
 
-###Worksheet
+### Worksheet
 A step-by-step tutorial to complete the exercises.
 
-###Teaching Guide
+### Teaching Guide
 Includes answers to the worksheet, sample solution program, as well as answers to the bonus questions. Supplementary notes will be helpful to debug students' programs. Possible alternative solutions will also be discussed.
 
-##Exercises
+## Exercises
 Currently, 57 exercises are proposed. We expect that more exercises will be added later.
 
 Overall progress: 196/228 = 85.96%
