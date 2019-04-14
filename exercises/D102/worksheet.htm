@@ -32,7 +32,7 @@ tencents := round(fare * 10);
 </p>
 
 <h2>Calculating the half fare</h2>
-<p>We would like to store the half fare (in ten cents) in a new integer variable \texttt{tencentshalved}. Use an \texttt{if} control structure to check whether it is odd or even. When \texttt{tencents} is even, \texttt{tencents} is divisble by 2. Therefore no rounding is necessary. On the contrary, when \texttt{tencents} is odd, the half fare has to be rounded up. This can be done in two ways:
+<p>We would like to store the half fare (in ten cents) in a new integer variable \texttt{tencentshalved}. Use an \texttt{if} control structure to check whether it is odd or even. When \texttt{tencents} is even, \texttt{tencents} is divisible by 2. Therefore no rounding is necessary. On the contrary, when \texttt{tencents} is odd, the half fare has to be rounded up. This can be done in two ways:
 <p class="pascal">\texttt{tencentshalved := (tencents + 1) div 2;} or \texttt{tencentshalved := tencents / 2 + 1;}</p>
 <p class="npascal">\texttt{tencentshalved = (tencents + 1) / 2;} or \texttt{tencentshalved = tencents / 2 + 1;}</p>
 
