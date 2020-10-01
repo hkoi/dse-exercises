@@ -21,11 +21,11 @@ int main(int argc, char * argv[])
     transform(e.begin(), e.end(), e.begin(), ::tolower);
     transform(s.begin(), s.end(), s.begin(), ::tolower);
 
-    ensuref(s.find(a) != -1, "A not found");
-    ensuref(s.find(b) != -1, "B not found");
-    ensuref(s.find(c) != -1, "C not found");
-    ensuref(s.find(d) != -1, "D not found");
-    ensuref(s.find(e) != -1, "E not found");
+    if (s.find(a) == -1) quitf_(_wa, "A not found");
+    if (s.find(b) == -1) quitf_(_wa, "B not found");
+    if (s.find(c) == -1) quitf_(_wa, "C not found");
+    if (s.find(d) == -1) quitf_(_wa, "D not found");
+    if (s.find(e) == -1) quitf_(_wa, "E not found");
     quitf(_ok, "All found");
     return 0;
 }
