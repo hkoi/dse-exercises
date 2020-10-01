@@ -18,9 +18,9 @@ int main(int argc, char * argv[]) {
         } else {
             y++;
         }
-        ensuref(x < h, "i=%d: x out of bounds %s", i, t.c_str());
-        ensuref(y < w, "i=%d: y out of bounds %s", i, t.c_str());
-        ensuref(s[x][y] == '.', "i=%d: pos %d %d %s", i, x, y, t.c_str());
+        if (x >= h) quitf(_wa, "i=%d: x out of bounds %s", i, t.c_str());
+        if (y >= w) quitf(_wa,  "i=%d: y out of bounds %s", i, t.c_str());
+        if (s[x][y] != '.') quitf(_wa, "i=%d: pos %d %d %s", i, x, y, t.c_str());
     }
     quitf(_ok, "%s", t.c_str());
     return 0;
