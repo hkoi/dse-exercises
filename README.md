@@ -24,7 +24,7 @@ Overall progress: 196/228 = 85.96%
 
 <table>
   <tr><th> ID </th><th>Name</th>                         <th>Statement</th> <th>中文</th>      <th>Test cases</th><th>Solutions</th></tr>
-  <tr><td colspan="6">Basics, If (11)</td></tr>
+  <tr><td colspan="6">Basics, If (13)</td></tr>
   <tr><td>D100</td><td>A+B problem</td>                  <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
   <tr><td>D101</td><td>Phone number</td>                 <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>2015-06-17</td></tr>
   <tr><td>D102</td><td>Bus fare</td>                     <td>2015-06-17</td><td>2015-07-15</td><td>2015-06-17</td><td>2015-06-17</td></tr>
@@ -36,6 +36,8 @@ Overall progress: 196/228 = 85.96%
   <tr><td>D108</td><td>Simple calculator</td>            <td>2015-07-01</td><td>2015-07-18</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D109</td><td>Giving changes</td>               <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D110</td><td>King movement</td>                <td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td><td>2016-09-10</td></tr>
+  <tr><td>D111</td><td>Body Mass Index</td>              <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
+  <tr><td>D112</td><td>Bitwise Operation</td>            <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
           
   <tr><td colspan="6">Loops (8)</td></tr>
   <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td></tr>
