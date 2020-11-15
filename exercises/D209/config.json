@@ -1,6 +1,6 @@
 {
   "name_en": "Sequence validation",
-  "name_zh": "驗證數列"
+  "name_zh": "驗證數列",
   "regex": "\\d+\\n",
   "checker": "none"
 }
