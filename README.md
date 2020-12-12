@@ -39,7 +39,7 @@ Overall progress: 196/228 = 85.96%
   <tr><td>D111</td><td>Body Mass Index</td>              <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
   <tr><td>D112</td><td>Bitwise Operation</td>            <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
           
-  <tr><td colspan="6">Loops (8)</td></tr>
+  <tr><td colspan="6">Loops (9)</td></tr>
   <tr><td>D201</td><td>Fibonacci numbers</td>            <td>2015-07-01</td><td>2015-07-19</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D202</td><td>Factors</td>                      <td>2015-07-01</td><td>2015-07-21</td><td>2015-07-01</td><td>2015-08-01</td></tr>
   <tr><td>D203</td><td>Clap 7</td>                       <td>2015-07-03</td><td>2015-07-21</td><td>2015-07-03</td><td>2015-08-01</td></tr>
@@ -48,6 +48,7 @@ Overall progress: 196/228 = 85.96%
   <tr><td>D206</td><td>3n+1 Problem</td>                 <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td></tr>
   <tr><td>D207</td><td>GCD and LCM</td>                  <td>2015-07-03</td><td>2015-07-23</td><td>2015-07-03</td><td>2015-08-01</td></tr>
   <tr><td>D208</td><td>Maximum and second maximum</td>   <td>2015-10-01</td><td>2015-10-08</td><td>2015-10-01</td><td>2015-10-01</td></tr>
+  <tr><td>D209</td><td>Sequence validation</td>          <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
 
   <tr><td colspan="6">Strings (9)</td></tr>
   <tr><td>D301</td><td>Story generator</td>              <td>2015-07-08</td><td>2015-07-27</td><td>2015-07-08</td><td>2015-08-02</td></tr>
@@ -60,12 +61,13 @@ Overall progress: 196/228 = 85.96%
   <tr><td>D308</td><td>Substrings</td>                   <td>2015-07-15</td><td>2015-10-09</td><td>2015-07-15</td><td>2015-08-02</td></tr>
   <tr><td>D309</td><td>Case-insensitive comparison</td>  <td>2015-07-16</td><td>2015-10-09</td><td>2015-07-16</td><td>2015-08-02</td></tr>
           
-  <tr><td colspan="6">Arrays (5)</td></tr>
+  <tr><td colspan="6">Arrays (6)</td></tr>
   <tr><td>D401</td><td>Sieve of Eratosthenes</td>        <td>2015-08-04</td><td>2015-10-10</td><td>2015-08-04</td><td>2015-08-04</td></tr>
   <tr><td>D402</td><td>Supermarket</td>                  <td>2015-07-16</td><td>2015-10-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
   <tr><td>D403</td><td>Scrabble</td>                     <td>2015-07-16</td><td>2015-10-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
   <tr><td>D404</td><td>MTR fare</td>                     <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
   <tr><td>D405</td><td>Simple maze</td>                  <td>2015-07-17</td><td>2016-09-10</td><td>2015-07-29</td><td>2015-08-04</td></tr>
+  <tr><td>D406</td><td>Remove duplicate</td>             <td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td><td>2020-11-09</td></tr>
           
   <tr><td colspan="6">File manipulation (5)</td></tr>
   <tr><td>D501</td><td>Heung Shing Bank</td>             <td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td><td>2016-09-16</td></tr>
