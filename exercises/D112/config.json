@@ -1,0 +1,6 @@
+{
+  "name_en": "Bitwise Operation",
+  "name_zh": "位元運算",
+  "regex": "\\d+\\n\\d+\\n\\d+\\n",
+  "checker": "none"
+}

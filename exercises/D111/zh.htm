@@ -1,0 +1,18 @@
+<p>寫出一個程式去計算體重指標（BMI），及判斷該人士的體重狀態。</p>
+
+<p>體重指標能以$BMI = \cfrac{w}{h^2}$計算, 當中$w$是一個人的體重（以公斤為單位），而$h$是一個人的身高（以米為單位）。</p>
+
+<table class="table table-bordered" style="width: auto">
+	<tr><th></th><th>體重狀態分類</th>
+	<tr><td>$BMI \lt 18.5$</td><td>\texttt{Underweight}</td>
+	<tr><td>$18.5 \le BMI \lt 23.0$</td><td>\texttt{Normal}</td>
+	<tr><td>$23.0 \le BMI \lt 25.0$</td><td>\texttt{Overweight}</td>
+	<tr><td>$BMI \ge 25.0$</td><td>\texttt{Obese}</td>
+</table>
+
+<h1>輸入與輸出</h1>
+
+<p>輸入只有一行，包含數字$w$和$h$（一個小數位表示），以一個空格格開。
+<br>你可以假設$40 \le w \le 160$，$1.5 \le h \le 2.0$.</p>
+
+<p>於第一行輸出體重指標校正到 3 位小數。輸出的數值的小數點後必須剛好只有三個數字。於第二行輸出其所屬的體重狀態。</p>
