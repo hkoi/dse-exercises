@@ -1,6 +1,0 @@
-{
-  "name_en": "Currency formatting",
-  "name_zh": "貨幣格式化",
-  "regex": "\\d+\\n",
-  "checker": "grader"
-}
