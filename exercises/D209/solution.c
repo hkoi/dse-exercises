@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<stdbool.h>
 
-int a[10];
-int n, i;
+int n, i, t1, t2;
 bool ok = true;
 int main() {
 	scanf("%d", &n);
-	for (i = 0; i < n; i++)
-		scanf("%d", &a[i]);
-	for (i = 0; i < n; i++)
-		if (a[i] <= 100 || a[i] >= 50000)
+	scanf("%d", &t1);
+	if (t1 <= 100 || t1 >= 50000)
+		ok = false;
+	for (i = 0; i < n - 1; i++){
+		scanf("%d", &t2);
+		if (t2 <= 100 || t2 >= 50000 || t1 >= t2)
 			ok = false;
-	for (i = 1; i < n; i++)
-		if (a[i-1] >= a[i])
-			ok = false;
+		t1 = t2;
+	}
 	if (ok)
 		printf("Valid");
 	else
