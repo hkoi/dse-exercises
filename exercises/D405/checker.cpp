@@ -11,7 +11,7 @@ int main(int argc, char * argv[]) {
     }
     string t = ouf.readString();
     int x = 0, y = 0;
-    ensuref(t.length() == h + w - 2, "length %d does not match h=%d w=%d", t.length(), h, w);
+    if (t.length() != h + w - 2) quitf(_wa, "length %d does not match h=%d w=%d", t.length(), h, w);
     for (int i = 0; i < h + w - 2; i++) {
         if (t[i] == 'S') {
             x++;

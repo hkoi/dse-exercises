@@ -1,0 +1,6 @@
+{
+  "name_en": "Body Mass Index",
+  "name_zh": "體重指標",
+  "regex": "\\d+\\.\\d{3}\\n(Underweight|Normal|Overweight|Obese)\\n",
+  "checker": "none"
+}
