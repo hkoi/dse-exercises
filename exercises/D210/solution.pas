@@ -1,12 +1,17 @@
 var
-	i, n, ans: longint;
-	x, y: array [0..1005] of longint;
+	i, n, x, y, x1, x2, y1, y2, ans: longint;
 begin
 	ans := 0;
-	read(n);
-	for i := 1 to n do read(x[i], y[i]);
-	x[n + 1] := x[1];
-	y[n + 1] := y[1];
-	for i := 1 to n do ans := ans + x[i] * y[i + 1] - x[i + 1] * y[i];
+	read(n, x, y);
+	x1 := x;
+	y1 := y;
+	for i := 2 to n do
+	begin
+		read(x2, y2);
+		ans := ans + x1 * y2 - x2 * y1;
+		x1 := x2;
+		y1 := y2;
+	end;
+	ans := ans + x2 * y - x * y2;
 	writeln(ans / 2 : 0 : 3);
 end.
