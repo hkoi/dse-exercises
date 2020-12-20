@@ -10,7 +10,7 @@ int main(){
 	c = 0;
 	for (i = 0; i < n; i++){
 		found = 0;
-		for (j = 0; j < i - 1; j++)
+		for (j = 0; j < i; j++)
 			if (a[j] == a[i]) found = 1;	
 		if (found == 0) {
 			b[c] = a[i];
