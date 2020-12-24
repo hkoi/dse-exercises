@@ -1,5 +1,5 @@
 {
-  "name_en": "Remove duplicate",
+  "name_en": "Remove duplicates",
   "name_zh": "移除重複數字",
   "regex": "-?\\d+\\n-?\\d+\\n",
   "checker": "none"
