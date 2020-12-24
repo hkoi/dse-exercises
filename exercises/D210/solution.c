@@ -1,12 +1,16 @@
 #include <stdio.h>
-int x[1005], y[1005];
 int main() {
-	int n, ans = 0;
-	scanf("%d", &n);
-	for (int i = 1; i <= n; i++) scanf("%d%d", &x[i], &y[i]);
-	x[n + 1] = x[1];
-	y[n + 1] = y[1];
-	for (int i = 1; i <= n; i++) ans += x[i] * y[i+1] - x[i+1] * y[i];
-	printf("%.3f\n", ans / 2.0);
-	return 0;
+    int n, x, y, x1, x2, y1, y2, sum = 0;
+    scanf("%d%d%d", &n, &x, &y);
+    x1 = x;
+    y1 = y;
+    for (int i = 2; i <= n; i++) {
+        scanf("%d%d", &x2, &y2);
+        sum += x1 * y2 - x2 * y1;
+        x1 = x2;
+        y1 = y2;
+    }
+    sum += x2 * y - x * y2;
+    printf("%.1f\n", sum / 2.0);
+    return 0;
 }
