@@ -22,5 +22,5 @@ begin
     writeln(c);
     for i := 1 to c - 1 do
         write(b[i], ' ');
-    writeln(b[c - 1])
+    writeln(b[c])
 end.
