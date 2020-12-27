@@ -1,0 +1,15 @@
+<p>資料驗證是確保輸入到應用程式中的資料滿足指定的格式和其他條件的過程。實作一個函數來驗證給定的字串。</p>
+
+<h1>實作</h1>
+
+<p>實作一個函數 \texttt{validateImpl} 來驗證給定的字串是一個在給定範圍內的整數。</p>
+<p>你的函數： \texttt{validateImpl()}<br>
+Pascal: \texttt{function validateImpl(x, y: longint; s: string):boolean}<br>
+C/C++: \texttt{bool validateImpl(int x, int y, char s[])}<br>
+$s$ 是由 ASCII 可列印字符組成、不帶空格的輸入字串。 $x$ 和 $y$ 代表給定的範圍。 $\lvert s \rvert$ 是字串 $s$ 的長度。($1 \leq \lvert s \rvert \leq 100, 0 \leq x \leq y \leq 10^5$)</p>
+
+<p>如果字串 $S$ 是一個在 $X$ 和 $Y$ 之間（含）、不帶前導零的整數，傳回 \texttt{true} ，否則傳回 \texttt{false} 。</p>
+
+<h1>模版</h1>
+
+<p>下面的模版可以讓你實作必要的函數。它還包括一個用於測試你的實作的主程式。執行時，輸入兩個整數 $x$ 和 $y$ 和一個字串 $s$ 。它將向你顯示 \texttt{validate()} 的傳回值。</p>

@@ -1,0 +1,15 @@
+<p>Data validation is the process of ensuring data inserted into an application satisfies defined formats and other input criteria. Implement a function to validate the given string.</p>
+
+<h1>Task</h1>
+
+<p>You should implement a function \texttt{validateImpl} to check if the given input string is an integer in the given range.</p>
+<p>Your function: \texttt{validateImpl()}<br>
+Pascal: \texttt{function validateImpl(x, y: longint; s: string):boolean}<br>
+C/C++: \texttt{bool validateImpl(int x, int y, char s[])}<br>
+$s$ is the input string consists of ASCII printable characters without spaces. $x$ and $y$ represents the range. $\lvert s \rvert$ is the lengrh of string $s$. ($1 \leq \lvert s \rvert \leq 100, 0 \leq x \leq y \leq 10^5$)</p>
+
+<p>if the string $s$ is an integer between $x$ and $y$ (inclusive) without leading zero, return \texttt{true}, else return \texttt{false}.</p>
+
+<h1>Template</h1>
+
+<p>The template below allows you to implement the necessary function. It also includes a main function that you use to test your implementation. When executed, input two integers $x$ and $y$ and a string $s$. It will show you the returned value of \texttt{validate()}.</p>
