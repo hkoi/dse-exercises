@@ -1,0 +1,21 @@
+<p>在尼姆遊戲中，兩個玩家輪流從不同的堆中取走石頭。在每一步中，玩家都可以選擇任何非空的石頭堆，並從堆中取走至少一塊石頭。取走最後一塊石頭的玩家獲勝。實作一個函數來計算遊戲中的最佳策略。</p>
+
+<h1>任務</h1>
+
+<p>編寫一個互動程式來玩尼姆遊戲。實現一個函數 \texttt{nim} 來計算在給定的遊戲狀態中的最好的一步。</p>
+<p>你的函數： \texttt{nim()}<br>
+Pascal: \texttt{procedure nim(n: longint; var a: array of longint)}<br>
+C/C++: \texttt{void nim(int n, int a[])}<br>
+$N$ ($2 \leq N \leq 100$) 是一個整數，代表石堆的數量。 $a$ 是一個有 $N$ 個整數的數組，其中 $a_i$ ($1 \leq a_i \leq 100$) 代表第 $i^{th}$ 個堆中石頭的數量。</p>
+
+<p>你的函數應呼叫函數 \texttt{answer(int i,int x)} 一次來傳回答案。</p>
+<p>Grader 的函數： \texttt{answer()}<br>
+Pascal: \texttt{procedure answer(i, x: longint)}<br>
+C/C++: \texttt{void answer(int i, int x)}<br>
+呼叫 \texttt{answer} 表示答案是在第 $i^{th}$ 個堆中 ($0 \leq i^{th} &lt; N$) 取走 $x$ ($1 \leq x \leq a[i]$) 塊石頭。</p>
+
+<p>對於所有測試數據，如果你使用最佳策略，保證你一定能勝出。</p>
+
+<h1>模版</h1>
+
+<p>下面的模版可以讓你實作必要的函數。它還包括一個用於測試你的實作的主程式。執行時，輸入一個整數 $n$ ，一個數組 $a$ ，和電腦行動 $i$ 和 $x$ 。它將向你顯示遊戲的贏家。</p>

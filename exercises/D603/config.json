@@ -1,0 +1,6 @@
+{
+  "name_en": "Input helper with validation",
+  "name_zh": "輸入驗證",
+  "regex": "",
+  "checker": "grader"
+}
