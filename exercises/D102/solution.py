@@ -5,6 +5,4 @@ if ten_cents % 2 == 0:
     ten_cents_halved = ten_cents // 2
 else:
     ten_cents_halved = ten_cents // 2 + 1
-print(ten_cents_halved / 10.0)
-
-
+print(f'${ten_cents_halved / 10.0}')

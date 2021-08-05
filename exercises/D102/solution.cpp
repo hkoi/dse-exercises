@@ -13,6 +13,6 @@ int main() {
     } else {
         ten_cent_shalved = ten_cents / 2 + 1;
     }
-    cout << fixed << setprecision(1) << ten_cent_shalved / 10.0 << endl;
+    cout << fixed << setprecision(1) << "$" << ten_cent_shalved / 10.0 << endl;
     return 0;
 }
