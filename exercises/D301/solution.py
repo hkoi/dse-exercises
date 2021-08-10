@@ -1,0 +1,8 @@
+a = input()
+b = input()
+c = input()
+d = input()
+e = input()
+print(a + " and " + b + " both study in " + e + ".")
+print("They hate each other and they argued in the " + d + ".")
+print("Strangely, after that they ate " + c + " together.")
