@@ -12,4 +12,3 @@ if ok:
     print('Valid')
 else:
     print('Invalid')
-

@@ -15,6 +15,7 @@ for _ in range(n):
         if size == 0:
             print('Cannot pop')
         else:
+            st.pop(-1)
             size -= 1
     else:
         print(size)

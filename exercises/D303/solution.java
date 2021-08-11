@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D303 {
+class D303 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
@@ -13,7 +13,7 @@ public class D303 {
         }
         System.out.println(t);
         String str = t.toString();
-        if (s.equals(t)) {
+        if (s.equals(str)) {
             System.out.println("Yes");
         } else {
             System.out.println("No");

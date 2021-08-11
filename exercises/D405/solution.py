@@ -1,8 +1,9 @@
 h, w = map(int, input().split())
-s = [['#' for _ in range(w + 1)] for _ in range(h + 1)]
+s = []
 for i in range(h):
     line = list(input())
-    s[i][:w] = line
+    s.append(line + ['#'])
+s.append(['#' for _ in range(w + 1)])
 s[h][w - 1] = 'S'
 for i in range(h - 1, -1, -1):
     for j in range(w - 1, -1, -1):

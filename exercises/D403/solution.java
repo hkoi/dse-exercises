@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D403 {
+class D403 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
@@ -11,12 +11,11 @@ public class D403 {
             freqa[s.charAt(i) - 'A']++;
         }
         int n = in.nextInt();
-        in.next();
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < 26; j++) {
                 freqb[j] = 0;
             }
-            s = in.nextLine();
+            s = in.next();
             len = s.length();
             for (int j = 0; j < len; j++) {
                 freqb[s.charAt(j) - 'A']++;

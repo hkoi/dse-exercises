@@ -8,4 +8,3 @@ for line in file:
     min_temp = min(min_temp, x)
 file.close()
 print(min_temp, max_temp)
-    

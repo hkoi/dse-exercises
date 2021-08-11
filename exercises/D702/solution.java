@@ -1,6 +1,6 @@
 import java.util.*;
 
-class solution {
+class D702 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int[] st = new int[1000];

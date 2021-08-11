@@ -12,4 +12,4 @@ for i in range(m):
     for j in range(n):
         if barcodes[j] == k:
             sum += prices[j]
-print(sum)
+print(f'{sum:.1f}')

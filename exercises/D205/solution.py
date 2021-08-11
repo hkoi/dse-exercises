@@ -10,7 +10,7 @@ for i in range(2, m + 1):
         if not first:
             print('*', end='')
         print(i, end='')
-        n /= i
+        n = n // i
         first = False
 if n > 1:
     if not first:

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D302 {
+class D302 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();

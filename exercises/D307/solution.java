@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D307 {
+class D307 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String[] s = new String[3];
