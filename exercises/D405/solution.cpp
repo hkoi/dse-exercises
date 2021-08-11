@@ -1,11 +1,14 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 int main() {
     int h, w;
     cin >> h >> w;
-    string s[21];
+    char s[21][21];
     for (int i = 0; i < h; i++) {
-        cin >> s[i];
+        cin >> ws;
+        for (int j = 0; j < w; j++) {
+            cin >> s[i][j];
+        }
     }
     s[h][w - 1] = 'S';
     for (int i = h - 1; i >= 0; i--) {

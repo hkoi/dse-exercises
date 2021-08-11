@@ -17,7 +17,7 @@ int main() {
         return 0;
     }
     p = h;
-    for (int i = 1; i < y; i++) {
+    for (int i = 1; i < y - 1; i++) {
         p = b[p];
     }
     cout << h << endl;
