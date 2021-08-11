@@ -4,8 +4,8 @@ class D403 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String s = in.nextLine();
-        int []freqa = new int[26];
-        int []freqb = new int[26];
+        int[] freqa = new int[26];
+        int[] freqb = new int[26];
         int len = s.length();
         for (int i = 0; i < len; i++) {
             freqa[s.charAt(i) - 'A']++;
