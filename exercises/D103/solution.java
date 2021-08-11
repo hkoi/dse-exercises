@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D103 {
+class D103 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         double a = in.nextDouble();

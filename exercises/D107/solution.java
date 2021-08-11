@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D107 {
+class D107 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         long n = in.nextLong();

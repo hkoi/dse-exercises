@@ -4,7 +4,7 @@ class D404 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        double [][]fare = new double[101][101];
+        double[][] fare = new double[101][101];
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 fare[i][j] = in.nextDouble();

@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-public class D102 {
+class D102 {
   public static void main(String[] args) throws IOException {
     Scanner in = new Scanner(System.in);
     in.next(".");

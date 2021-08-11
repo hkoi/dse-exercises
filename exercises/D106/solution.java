@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class D106 {
+class D106 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

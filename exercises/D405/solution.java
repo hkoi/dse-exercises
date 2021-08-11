@@ -5,7 +5,7 @@ class D405 {
         Scanner in = new Scanner(System.in);
         int h = in.nextInt();
         int w = in.nextInt();
-        char s[][] = new char[21][21];
+        char[][] s = new char[21][21];
         for (int i = 0; i < h; i++) {
             String line = in.next();
             for (int j = 0; j < w; j++) {

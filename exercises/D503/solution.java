@@ -7,7 +7,7 @@ class D503 {
         try {
             FileWriter fout = new FileWriter("chart.txt");
             Scanner in = new Scanner(System.in);
-            int []a = new int[6];
+            int[] a = new int[6];
             for (int i = 0; i < 6; i++) {
                 a[i] = in.nextInt();
             }

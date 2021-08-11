@@ -11,4 +11,3 @@ for i in range(10, 0, -1):
     file.write('|\n')
 file.write("+-------------------------+\n")
 file.close()
-    
