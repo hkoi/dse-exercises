@@ -34,5 +34,6 @@ class D405 {
                 col++;
             }
         }
+        System.out.println();
     }
 }

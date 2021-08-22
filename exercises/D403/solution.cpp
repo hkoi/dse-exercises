@@ -1,8 +1,8 @@
 #include <iostream> 
-#include <iomanip>
 using namespace std;
+int freqa[26];
+int freqb[26];
 int main() {
-    int freqa[26] = {0}, freqb[26] = {0};
     string s;
     cin >> s;
     int len = s.length();
@@ -27,9 +27,9 @@ int main() {
             }
         }
         if (ok) {
-            cout <<"Yes\n";
+            cout <<"Yes" << endl;
         } else {
-            cout <<"No\n";
+            cout <<"No" << endl;
         }
     }
 }

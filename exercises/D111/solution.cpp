@@ -1,5 +1,5 @@
-#include <iostream>
 #include <iomanip>
+#include <iostream>
 using namespace std;
 int main() {
     double w, h;
@@ -7,15 +7,12 @@ int main() {
     double bmi = w / (h * h);
     cout << fixed << setprecision(3) << bmi << endl;
     if (bmi < 18.5) {
-        cout << "Underweight\n";
-    }
-    else if (bmi < 23.0) {
-        cout << "Normal\n";
-    }
-    else if (bmi < 25.0) {
-        cout << "Overweight\n";
-    }
-    else {
-        cout << "Obese\n";
+        cout << "Underweight" << endl;
+    } else if (bmi < 23.0) {
+        cout << "Normal" << endl;
+    } else if (bmi < 25.0) {
+        cout << "Overweight" << endl;
+    } else {
+        cout << "Obese" << endl;
     }
 }

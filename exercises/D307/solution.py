@@ -1,4 +1,5 @@
 import sys
+
 s = []
 for i in range(3):
     line = input()

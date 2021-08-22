@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+int st[1000];
 int main() {
-    int n, x, st[1000];
+    int n, x;
     string s;
     cin >> n;
     int size = 0;
@@ -12,13 +13,13 @@ int main() {
             st[size++] = x;
         } else if (s == "TOP") {
             if (size == 0) {
-                cout << "Empty\n";
+                cout << "Empty" << endl;
             } else {
                 cout << st[size - 1] << endl;
             }
         } else if (s == "POP") {
             if (size == 0) {
-                cout << "Cannot pop\n";
+                cout << "Cannot pop" << endl;
             } else {
                 size--;
             }

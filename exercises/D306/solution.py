@@ -1,5 +1,5 @@
-
 import sys
+
 s = input()
 length = len(s)
 if s.find('@') == -1:

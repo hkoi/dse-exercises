@@ -13,4 +13,5 @@ int main() {
     } else {
         cout << "After" << endl;
     }
+    return 0;
 }

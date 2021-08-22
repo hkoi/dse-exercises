@@ -1,12 +1,11 @@
-#include <iostream>
 #include <fstream>
+#include <iostream>
 using namespace std;
 int main() {
     ifstream fin("weather.txt");
     int max_temp = 0, min_temp = 100;
     while (!fin.eof()) {
-        char tmp[32];
-        fin.read(tmp, 32);
+        fin.ignore(32);
         int x;
         string dummy;
         fin >> x;

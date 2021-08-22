@@ -21,3 +21,4 @@ for i in range(h + w - 2):
         row += 1
     else:
         col += 1
+print()

@@ -6,7 +6,9 @@ int main() {
     for (i = 2; i <= n; i++) {
         if (a[i] == 0) {
             printf("%d\n", i);
-            if (i > 1000) continue;
+            if (i > 1000) {
+                continue;
+            }
             for (j = i * i; j <= n; j += i) {
                 a[j] = 1;
             }

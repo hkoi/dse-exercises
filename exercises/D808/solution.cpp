@@ -3,7 +3,9 @@ using namespace std;
 int a[101], ans;
 void sort(int l, int r) {
     ans += r - l + 1;
-    if (l >= r) return;
+    if (l >= r) {
+        return;
+    }
     int t, i, j, p;
     p = a[r];
     i = l;

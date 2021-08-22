@@ -16,10 +16,10 @@ int main() {
     sum += 3 * (s[len - 2] - '0');
     sum += 2 * (s[len - 1] - '0');
     if (sum % 11 == 0) {
-        cout << s << "(0)\n";
+        cout << s << "(0)" << endl;
     } else if (sum % 11 == 1) {
-        cout << s << "(A)\n";
+        cout << s << "(A)" << endl;
     } else {
-        cout << s << "(" << 11 - sum % 11 << ")\n";
+        cout << s << "(" << 11 - sum % 11 << ")" << endl;
     }
 }

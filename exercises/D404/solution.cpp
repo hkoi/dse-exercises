@@ -1,9 +1,9 @@
-#include <iostream> 
 #include <iomanip>
+#include <iostream> 
 using namespace std;
+double fare[101][101];
 int main() {
     int n, m;
-    double fare[101][101];
     cin >> n;
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= n; j++) {

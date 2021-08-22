@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+int a[100000];
 int main() {
-    int n, q, a[100000];
+    int n, q;
     cin >> n >> q;
     for (int i = 0; i < n; i++) {
         cin >> a[i];
@@ -22,9 +23,9 @@ int main() {
             }
         }
         if (found) {
-            printf("Yes\n");
+            cout << "Yes" << endl;
         } else {
-            printf("No\n");
+            cout << "No" << endl;
         }
     }
 }

@@ -7,12 +7,11 @@ int main() {
     double fare;
     cin >> dummy >> fare;
     int ten_cents = round(fare * 10);
-    int ten_cent_shalved;
+    int ten_cents_halved;
     if (ten_cents % 2 == 0) {
-        ten_cent_shalved = ten_cents / 2;
+        ten_cents_halved = ten_cents / 2;
     } else {
-        ten_cent_shalved = ten_cents / 2 + 1;
+        ten_cents_halved = ten_cents / 2 + 1;
     }
-    cout << fixed << setprecision(1) << "$" << ten_cent_shalved / 10.0 << endl;
-    return 0;
+    cout << fixed << setprecision(1) << "$" << ten_cents_halved / 10.0 << endl;
 }

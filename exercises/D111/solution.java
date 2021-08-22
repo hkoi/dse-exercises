@@ -9,14 +9,11 @@ class D111 {
         System.out.printf("%.3f\n", bmi);
         if (bmi < 18.5) {
             System.out.println("Underweight");
-        }
-        else if (bmi < 23.0) {
+        } else if (bmi < 23.0) {
             System.out.println("Normal");
-        }
-        else if (bmi < 25.0) {
+        } else if (bmi < 25.0) {
             System.out.println("Overweight");
-        }
-        else {
+        } else {
             System.out.println("Obese");
         }
     }

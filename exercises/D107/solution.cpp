@@ -1,5 +1,5 @@
-#include <iostream>
 #include <cmath>
+#include <iostream>
 using namespace std;
 int main() {
     long long n;
@@ -9,12 +9,12 @@ int main() {
     bool square = a * a == n;
     bool triangular = b * (b + 1) / 2 == n;
     if (square && triangular) {
-        cout << "Both\n";
+        cout << "Both" << endl;
     } else if (square) {
-        cout << "Square\n";
+        cout << "Square" << endl;
     } else if (triangular) {
-        cout << "Triangular\n";
+        cout << "Triangular" << endl;
     } else {
-        cout << "Neither\n";
+        cout << "Neither" << endl;
     }
 }

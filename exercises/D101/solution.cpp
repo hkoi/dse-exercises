@@ -5,11 +5,10 @@ int main() {
     cin >> a;
     int b = a / 10000000;
     if (b == 2) {
-        cout << "Fixed\n";
+        cout << "Fixed" << endl;
     } else if (b == 3) {
-        cout << "Fixed\n";
+        cout << "Fixed" << endl;
     } else {
-        cout << "Mobile\n";
+        cout << "Mobile" << endl;
     }
-    return 0;
 }

@@ -9,8 +9,7 @@ class D304 {
         t.append("____________________", 0, len);
         while (count < len) {
             char c = in.nextLine().charAt(0);
-            int i;
-            for (i = 0; i < len; i++) {
+            for (int i = 0; i < len; i++) {
                 if (s.charAt(i) == c) {
                     t.setCharAt(i, c);
                     count++;

@@ -1,4 +1,4 @@
-import math 
+import math
 
 n = int(input())
 m = int(math.sqrt(n))

@@ -1,13 +1,13 @@
-#include <iostream>
 #include <fstream>
+#include <iostream>
 using namespace std;
+int a[6];
 int main() {
     ofstream fout("chart.txt");
-    int a[6];
     for (int i = 0; i < 6; i++) {
         cin >> a[i];
     }
-    fout << "+-------------------------+\n";
+    fout << "+-------------------------+" << endl;
     for (int i = 10; i >= 1; i--) {
         fout << "| ";
         for (int j = 0; j < 6; j++) {
@@ -17,8 +17,8 @@ int main() {
                 fout << "    ";
             }
         }
-        fout << "|\n";
+        fout << "|" << endl;
     }
-    fout << "+-------------------------+\n";
+    fout << "+-------------------------+" << endl;
     fout.close();
 }

@@ -7,7 +7,7 @@ int main() {
     getline(cin, c);
     getline(cin, d);
     getline(cin, e);
-    cout << a << " and " << b << " both study in " << e << ".\n";
-    cout << "They hate each other and they argued in the " << d << ".\n";
-    cout << "Strangely, after that they ate " << c << " together.\n";
+    cout << a << " and " << b << " both study in " << e << "." << endl;
+    cout << "They hate each other and they argued in the " << d << "." << endl;
+    cout << "Strangely, after that they ate " << c << " together." << endl;
 }

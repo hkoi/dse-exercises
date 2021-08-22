@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
+char s[21][21];
 int main() {
     int h, w;
     cin >> h >> w;
-    char s[21][21];
     for (int i = 0; i < h; i++) {
         cin >> ws;
         for (int j = 0; j < w; j++) {
@@ -32,4 +32,5 @@ int main() {
             col++;
         }
     }
+    cout << endl;
 }

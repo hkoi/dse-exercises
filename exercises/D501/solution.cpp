@@ -1,5 +1,5 @@
-#include <iostream>
 #include <fstream>
+#include <iostream>
 using namespace std;
 int main() {
     ifstream fin("account.txt");
@@ -11,5 +11,4 @@ int main() {
     }
     fin.close();
     cout << balance << endl;
-
 }

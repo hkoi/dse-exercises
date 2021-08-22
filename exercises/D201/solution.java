@@ -11,6 +11,5 @@ class D201 {
             b = c;
         }
         System.out.println(a);
-        
     }
 }

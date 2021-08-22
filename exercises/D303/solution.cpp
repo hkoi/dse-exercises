@@ -12,8 +12,8 @@ int main() {
     }
     cout << t << endl;
     if (s == t) {
-        cout << "Yes\n";
+        cout << "Yes" << endl;
     } else {
-        cout << "No\n";
+        cout << "No" << endl;
     }
 }

@@ -4,13 +4,13 @@ int main() {
     char dummy;
     double fare;
     scanf("%c %lf", &dummy, &fare);
-    int tencents = round(fare * 10);
-    int tencentshalved;
-    if (tencents % 2 == 0) {
-        tencentshalved = tencents / 2;
+    int ten_cents = round(fare * 10);
+    int ten_cents_halved;
+    if (ten_cents % 2 == 0) {
+        ten_cents_halved = ten_cents / 2;
     } else {
-        tencentshalved = tencents / 2 + 1;
+        ten_cents_halved = ten_cents / 2 + 1;
     }
-    printf("$%.1f\n", tencentshalved / 10.0);
+    printf("$%.1f\n", ten_cents_halved / 10.0);
     return 0;
 }

@@ -6,14 +6,11 @@ int main() {
     printf("%.3lf\n", bmi);
     if (bmi < 18.5) {
         printf("Underweight\n");
-    }
-    else if (bmi < 23.0) {
+    } else if (bmi < 23.0) {
         printf("Normal\n");
-    }
-    else if (bmi < 25.0) {
+    } else if (bmi < 25.0) {
         printf("Overweight\n");
-    }
-    else {
+    } else {
         printf("Obese\n");
     }
     return 0;

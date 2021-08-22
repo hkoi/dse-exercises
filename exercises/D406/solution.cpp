@@ -1,7 +1,8 @@
 #include <iostream> 
 using namespace std;
+int a[20], b[20];
 int main() {
-    int n, a[20], b[20];
+    int n;
     cin >> n;
     for (int i = 0; i < n; i++) {
         cin >> a[i];

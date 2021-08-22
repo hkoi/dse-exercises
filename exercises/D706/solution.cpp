@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+int q[10001];
 int main() {
-    int n, x, q[10001];
+    int n, x;
     string s;
     cin >> n;
     int qs = 0, qe = 0;
@@ -15,13 +16,13 @@ int main() {
             }
         } else if (s == "FRONT") {
             if (qs == qe) {
-                cout << "Empty\n";
+                cout << "Empty" << endl;
             } else {
                 cout << q[qs] << endl;
             }
         } else if (s == "POP") {
             if (qs == qe) {
-                cout << "Cannot pop\n";
+                cout << "Cannot pop" << endl;
             } else {
                 qs++;
                 if (qs == 10001) {

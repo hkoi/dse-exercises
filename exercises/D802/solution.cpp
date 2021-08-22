@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
+int a[2000];
 int main() {
-    int n, d, a[2000];
+    int n, d;
     cin >> n >> d;
     for (int i = 0; i < n; i++) {
         cin >> a[i];

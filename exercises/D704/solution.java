@@ -27,6 +27,6 @@ class D704 {
         }
         System.out.println(h);
         System.out.println(x + " " + b[p]);
-        System.out.println(p+ " " + a[p] + " " + (n + 1));
+        System.out.println(p + " " + a[p] + " " + (n + 1));
     }
 }

@@ -1,4 +1,5 @@
-#include <iostream> 
+#include <cctype>
+#include <iostream>
 using namespace std;
 int main() {
     string s, t;
@@ -6,17 +7,17 @@ int main() {
     cin >> t;
     int len1 = s.length();
     int len2 = t.length();
-    for (char &c: s) {
-        c = toupper(c);
+    for (int i = 0; i < len1; i++) {
+        s[i] = toupper(s[i]);
     }
-    for (char &c: t) {
-        c = toupper(c);
+    for (int i = 0; i < len2; i++) {
+        t[i] = toupper(t[i]);
     }
     if (s < t) {
-        cout << "Smaller\n";
+        cout << "Smaller" << endl;
     } else if (s == t) {
-        cout << "Equal\n";
+        cout << "Equal" << endl;
     } else {
-        cout << "Greater\n";
+        cout << "Greater" << endl;
     }
 }

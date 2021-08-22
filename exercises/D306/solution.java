@@ -14,8 +14,7 @@ class D306 {
             System.out.println("Invalid");
             return;
         }
-        int i;
-        for (i = 0; i < len - 1; i++) {
+        for (int i = 0; i < len - 1; i++) {
             if (s.charAt(i) == '.' && s.charAt(i + 1) == '.') {
                 System.out.println("Invalid");
                 return;
@@ -25,13 +24,13 @@ class D306 {
             System.out.println("Invalid");
             return;
         }
-        for (i = 0; i < at; i++) {
+        for (int i = 0; i < at; i++) {
             if (!(Character.isLetterOrDigit(s.charAt(i)) || s.charAt(i) == '.' || s.charAt(i) == '+')) {
                 System.out.println("Invalid");
                 return;
             }
         }
-        for (i = at + 1; i < len; i++) {
+        for (int i = at + 1; i < len; i++) {
             if (!(Character.isLetterOrDigit(s.charAt(i)) || s.charAt(i) == '.' || s.charAt(i) == '-')) {
                 System.out.println("Invalid");
                 return;
