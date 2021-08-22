@@ -1,10 +1,11 @@
 s = input()
 length = len(s)
-t = s
+t_list = list(s)
 for i in range(length // 2):
-    c = t[i]
-    t = t[:i] + t[length - i - 1] + t[i + 1:]
-    t = t[:length - i - 1] + c + t[length - i:]
+    c = t_list[i]
+    t_list[i] = t_list[length - i - 1]
+    t_list[length - i - 1] = c
+t = ''.join(t_list)
 print(t)
 if s == t:
     print('Yes')

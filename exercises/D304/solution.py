@@ -2,11 +2,11 @@ s = input()
 length = len(s)
 count = 0
 t = '____________________'
-t = t[:length]
+t_list = list(t[:length])
 while count < length:
     c = input()
     for i, char in enumerate(s):
         if char == c:
-            t = t[:i] + c + t[i + 1:]
+            t_list[i] = c
             count += 1
-    print(t)
+    print(''.join(t_list))
