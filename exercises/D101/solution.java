@@ -6,11 +6,11 @@ class D101 {
     int a = in.nextInt();
     int b = a / 10000000;
     if (b == 2) {
-      System.out.println("fixed");
+      System.out.println("Fixed");
     } else if (b == 3) {
-      System.out.println("fixed");
+      System.out.println("Fixed");
     } else {
-      System.out.println("mobile");
+      System.out.println("Mobile");
     }
   }
 }
