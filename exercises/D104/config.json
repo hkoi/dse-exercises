@@ -1,4 +1,4 @@
-﻿{
+{
   "name_en": "Roots of quadratic equation",
   "name_zh": "一元二次方程的根",
   "regex": "(None|-?\\d+\\.\\d{3}(( |\\n)-?\\d+\\.\\d{3})?)\\n",

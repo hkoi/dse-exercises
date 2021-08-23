@@ -47,7 +47,7 @@ int main(int argc, char * argv[])
     std::string strAnswer;
 
     int n = 0;
-    while (!ans.eof()) 
+    while (!ans.eof() && !ouf.eof()) 
     {
         std::string p = ouf.readString();
         if (p == "") continue;
@@ -62,7 +62,9 @@ int main(int argc, char * argv[])
         if (!compareWords(j, p))
             quitf(_wa, "%d%s lines differ - expected: '%s', found: '%s'", n, englishEnding(n).c_str(), compress(j).c_str(), compress(p).c_str());
     }
-    
+    if (!ans.eof()) {
+      quitf(_wa, "not enough lines");
+    }
     if (n == 1)
         quitf(_ok, "single line: '%s'", compress(strAnswer).c_str());
     
