@@ -1,0 +1,21 @@
+<p>Nim is a game in which two players take turns removing stones from distinct piles. In each move, a player can choose any non-empty stone pile and remove one or more stones from the pile. The player who takes the last stone wins. Implement a function to calculate an optimal move in the game.</p>
+
+<h1>Task</h1>
+
+<p>Wirte an interactive program to play nim. You should implement a function \texttt{nim} to calculate an optimal move in the given situation.</p>
+<p>Your function: \texttt{nim()}<br>
+Pascal: \texttt{procedure nim(n: longint; var a: array of longint)}<br>
+C/C++: \texttt{void nim(int n, int a[])}<br>
+$n$ ($2 \leq n \leq 100$) is an integer represents the number of stone piles. $a$ is an array of $n$ integers which $a_i$ ($1 \leq a_i \leq 100$) represents the number of stones in the $i^{th}$ pile.</p>
+
+<p>Your function should call the function \texttt{answer} exactly once to return the answer.</p>
+<p>Grader function: \texttt{answer()}<br>
+Pascal: \texttt{procedure answer(i, x: longint)}<br>
+C/C++: \texttt{void answer(int i, int x)}<br>
+Calling \texttt{answer} means the answer is to remove $x$ ($1 \leq x \leq a[i]$) stones from the $i^{th}$ pile ($0 \leq i^{th} &lt; N$).</p>
+
+<p>For all the test data, it is guaranteed that you must be able to win the game if you are using optimal strategy.</p>
+
+<h1>Template</h1>
+
+<p>The template below allows you to implement the necessary function. It also includes a main function that you use to test your implementation. When executed, input an integer $n$, an array $a$, and computer's move $i$ and $x$. It will show you the winner of the game.</p>
