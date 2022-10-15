@@ -1,14 +1,14 @@
-import math
+issquare = lambda x: round(x**0.5)**2 == x
 n = int(input())
-a = int(round(math.sqrt(n)))
-b = int(math.floor(math.sqrt(n * 2)))
-square = a * a == n
-triangular = b * (b + 1) // 2 == n
+square = issquare(n)
+triangular = issquare(8*n+1)
+# N is triangular if 8n+1 is a square number
+
 if square and triangular:
-    print('Both')
+    print("Both")
 elif square:
-    print('Square')
+    print("Square")
 elif triangular:
-    print('Triangular')
+    print("Triangular")
 else:
-    print('Neither')
+    print("Neither")
