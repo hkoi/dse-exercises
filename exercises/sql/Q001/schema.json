@@ -1,0 +1,24 @@
+{
+  "tables": [
+    {
+      "name": "pokemon",
+      "fields": [
+        {"name": "pid", "type": "INTEGER", "description_en": "Pokedex ID", "description_zh": "圖鑑編號", "nullable": false},
+        {"name": "pname", "type": "CHARACTER", "description_en": "Name", "description_zh": "名稱", "nullable": false}
+      ],
+      "keys": [
+        {"type": "PRIMARY", "fields": ["pid"]}
+      ]
+    },
+    {
+      "name": "ptype",
+      "fields": [
+        {"name": "pid", "type": "INTEGER", "description_en": "Pokedex ID", "description_zh": "圖鑑編號", "nullable": false},
+        {"name": "tname", "type": "CHARACTER", "description_en": "Type", "description_zh": "屬性", "nullable": false}
+      ],
+      "keys": [
+        {"type": "FOREIGN", "fields": ["pid"], "references": "pokemon", "foreign_fields": ["pid"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "statements": [
+    {
+      "column_names": ["pid"],
+      "rows": [
+        [1888]
+      ]
+    },
+    {
+      "column_names": ["type"],
+      "rows": [
+        ["Psychic"],
+        ["Electric"]
+      ]
+    },
+    {
+      "column_names": ["pname"],
+      "rows": [
+        ["Meowth"],
+        ["Snorlax"],
+        ["Pikachu"]
+      ]
+    },
+    {
+      "column_names": ["pname"],
+      "rows": [
+        ["Oddish"],
+        ["Gloom"]
+      ]
+    }
+  ]
+}

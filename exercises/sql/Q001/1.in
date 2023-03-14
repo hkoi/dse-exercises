@@ -1,0 +1,32 @@
+{
+  "tables": [
+    {
+      "name": "pokemon",
+      "field_names": ["pid", "pname"],
+      "rows": [
+        [1, "Bulbasaur"],
+        [4, "Charmander"],
+        [7, "Squirtle"],
+        [25, "Pikachu"],
+        [72, "Tentacool"],
+        [132, "Ditto"],
+        [133, "Eevee"]
+      ]
+    },
+    {
+      "name": "ptype",
+      "field_names": ["pid", "tname"],
+      "rows": [
+        [1, "Grass"],
+        [1, "Poison"],
+        [4, "Fire"],
+        [7, "Water"],
+        [25, "Electric"],
+        [72, "Water"],
+        [72, "Poison"],
+        [132, "Normal"],
+        [133, "Normal"]
+      ]
+    }
+  ]
+}
