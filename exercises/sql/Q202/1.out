@@ -1,0 +1,25 @@
+{
+  "statements": [
+    {
+      "column_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781974715466, "SPY x FAMILY Volume 1", "Tatsuya Endo", "Manga", 220]
+      ]
+    },
+    {
+      "column_names": ["title"],
+      "rows": [
+        ["C++ For Dummies 7th Edition"],
+        ["The Art of Computer Programming Volume 1"],
+        ["The Art of Computer Programming Volume 2"]
+      ]
+    },
+    {
+      "column_names": ["title", "num_pages"],
+      "rows": [
+        ["The Art of Computer Programming Volume 1", 672],
+        ["The Art of Computer Programming Volume 2", 784]
+      ]
+    }
+  ]
+}

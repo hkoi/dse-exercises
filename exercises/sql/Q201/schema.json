@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "name": "book",
+      "fields": [
+        {"name": "isbn", "type": "INTEGER", "description_en": "ISBN-13 identifier of the book", "description_zh": "圖書的 ISBN-13 編碼", "nullable": false},
+        {"name": "title", "type": "CHARACTER", "description_en": "Title", "description_zh": "書名", "nullable": false},
+        {"name": "author", "type": "CHARACTER", "description_en": "Author", "description_zh": "作者", "nullable": false},
+        {"name": "genre", "type": "CHARACTER", "description_en": "Genre", "description_zh": "分類", "nullable": false},
+        {"name": "num_pages", "type": "INTEGER", "description_en": "Number of pages", "description_zh": "頁數", "nullable": false}
+      ],
+      "keys": [
+        {"type": "PRIMARY", "fields": ["isbn"]}
+      ]
+    }
+  ]
+}

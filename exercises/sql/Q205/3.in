@@ -1,0 +1,15 @@
+{
+  "tables": [
+    {
+      "name": "report",
+      "field_names": ["subject", "test_one", "test_two", "final_exam"],
+      "rows": [
+        ["Music", 92, 93.5, 95],
+        ["Economics", 84.5, 88.5, 90],
+        ["Chemistry", 81.5, 84.5, 87],
+        ["Geography", 88, 93, 89.5],
+        ["Physics", 72.5, 81, 79.5]
+      ]
+    }
+  ]
+}

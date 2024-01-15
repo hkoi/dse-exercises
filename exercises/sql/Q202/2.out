@@ -1,0 +1,24 @@
+{
+  "statements": [
+    {
+      "column_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+      ]
+    },
+    {
+      "column_names": ["title"],
+      "rows": [
+        ["Javascript for Babies"],
+        ["The Art of Computer Programming Volume 3"],
+        ["The Art of Computer Programming Volume 4 Fascicle 1"]
+      ]
+    },
+    {
+      "column_names": ["title", "num_pages"],
+      "rows": [
+        ["The Art of Computer Programming Volume 3", 800],
+        ["The Art of Computer Programming Volume 4 Fascicle 1", 272]
+      ]
+    }
+  ]
+}

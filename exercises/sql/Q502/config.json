@@ -1,0 +1,8 @@
+{
+  "name_en": "Bus routes",
+  "name_zh": "巴士路線",
+  "strict_column_names": false,
+  "strict_column_order": true,
+  "strict_row_order": false,
+  "num_cases": 3
+}

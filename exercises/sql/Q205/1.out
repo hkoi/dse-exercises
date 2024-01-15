@@ -1,0 +1,33 @@
+{
+  "statements": [
+    {
+      "column_names": ["subject", "weighted_total"],
+      "rows": [
+        ["Math", 90.1],
+        ["Science", 74.8],
+        ["English", 80.7],
+        ["History", 88.1],
+        ["ICT", 80.2]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Math"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["English"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["English"],
+        ["History"]
+      ]
+    }
+  ]
+}

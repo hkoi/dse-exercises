@@ -1,0 +1,20 @@
+{
+  "statements": [
+    {
+      "column_names": ["word"],
+      "rows": [["bar"], ["car"], ["jar"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["task"], ["test"], ["toss"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["quark"], ["quiz"], ["quizzes"], ["quick"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["zoning"], ["amazing"], ["quizzes"]]
+    }
+  ]
+}

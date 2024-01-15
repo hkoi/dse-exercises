@@ -1,0 +1,8 @@
+{
+  "name_en": "SELECT: Library collection",
+  "name_zh": "SELECT: 圖書館藏",
+  "strict_column_names": true,
+  "strict_column_order": false,
+  "strict_row_order": false,
+  "num_cases": 2
+}

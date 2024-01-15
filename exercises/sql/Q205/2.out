@@ -1,0 +1,34 @@
+{
+  "statements": [
+    {
+      "column_names": ["subject", "weighted_total"],
+      "rows": [
+        ["Art", 80],
+        ["Chinese", 87.2],
+        ["English", 73.5],
+        ["PE", 89.5],
+        ["Geography", 90.3]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Geography"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Chinese"],
+        ["English"],
+        ["PE"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Art"]
+      ]
+    }
+  ]
+}

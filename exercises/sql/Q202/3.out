@@ -1,0 +1,18 @@
+{
+  "statements": [
+    {
+      "column_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781974715466, "SPY x FAMILY Volume 3", "Anya Forger", "Science", 225]
+      ]
+    },
+    {
+      "column_names": ["title"],
+      "rows": []
+    },
+    {
+      "column_names": ["title", "num_pages"],
+      "rows": []
+    }
+  ]
+}

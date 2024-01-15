@@ -1,0 +1,34 @@
+{
+  "statements": [
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["BananaBook Air"],
+        ["SUS 2"],
+        ["iBanana"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["BananaBook Pro 14"],
+        ["BananaBook Air"],
+        ["SUS 2"],
+        ["iBanana"],
+        ["SUS 1"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["SUS 2"]
+      ]
+    },
+    {
+      "column_names": ["total_storage"],
+      "rows": [
+        [256]
+      ]
+    }
+  ]
+}

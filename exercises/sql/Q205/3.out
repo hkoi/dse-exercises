@@ -1,0 +1,32 @@
+{
+  "statements": [
+    {
+      "column_names": ["subject", "weighted_total"],
+      "rows": [
+        ["Music", 94.1],
+        ["Economics", 88.6],
+        ["Chemistry", 85.4],
+        ["Geography", 89.9],
+        ["Physics", 78.4]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Music"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": [
+        ["Music"],
+        ["Economics"],
+        ["Chemistry"]
+      ]
+    },
+    {
+      "column_names": ["subject"],
+      "rows": []
+    }
+  ]
+}

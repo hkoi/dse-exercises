@@ -1,0 +1,26 @@
+{
+  "statements": [
+    {
+      "column_names": ["drink_name", "brand_name"],
+      "rows": [
+        ["Milk Tea", "Cheap"]
+      ]
+    },
+    {
+      "column_names": ["COUNT(*)"],
+      "rows": [[4]]
+    },
+    {
+      "column_names": ["average"],
+      "rows": [[0.0131]]
+    },
+    {
+      "column_names": ["drink_name"],
+      "rows": []
+    },
+    {
+      "column_names": ["sales_increase"],
+      "rows": [[29.8]]
+    }
+  ]
+}

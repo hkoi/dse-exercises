@@ -1,0 +1,55 @@
+{
+  "tables": [
+    {
+      "name": "stop",
+      "field_names": ["name", "district"],
+      "rows": [
+        ["Kowloon Tong Station", "Sha Tin"],
+        ["Sun Tin Wai", "Sha Tin"],
+        ["Sui Wo Court", "Wong Tai Sin"],
+        ["Mody Road", "Yau Tsim Mong"],
+        ["Tai Hang Tung", "Sham Shui Po"],
+        ["Mei Lam", "Kwun Tong"],
+        ["Kwun Tong Ferry", "Sha Tin"],
+        ["Sha Tin Central", "Sham Shui Po"],
+        ["Wong Nai Tau", "Sha Tin"],
+        ["Lok Fu", "Sha Tin"]
+      ]
+    },
+    {
+      "name": "route",
+      "field_names": ["route_number", "origin", "destination", "fare"],
+      "rows": [
+        ["81K", "Sui Wo Court", "Sun Tin Wai", 5.0],
+        ["80M", "Kowloon Tong Station", "Sui Wo Court", 6.2],
+        ["281M", "Sun Tin Wai", "Kowloon Tong Station", 5.6],
+        ["280X", "Sui Wo Court", "Mody Road", 9.8],
+        ["203C", "Tai Hang Tung", "Mody Road", 5.4],
+        ["80", "Mei Lam", "Kwun Tong Ferry", 8.1],
+        ["82K", "Wong Nai Tau", "Mody Road", 6.2],
+        ["83K", "Wong Nai Tau", "Sha Tin Central", 5.0],
+        ["11D", "Wong Nai Tau", "Sui Wo Court", 5.6]
+      ]
+    },
+    {
+      "name": "trip",
+      "field_names": ["octopus_id", "boarding_time", "route_number"],
+      "rows": [
+        ["40283460", "2023-03-14 07:56:15", "11D"],
+        ["40283460", "2023-03-15 18:23:50", "81K"],
+        ["29579664", "2022-02-24 07:12:32", "82K"],
+        ["29579664", "2023-03-05 18:35:25", "281M"],
+        ["29579664", "2023-03-08 16:15:40", "11D"],
+        ["68740634", "2022-03-08 21:44:20", "203C"],
+        ["68740634", "2023-04-08 11:50:11", "280X"],
+        ["23476234", "2023-03-14 07:56:15", "82K"],
+        ["94673456", "2023-03-01 16:35:57", "80"],
+        ["94673456", "2023-03-15 12:43:20", "81K"],
+        ["45685684", "2023-03-17 10:23:05", "281M"],
+        ["45685684", "2023-03-31 12:53:24", "80"],
+        ["29579664", "2023-03-15 08:55:52", "280X"],
+        ["29579664", "2023-04-18 06:12:54", "81K"]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "tables": [
+    {
+      "name": "book",
+      "field_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781118823774, "C++ For Dummies 7th Edition", "Stephen R. Davis", "Technology", 480],
+        [9781974715466, "SPY x FAMILY Volume 1", "Tatsuya Endo", "Manga", 220],
+        [9780345535528, "A Game of Thrones 5-Book Boxed Set", "George R. R. Martin", "Fiction", 5216],
+        [9780201896831, "The Art of Computer Programming Volume 1", "Donald Knuth", "Technology", 672],
+        [9780201896848, "The Art of Computer Programming Volume 2", "Donald Knuth", "Technology", 784],
+        [9781974725953, "Demon Slayer Complete Box Set", "Koyoharu Gotouge", "Manga", 4496],
+        [9781421541952, "Fullmetal Alchemist Complete Box Set", "Hiromu Arakawa", "Manga", 5248]
+      ]
+    }
+  ]
+}

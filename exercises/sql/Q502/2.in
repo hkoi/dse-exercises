@@ -1,0 +1,38 @@
+{
+  "tables": [
+    {
+      "name": "stop",
+      "field_names": ["name", "district"],
+      "rows": [
+        ["Mei Lam", "Sha Tin"],
+        ["Kwun Tong Ferry", "Kwun Tong"],
+        ["Sha Tin Central", "Sha Tin"],
+        ["Wong Nai Tau", "Sha Tin"],
+        ["Lok Fu", "Wong Tai Sin"]
+      ]
+    },
+    {
+      "name": "route",
+      "field_names": ["route_number", "origin", "destination", "fare"],
+      "rows": [
+        ["80", "Mei Lam", "Kwun Tong Ferry", 8.1],
+        ["82K", "Wong Nai Tau", "Mei Lam", 6.2],
+        ["83K", "Wong Nai Tau", "Sha Tin Central", 5.0],
+        ["11D", "Wong Nai Tau", "Kwun Tong Ferry", 5.6]
+      ]
+    },
+    {
+      "name": "trip",
+      "field_names": ["octopus_id", "boarding_time", "route_number"],
+      "rows": [
+        ["23476234", "2022-03-14 07:56:15", "80"],
+        ["94673456", "2023-03-01 16:35:57", "82K"],
+        ["94673456", "2023-04-15 12:43:20", "83K"],
+        ["45685684", "2023-03-17 10:23:05", "11D"],
+        ["45685684", "2023-03-31 12:53:24", "80"],
+        ["29579664", "2023-03-15 08:55:52", "82K"],
+        ["29579664", "2023-03-18 06:12:54", "11D"]
+      ]
+    }
+  ]
+}

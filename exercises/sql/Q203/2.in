@@ -1,0 +1,15 @@
+{
+  "tables": [
+    {
+      "name": "computer",
+      "field_names": ["model_name", "cpu_name", "cpu_cores", "ram", "ssd", "hdd"],
+      "rows": [
+        ["Binbows A12", "AMD 3400", 4, 8, 2048, 2048],
+        ["XP 16", "Intel i7", 4, 32, 1024, 1024],
+        ["Binbows A13", "Intel i5", 4, 8, 1024, 1024],
+        ["XP 17", "Google Tensor", 8, 32, 1024, 1024],
+        ["BananaBook Pro 14", "Banana C3 Pro", 4, 16, 512, 512]
+      ]
+    }
+  ]
+}

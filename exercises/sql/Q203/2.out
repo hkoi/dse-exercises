@@ -1,0 +1,27 @@
+{
+  "statements": [
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["XP 17"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": []
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["Binbows A12"],
+        ["Binbows A13"]
+      ]
+    },
+    {
+      "column_names": ["total_storage"],
+      "rows": [
+        [1024]
+      ]
+    }
+  ]
+}

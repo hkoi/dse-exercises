@@ -1,0 +1,41 @@
+{
+  "tables": [
+    {
+      "name": "sales",
+      "field_names": ["transaction_id", "transaction_date", "drink_id"],
+      "rows": [
+        [15, "2022-09-24", 5],
+        [16, "2022-10-05", 5],
+        [17, "2022-11-20", 5],
+        [18, "2022-12-05", 6],
+        [19, "2022-12-22", 2],
+        [20, "2022-12-31", 5],
+        [21, "2023-01-25", 7],
+        [22, "2023-02-10", 1],
+        [23, "2023-04-15", 4],
+        [24, "2023-05-01", 1],
+        [25, "2023-06-18", 2],
+        [26, "2023-07-03", 4],
+        [27, "2023-07-20", 5],
+        [28, "2023-07-28", 1],
+        [29, "2023-07-28", 2],
+        [30, "2023-08-15", 1],
+        [31, "2023-08-22", 1],
+        [32, "2023-08-27", 1]
+      ]
+    },
+    {
+      "name": "drink",
+      "field_names": ["drink_id", "drink_name", "brand_name", "price", "drink_type"],
+      "rows": [
+        [1, "Sprite", "Happy", 9.5, "Soda"],
+        [2, "Lemon Tea", "Best Taste", 12.0, "Tea"],
+        [3, "Pure Water 400ml", "Happy", 7.0, "Water"],
+        [4, "1% Apple", "Best Taste", 11.0, "Juice"],
+        [5, "Funda", "Best Taste", 8.5, "Soda"],
+        [6, "Pure Water 600ml", "Happy", 8.0, "Water"],
+        [7, "Unsweetened Green Tea", "Happy", 15.0, "Tea"]
+      ]
+    }
+  ]
+}

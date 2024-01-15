@@ -1,0 +1,40 @@
+{
+  "statements": [
+    {
+      "column_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781118823774, "C++ For Dummies 7th Edition", "Stephen R. Davis", "Technology", 480],
+        [9781974715466, "SPY x FAMILY Volume 1", "Tatsuya Endo", "Manga", 220],
+        [9780345535528, "A Game of Thrones 5-Book Boxed Set", "George R. R. Martin", "Fiction", 5216],
+        [9780201896831, "The Art of Computer Programming Volume 1", "Donald Knuth", "Technology", 672],
+        [9780201896848, "The Art of Computer Programming Volume 2", "Donald Knuth", "Technology", 784],
+        [9781974725953, "Demon Slayer Complete Box Set", "Koyoharu Gotouge", "Manga", 4496],
+        [9781421541952, "Fullmetal Alchemist Complete Box Set", "Hiromu Arakawa", "Manga", 5248]
+      ]
+    },
+    {
+      "column_names": ["title"],
+      "rows": [
+        ["C++ For Dummies 7th Edition"],
+        ["SPY x FAMILY Volume 1"],
+        ["A Game of Thrones 5-Book Boxed Set"],
+        ["The Art of Computer Programming Volume 1"],
+        ["The Art of Computer Programming Volume 2"],
+        ["Demon Slayer Complete Box Set"],
+        ["Fullmetal Alchemist Complete Box Set"]
+      ]
+    },
+    {
+      "column_names": ["genre", "title", "num_pages"],
+      "rows": [
+        ["Technology", "C++ For Dummies 7th Edition", 480],
+        ["Manga", "SPY x FAMILY Volume 1", 220],
+        ["Fiction", "A Game of Thrones 5-Book Boxed Set", 5216],
+        ["Technology", "The Art of Computer Programming Volume 1", 672],
+        ["Technology", "The Art of Computer Programming Volume 2", 784],
+        ["Manga", "Demon Slayer Complete Box Set", 4496],
+        ["Manga", "Fullmetal Alchemist Complete Box Set", 5248]
+      ]
+    }
+  ]
+}

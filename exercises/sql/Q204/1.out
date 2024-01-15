@@ -1,0 +1,34 @@
+{
+  "statements": [
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["Bell 2000"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["Bell 2000"],
+        ["BananaBook Pro 14"],
+        ["BananaBook Pro 15"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["Bell 2000"],
+        ["Bell 3800"],
+        ["Nanovo X1"],
+        ["Nanovo X2"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["Bell 3800"],
+        ["Nanovo X2"]
+      ]
+    }
+  ]
+}

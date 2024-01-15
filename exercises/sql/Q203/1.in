@@ -1,0 +1,16 @@
+{
+  "tables": [
+    {
+      "name": "computer",
+      "field_names": ["model_name", "cpu_name", "cpu_cores", "ram", "ssd", "hdd"],
+      "rows": [
+        ["Bell 2000", "Intel i3", 4, 8, 0, 512],
+        ["Bell 3800", "Intel i7", 8, 32, 1024, 1024],
+        ["Nanovo X1", "AMD 6600", 2, 10, 512, 1024],
+        ["Nanovo X2", "Intel i7", 8, 32, 512, 1024],
+        ["BananaBook Pro 14", "Banana C2 Pro", 4, 32, 512, 512],
+        ["BananaBook Pro 15", "Banana C2 Pro", 10, 32, 512, 0]
+      ]
+    }
+  ]
+}

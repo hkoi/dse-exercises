@@ -1,0 +1,24 @@
+{
+  "statements": [
+    {
+      "column_names": ["route_number"],
+      "rows": []
+    },
+    {
+      "column_names": ["SUM(fare)"],
+      "rows": [[11.8]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["82K"], ["83K"]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["80"], ["82K"], ["83K"], ["11D"]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["83K"], ["80"]]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tables": [
+    {
+      "name": "report",
+      "fields": [
+        { "name": "subject", "type": "CHARACTER", "description_en": "Name of the subject", "description_zh": "科目名稱", "nullable": false },
+        { "name": "test_one", "type": "REAL", "description_en": "Score of the first test", "description_zh": "第一次測驗成績", "nullable": false },
+        { "name": "test_two", "type": "REAL", "description_en": "Score of the second test", "description_zh": "第二次測驗成績", "nullable": false },
+        { "name": "final_exam", "type": "REAL", "description_en": "Score of the final exam", "description_zh": "期末考成績", "nullable": false }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["subject"] }
+      ]
+    }
+  ]
+}

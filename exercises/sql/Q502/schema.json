@@ -1,0 +1,118 @@
+{
+  "tables": [
+    {
+      "name": "stop",
+      "fields": [
+        {
+          "name": "name",
+          "type": "CHARACTER",
+          "description_en": "Stop name",
+          "description_zh": "站名",
+          "nullable": false
+        },
+        {
+          "name": "district",
+          "type": "CHARACTER",
+          "description_en": "District",
+          "description_zh": "區域",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        {
+          "type": "PRIMARY",
+          "fields": ["name"]
+        }
+      ]
+    },
+    {
+      "name": "route",
+      "fields": [
+        {
+          "name": "route_number",
+          "type": "CHARACTER",
+          "description_en": "Route number",
+          "description_zh": "路線號",
+          "nullable": false
+        },
+        {
+          "name": "origin",
+          "type": "CHARACTER",
+          "description_en": "Origin",
+          "description_zh": "起點",
+          "nullable": false
+        },
+        {
+          "name": "destination",
+          "type": "CHARACTER",
+          "description_en": "Destination",
+          "description_zh": "終點",
+          "nullable": false
+        },
+        {
+          "name": "fare",
+          "type": "REAL",
+          "description_en": "Fare",
+          "description_zh": "票價",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        {
+          "type": "PRIMARY",
+          "fields": ["route_number"]
+        },
+        {
+          "type": "FOREIGN",
+          "fields": ["origin"],
+          "references": "stop",
+          "foreign_fields": ["name"]
+        },
+        {
+          "type": "FOREIGN",
+          "fields": ["destination"],
+          "references": "stop",
+          "foreign_fields": ["name"]
+        }
+      ]
+    },
+    {
+      "name": "trip",
+      "fields": [
+        {
+          "name": "octopus_id",
+          "type": "INTEGER",
+          "description_en": "Octopus ID",
+          "description_zh": "八達通卡號",
+          "nullable": false
+        },
+        {
+          "name": "boarding_time",
+          "type": "DATETIME",
+          "description_en": "Boarding time",
+          "description_zh": "上車時間",
+          "nullable": false
+        },
+        {
+          "name": "route_number",
+          "type": "CHARACTER",
+          "description_en": "Route number",
+          "description_zh": "路線號",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        {
+          "type": "PRIMARY",
+          "fields": ["octopus_id", "boarding_time"]
+        },
+        {
+          "type": "FOREIGN",
+          "fields": ["route_number"],
+          "references": "route",
+          "foreign_fields": ["route_number"]
+        }
+      ]
+    }
+  ]
+}

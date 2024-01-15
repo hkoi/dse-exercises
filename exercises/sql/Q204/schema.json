@@ -1,0 +1,54 @@
+{
+  "tables": [
+    {
+      "name": "computer",
+      "fields": [
+        {
+          "name": "model_name",
+          "type": "CHARACTER",
+          "description_en": "Model name of the computer",
+          "description_zh": "電腦的型號",
+          "nullable": false
+        },
+        {
+          "name": "cpu_name",
+          "type": "CHARACTER",
+          "description_en": "CPU name of the computer",
+          "description_zh": "電腦的 CPU 名稱",
+          "nullable": false
+        },
+        {
+          "name": "cpu_cores",
+          "type": "INTEGER",
+          "description_en": "Number of CPU cores",
+          "description_zh": "電腦的 CPU 核心數",
+          "nullable": false
+        },
+        {
+          "name": "ram",
+          "type": "INTEGER",
+          "description_en": "Amount of RAM in GB",
+          "description_zh": "RAM 容量（GB）",
+          "nullable": false
+        },
+        {
+          "name": "ssd",
+          "type": "INTEGER",
+          "description_en": "Amount of SSD storage in GB",
+          "description_zh": "SSD 儲存容量（GB）",
+          "nullable": false
+        },
+        {
+          "name": "hdd",
+          "type": "INTEGER",
+          "description_en": "Amount of HDD storage in GB",
+          "description_zh": "HDD 儲存容量（GB）",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["model_name"] }
+      ]
+    }
+  ]
+}

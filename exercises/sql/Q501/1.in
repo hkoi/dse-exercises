@@ -1,0 +1,37 @@
+{
+  "tables": [
+    {
+      "name": "sales",
+      "field_names": ["transaction_id", "transaction_date", "drink_id"],
+      "rows": [
+        [17, "2022-11-20", 5],
+        [18, "2022-12-05", 6],
+        [19, "2022-12-22", 2],
+        [20, "2022-12-31", 4],
+        [21, "2023-01-25", 1],
+        [22, "2023-02-10", 2],
+        [23, "2023-04-15", 3],
+        [24, "2023-05-01", 1],
+        [25, "2023-06-18", 2],
+        [26, "2023-07-03", 4],
+        [27, "2023-07-20", 5],
+        [28, "2023-08-05", 6],
+        [29, "2023-08-22", 2],
+        [30, "2023-08-27", 2]
+      ]
+    },
+    {
+      "name": "drink",
+      "field_names": ["drink_id", "drink_name", "brand_name", "price", "drink_type"],
+      "rows": [
+        [1, "Green Tea", "Happy", 9.5, "Tea"],
+        [2, "Lemon Cola", "Best Taste", 12.0, "Soda"],
+        [3, "Pure Water 400ml", "Happy", 7.0, "Water"],
+        [4, "1% Orange", "Best Taste", 11.0, "Juice"],
+        [5, "Black Tea", "Happy", 8.5, "Tea"],
+        [6, "Pure Water 600ml", "Happy", 8.0, "Water"],
+        [7, "Unsweetened Oolong", "Best Taste", 10.0, "Tea"]
+      ]
+    }
+  ]
+}

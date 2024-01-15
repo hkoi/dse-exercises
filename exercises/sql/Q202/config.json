@@ -1,0 +1,8 @@
+{
+  "name_en": "SELECT: Finding specific books",
+  "name_zh": "SELECT: 找出特定的圖書",
+  "strict_column_names": true,
+  "strict_column_order": false,
+  "strict_row_order": false,
+  "num_cases": 3
+}

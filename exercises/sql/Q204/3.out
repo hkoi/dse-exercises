@@ -1,0 +1,29 @@
+{
+  "statements": [
+    {
+      "column_names": ["model_name"],
+      "rows": []
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["iBanana"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["SUS 1"],
+        ["SUS 2"],
+        ["iBanana"]
+      ]
+    },
+    {
+      "column_names": ["model_name"],
+      "rows": [
+        ["SUS 2"],
+        ["iBanana"]
+      ]
+    }
+  ]
+}

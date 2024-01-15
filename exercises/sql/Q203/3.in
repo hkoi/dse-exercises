@@ -1,0 +1,15 @@
+{
+  "tables": [
+    {
+      "name": "computer",
+      "field_names": ["model_name", "cpu_name", "cpu_cores", "ram", "ssd", "hdd"],
+      "rows": [
+        ["BananaBook Pro 14", "Banana C3 Pro", 4, 16, 256, 0],
+        ["BananaBook Air", "Exynos", 16, 64, 2048, 1024],
+        ["SUS 2", "Intel i7", 12, 32, 1024, 512],
+        ["iBanana", "Intel i5", 8, 32, 0, 1024],
+        ["SUS 1", "Intel i3", 2, 32, 512, 1024]
+      ]
+    }
+  ]
+}

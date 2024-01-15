@@ -1,0 +1,88 @@
+{
+  "tables": [
+    {
+      "name": "sales",
+      "fields": [
+        {
+          "name": "transaction_id",
+          "type": "INTEGER",
+          "description_en": "Identifier for the transaction",
+          "description_zh": "交易編號",
+          "nullable": false
+        },
+        {
+          "name": "transaction_date",
+          "type": "DATE",
+          "description_en": "Date of the transaction",
+          "description_zh": "交易日期",
+          "nullable": false
+        },
+        {
+          "name": "drink_id",
+          "type": "INTEGER",
+          "description_en": "ID of the drink purchased",
+          "description_zh": "購買的飲料編號",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        {
+          "type": "PRIMARY",
+          "fields": ["transaction_id"]
+        },
+        {
+          "type": "FOREIGN",
+          "fields": ["drink_id"],
+          "references": "drink",
+          "foreign_fields": ["drink_id"]
+        }
+      ]
+    },
+    {
+      "name": "drink",
+      "fields": [
+        {
+          "name": "drink_id",
+          "type": "INTEGER",
+          "description_en": "Identifier for the drink",
+          "description_zh": "飲料編號",
+          "nullable": false
+        },
+        {
+          "name": "drink_name",
+          "type": "CHARACTER",
+          "description_en": "Name of the drink (e.g. 6-up)",
+          "description_zh": "飲料名稱 (例如 6-up)",
+          "nullable": false
+        },
+        {
+          "name": "brand_name",
+          "type": "CHARACTER",
+          "description_en": "Brand of the drink (e.g. Best Taste)",
+          "description_zh": "品牌名稱 (例如 Best Taste)",
+          "nullable": false
+        },
+        {
+          "name": "price",
+          "type": "REAL",
+          "description_en": "Price",
+          "description_zh": "價格",
+          "nullable": false
+        },
+        {
+          "name": "drink_type",
+          "type": "CHARACTER",
+          "description_en": "Type (Water, Soda, Juice or Tea)",
+          "description_zh": "飲料類型 (Water, Soda, Juice 或 Tea)",
+          "nullable": false
+        }
+      ],
+      "keys": [
+        {
+          "type": "PRIMARY",
+          "fields": ["drink_id"]
+        }
+      ]
+    }
+  ]
+}

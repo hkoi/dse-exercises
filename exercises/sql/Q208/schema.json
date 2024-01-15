@@ -1,0 +1,11 @@
+{
+  "tables": [
+    {
+      "name": "travel_log",
+      "fields": [
+        { "name": "city", "type": "CHARACTER", "description_en": "City visited", "description_zh": "到訪的城市", "nullable": false },
+        { "name": "visit_date", "type": "DATE", "description_en": "Date of visit", "description_zh": "訪問的日期", "nullable": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "statements": [
+    {
+      "column_names": ["drink_name", "brand_name"],
+      "rows": [
+        ["Unsweetened Green Tea", "Happy"]
+      ]
+    },
+    {
+      "column_names": ["COUNT(*)"],
+      "rows": [[0]]
+    },
+    {
+      "column_names": ["average"],
+      "rows": [[0.0392]]
+    },
+    {
+      "column_names": ["drink_name"],
+      "rows": [["Funda", "Sprite"]]
+    },
+    {
+      "column_names": ["sales_increase"],
+      "rows": [[-12.5]]
+    }
+  ]
+}

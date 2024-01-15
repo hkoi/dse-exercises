@@ -1,0 +1,37 @@
+{
+  "statements": [
+    {
+      "column_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781454921578, "Javascript for Babies", "Sterling Children's", "Technology", 16],
+        [9781974717248, "SPY x FAMILY Volume 2", "Tatsuya Endo", "Manga", 200],
+        [9780201896855, "The Art of Computer Programming Volume 3", "Donald Knuth", "Technology", 800],
+        [9781974735990, "My Hero Academia Box Set 1", "Kohei Horikoshi", "Manga", 3840],
+        [9784883196036, "Minna No Nihongo: Beginner 1, 2nd Edition", "3A Corporation", "Language", 310],
+        [9780321580504, "The Art of Computer Programming Volume 4 Fascicle 1", "Donald Knuth", "Technology", 272]
+      ]
+    },
+    {
+      "column_names": ["title"],
+      "rows": [
+        ["Javascript for Babies"],
+        ["SPY x FAMILY Volume 2"],
+        ["The Art of Computer Programming Volume 3"],
+        ["My Hero Academia Box Set 1"],
+        ["Minna No Nihongo: Beginner 1, 2nd Edition"],
+        ["The Art of Computer Programming Volume 4 Fascicle 1"]
+      ]
+    },
+    {
+      "column_names": ["genre", "title", "num_pages"],
+      "rows": [
+        ["Technology", "Javascript for Babies", 16],
+        ["Manga", "SPY x FAMILY Volume 2", 200],
+        ["Technology", "The Art of Computer Programming Volume 3", 800],
+        ["Manga", "My Hero Academia Box Set 1", 3840],
+        ["Language", "Minna No Nihongo: Beginner 1, 2nd Edition", 310],
+        ["Technology", "The Art of Computer Programming Volume 4 Fascicle 1", 272]
+      ]
+    }
+  ]
+}

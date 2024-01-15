@@ -1,0 +1,10 @@
+{
+  "tables": [
+    {
+      "name": "dictionary",
+      "fields": [
+        { "name": "word", "type": "CHARACTER", "description_en": "Allowed word in the Scrabble dictionary", "description_zh": "Scrabble中合法的單詞", "nullable": false }
+      ]
+    }
+  ]
+}

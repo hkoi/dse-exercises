@@ -1,0 +1,11 @@
+{
+  "tables": [
+    {
+      "name": "book",
+      "field_names": ["isbn", "title", "author", "genre", "num_pages"],
+      "rows": [
+        [9781974715466, "SPY x FAMILY Volume 3", "Anya Forger", "Science", 225]
+      ]
+    }
+  ]
+}

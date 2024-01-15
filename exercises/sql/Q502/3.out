@@ -1,0 +1,24 @@
+{
+  "statements": [
+    {
+      "column_names": ["route_number"],
+      "rows": [["80M"], ["281M"]]
+    },
+    {
+      "column_names": ["SUM(fare)"],
+      "rows": [[32.2]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["281M"]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["80"], ["80M"], ["82K"], ["83K"], ["11D"], ["281M"], ["81K"]]
+    },
+    {
+      "column_names": ["route_number"],
+      "rows": [["80M"], ["83K"], ["82K"], ["280X"], ["203C"]]
+    }
+  ]
+}
