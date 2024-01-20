@@ -1,0 +1,8 @@
+{
+  "name_en": "String: Scrabble",
+  "name_zh": "字串: Scrabble",
+  "strict_column_names": false,
+  "strict_column_order": true,
+  "strict_row_order": false,
+  "num_cases": 3
+}

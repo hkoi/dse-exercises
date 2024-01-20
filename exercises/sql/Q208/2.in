@@ -1,19 +1,19 @@
 {
   "tables": [
     {
-      "name": "travel_log",
-      "field_names": ["city", "visit_date"],
+      "name": "record",
+      "field_names": ["name", "distance", "finish_time"],
       "rows": [
-        ["Bangkok", "2021-03-15"],
-        ["Macau", "2023-09-20"],
-        ["Bali", "2020-02-05"],
-        ["Tokyo", "2023-03-10"],
-        ["Rome", "2021-06-28"],
-        ["Tokyo", "2023-05-21"],
-        ["Paris", "2020-10-31"],
-        ["Macau", "2021-04-12"],
-        ["Amsterdam", "2016-08-17"],
-        ["Bali", "2016-05-08"]
+        ["Alice Chan", 100, 13.78],
+        ["Alice Chan", 200, 29.54],
+        ["Alice Chan", 400, 61.02],
+        ["Emily Cheung", 100, 14.46],
+        ["Emily Cheung", 200, 28.31],
+        ["Gloria So", 100, 13.99],
+        ["Gloria So", 400, 60.00],
+        ["Kath Kwok", 200, 27.92],
+        ["Kath Kwok", 400, 59.58],
+        ["Sally Mak", 100, 14.21]
       ]
     }
   ]

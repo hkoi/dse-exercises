@@ -1,0 +1,28 @@
+{
+  "statements": [
+    {
+      "column_names": ["id"],
+      "rows": []
+    },
+    {
+      "column_names": ["id"],
+      "rows": []
+    },
+    {
+      "column_names": ["id"],
+      "rows": [
+        [1],
+        [7],
+        [9],
+        [10]
+      ]
+    },
+    {
+      "column_names": ["id"],
+      "rows": [
+        [4],
+        [9]
+      ]
+    }
+  ]
+}

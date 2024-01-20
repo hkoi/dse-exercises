@@ -1,20 +1,15 @@
 {
   "tables": [
     {
-      "name": "dictionary",
-      "field_names": ["word"],
+      "name": "hotel",
+      "field_names": ["name", "stars", "price_double", "price_twin"],
       "rows": [
-        ["bar"],
-        ["car"],
-        ["test"],
-        ["toast"],
-        ["quark"],
-        ["queue"],
-        ["amazing"],
-        ["aqua"],
-        ["quiz"],
-        ["synthesize"],
-        ["zeal"]
+        ["Grand Namba", 4, 1600, null],
+        ["Tennoji Budget Hotel", 3, null, 900],
+        ["Shinsaibashi Palace", 5, 2000, 2100],
+        ["Dotonbori Suites", 4, 1800, 1700],
+        ["Umeda Comfort Inn", 3, 1300, null],
+        ["Nipponbashi Modern", 5, 1400, 1300]
       ]
     }
   ]

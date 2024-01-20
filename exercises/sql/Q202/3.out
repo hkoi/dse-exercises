@@ -13,6 +13,12 @@
     {
       "column_names": ["title", "num_pages"],
       "rows": []
+    },
+    {
+      "column_names": ["author"],
+      "rows": [
+        ["Anya Forger"]
+      ]
     }
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "tables": [
+    {
+      "name": "dictionary",
+      "field_names": ["word"],
+      "rows": [
+        ["bar"],
+        ["car"],
+        ["test"],
+        ["toast"],
+        ["quark"],
+        ["queue"],
+        ["amazing"],
+        ["aqua"],
+        ["quiz"],
+        ["synthesize"],
+        ["zeal"]
+      ]
+    }
+  ]
+}

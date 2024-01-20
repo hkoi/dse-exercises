@@ -1,0 +1,15 @@
+{
+  "tables": [
+    {
+      "name": "relay_record",
+      "fields": [
+        { "name": "class", "type": "CHARACTER", "description_en": "Class name", "description_zh": "班別", "nullable": false },
+        { "name": "event_name", "type": "CHARACTER", "description_en": "Name of the relay event", "description_zh": "接力項目名稱", "nullable": false },
+        { "name": "finish_time", "type": "REAL", "description_en": "Finishing time in seconds. null if the team is disqualified", "description_zh": "完成時間(秒)，空值代表隊伍被取消資格", "nullable": true }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["class", "event_name"] }
+      ]
+    }
+  ]
+}

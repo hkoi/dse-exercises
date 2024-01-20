@@ -1,10 +1,14 @@
 {
   "tables": [
     {
-      "name": "travel_log",
+      "name": "record",
       "fields": [
-        { "name": "city", "type": "CHARACTER", "description_en": "City visited", "description_zh": "到訪的城市", "nullable": false },
-        { "name": "visit_date", "type": "DATE", "description_en": "Date of visit", "description_zh": "訪問的日期", "nullable": false }
+        { "name": "name", "type": "CHARACTER", "description_en": "Name of student", "description_zh": "學生姓名", "nullable": false },
+        { "name": "distance", "type": "INTEGER", "description_en": "Distance of the race event in meters", "description_zh": "賽事長度 (米)", "nullable": false },
+        { "name": "finish_time", "type": "REAL", "description_en": "Finishing time in seconds", "description_zh": "完成時間 (秒)", "nullable": false }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["name", "distance"] }
       ]
     }
   ]

@@ -1,18 +1,15 @@
 {
   "tables": [
     {
-      "name": "dictionary",
-      "field_names": ["word"],
+      "name": "hotel",
+      "field_names": ["name", "stars", "price_double", "price_twin"],
       "rows": [
-        ["jar"],
-        ["char"],
-        ["task"],
-        ["toss"],
-        ["tabs"],
-        ["queuing"],
-        ["quick"],
-        ["lazy"],
-        ["zephyr"]
+        ["Dotombori Dream", 5, 3125, 3000],
+        ["Umeda SkyView", 4, null, 1800],
+        ["Namba Oasis", 5, null, 2950],
+        ["Shinsekai Sakura", 4, 2500, null],
+        ["Tenma Riverside", 5, 2600, null],
+        ["Amemura ArtStay", 4, 1600, 1500]
       ]
     }
   ]

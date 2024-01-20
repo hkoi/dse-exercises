@@ -1,9 +1,15 @@
 {
   "tables": [
     {
-      "name": "dictionary",
+      "name": "hotel",
       "fields": [
-        { "name": "word", "type": "CHARACTER", "description_en": "Allowed word in the Scrabble dictionary", "description_zh": "Scrabble中合法的單詞", "nullable": false }
+        { "name": "name", "type": "CHARACTER", "description_en": "Name of hotel", "description_zh": "酒店名稱", "nullable": false },
+        { "name": "stars", "type": "INTEGER", "description_en": "Star rating of hotel", "description_zh": "酒店星等", "nullable": false },
+        { "name": "price_double", "type": "INTEGER", "description_en": "Nightly price of a double room if offered, null otherwise.", "description_zh": "單床雙人房每晚價錢，空值代表未提供", "nullable": true },
+        { "name": "price_twin", "type": "INTEGER", "description_en": "Nightly price of a twin room if offered, null otherwise.", "description_zh": "雙床房每晚價錢，空值代表未提供", "nullable": true }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["name"] }
       ]
     }
   ]

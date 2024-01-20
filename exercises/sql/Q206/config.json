@@ -1,8 +1,8 @@
 {
-  "name_en": "Operators: Mark Six",
-  "name_zh": "運算符: 六合彩",
+  "name_en": "Order: Cake shop",
+  "name_zh": "排序: 蛋糕店",
   "strict_column_names": false,
   "strict_column_order": true,
-  "strict_row_order": false,
+  "strict_row_order": true,
   "num_cases": 3
 }

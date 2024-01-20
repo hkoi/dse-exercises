@@ -1,20 +1,46 @@
 {
   "statements": [
     {
-      "column_names": ["word"],
-      "rows": [["bar"], ["car"], ["jar"]]
+      "column_names": ["name", "price_twin"],
+      "rows": [
+        ["Tenma Grand Hotel", 3300],
+        ["Sakura Sky View Hotel", 2800],
+        ["Osaka New Hotel", 2700]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["task"], ["test"], ["toss"]]
+      "column_names": ["name", "total_cost"],
+      "rows": [
+        ["Shinsekai Heritage Inn", 4884],
+        ["Umeda Riverfront Inn", 6516],
+        ["Namba Parkside Suites", 12000],
+        ["Osaka New Hotel", 14400],
+        ["Sakura Sky View Hotel", 18000],
+        ["Tenma Grand Hotel", 21000]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["quark"], ["quiz"], ["quizzes"], ["quick"]]
+      "column_names": ["name", "stars"],
+      "rows": [
+        ["Osaka New Hotel", 5],
+        ["Sakura Sky View Hotel", 5],
+        ["Tenma Grand Hotel", 5],
+        ["Namba Parkside Suites", 4],
+        ["Umeda Riverfront Inn", 4],
+        ["Dotombori Lantern House", 3],
+        ["Shinsekai Heritage Inn", 3]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["zoning"], ["amazing"], ["quizzes"]]
+      "column_names": ["name", "cost_per_star"],
+      "rows": [
+        ["Shinsekai Heritage Inn", 271.33],
+        ["Umeda Riverfront Inn", 271.50],
+        ["Osaka New Hotel", 480.0],
+        ["Namba Parkside Suites", 500.0],
+        ["Sakura Sky View Hotel", 600.0],
+        ["Tenma Grand Hotel", 700.0]
+      ]
     }
   ]
 }

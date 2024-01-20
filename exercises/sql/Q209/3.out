@@ -1,0 +1,34 @@
+{
+  "statements": [
+    {
+      "column_names": ["event_name", "count"],
+      "rows": [
+        ["4x100", 3],
+        ["4x200", 2],
+        ["4x400", 3]
+      ]
+    },
+    {
+      "column_names": ["event_name", "count"],
+      "rows": [
+        ["4x100", 3],
+        ["4x200", 0],
+        ["4x400", 0]
+      ]
+    },
+    {
+      "column_names": ["event_name", "fastest_time", "slowest_time", "average_time"],
+      "rows": [
+        ["4x100", null, null, null],
+        ["4x200", 117.95, 119.43, 118.69],
+        ["4x400", 248.16, 251.62, 250.08]
+      ]
+    },
+    {
+      "column_names": ["event_name", "total_time"],
+      "rows": [
+        ["4x400", 750.25]
+      ]
+    }
+  ]
+}

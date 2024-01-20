@@ -1,0 +1,20 @@
+{
+  "statements": [
+    {
+      "column_names": ["word"],
+      "rows": [["bar"], ["car"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["test"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["quark"], ["aqua"], ["quiz"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["amazing"]]
+    }
+  ]
+}

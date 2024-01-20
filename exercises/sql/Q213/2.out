@@ -1,0 +1,23 @@
+{
+  "statements": [
+    {
+      "column_names": ["visit_date"],
+      "rows": [
+        ["2023-09-20"],
+        ["2021-04-12"]
+      ]
+    },
+    {
+      "column_names": ["month"],
+      "rows": [[3], [5]]
+    },
+    {
+      "column_names": ["city"],
+      "rows": [["Bangkok"]]
+    },
+    {
+      "column_names": ["city"],
+      "rows": [["Amsterdam"], ["Bali"], ["Paris"]]
+    }
+  ]
+}

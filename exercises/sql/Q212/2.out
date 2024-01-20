@@ -1,0 +1,20 @@
+{
+  "statements": [
+    {
+      "column_names": ["word"],
+      "rows": [["jar"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["task"], ["toss"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["quick"]]
+    },
+    {
+      "column_names": ["word"],
+      "rows": [["zephyr"]]
+    }
+  ]
+}

@@ -1,20 +1,42 @@
 {
   "statements": [
     {
-      "column_names": ["word"],
-      "rows": [["bar"], ["car"]]
+      "column_names": ["name", "price_twin"],
+      "rows": [
+        ["Shinsaibashi Palace", 2100],
+        ["Nipponbashi Modern", 1300]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["test"]]
+      "column_names": ["name", "total_cost"],
+      "rows": [
+        ["Umeda Comfort Inn", 7800],
+        ["Nipponbashi Modern", 8400],
+        ["Grand Namba", 9600],
+        ["Dotonbori Suites", 10800],
+        ["Shinsaibashi Palace", 12000]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["quark"], ["aqua"], ["quiz"]]
+      "column_names": ["name", "stars"],
+      "rows": [
+        ["Nipponbashi Modern", 5],
+        ["Shinsaibashi Palace", 5],
+        ["Dotonbori Suites", 4],
+        ["Grand Namba", 4],
+        ["Tennoji Budget Hotel", 3],
+        ["Umeda Comfort Inn", 3]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["amazing"]]
+      "column_names": ["name", "cost_per_star"],
+      "rows": [
+        ["Nipponbashi Modern", 280.0],
+        ["Shinsaibashi Palace", 400.0],
+        ["Grand Namba", 400.0],
+        ["Umeda Comfort Inn", 433.33],
+        ["Dotonbori Suites", 450.0]
+      ]
     }
   ]
 }

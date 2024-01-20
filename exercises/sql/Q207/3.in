@@ -1,28 +1,16 @@
 {
   "tables": [
     {
-      "name": "dictionary",
-      "field_names": ["word"],
+      "name": "hotel",
+      "field_names": ["name", "stars", "price_double", "price_twin"],
       "rows": [
-        ["bar"],
-        ["car"],
-        ["test"],
-        ["toast"],
-        ["quark"],
-        ["queue"],
-        ["amazing"],
-        ["quiz"],
-        ["zeal"],
-        ["jar"],
-        ["char"],
-        ["task"],
-        ["toss"],
-        ["tabs"],
-        ["queuing"],
-        ["quick"],
-        ["lazy"],
-        ["zoning"],
-        ["quizzes"]
+        ["Sakura Sky View Hotel", 5, 3000, 2800],
+        ["Umeda Riverfront Inn", 4, 1086, 1500],
+        ["Dotombori Lantern House", 3, null, 950],
+        ["Namba Parkside Suites", 4, 2000, null],
+        ["Tenma Grand Hotel", 5, 3500, 3300],
+        ["Shinsekai Heritage Inn", 3, 814, null],
+        ["Osaka New Hotel", 5, 2400, 2700]
       ]
     }
   ]

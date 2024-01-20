@@ -1,10 +1,8 @@
-You are playing Scrabble with your friend, but you are not good at it. Write some SQL queries to help you find out what words you can make with certain tiles.
+David is an assistant in a travel agency specialising in Japan travel. He is now serving some customers who wish to reserve hotels in Osaka.
 
-The `dictionary` table contains a list of allowed words.
+Write 4 SQL statements to help him make some recommendations.
 
-Write 4 SQL statements:
-
-1. There is a double-letter square, with letters `AR` next to it. You want to place just one tile on the square. Find the 3-letter word(s) that ends with `AR`.
-2. There is a triple-word square. To the left of it is a letter `T` and to the right of it is a letter `S`. Find the word(s) that has a `T`, an `S` and exactly one letter between them.
-3. The letter `Q` is worth 10 points. You have one `Q` and one `U`. Find the word(s) that you that has exactly one `Q`, exactly one `U` and some other letters in it.
-4. The letter `Z` is also worth 10 points. Find the word(s) that you that the length is at least 5 and has at least one `Z` in the first 5 letters.
+1. A customer is looking for a twin room in a luxury 5-star hotel. Get the hotel name and nightly price of a twin room, ordered by the nightly price of a twin room in decreasing order.
+2. Another customer need 2 double rooms for 3 nights. Get the name and total cost of all hotels that offer double rooms, ordered by the total cost in ascending order.
+3. Get the name and star rating of all hotels, ordered by the star rating in decreasing order, then by their name in ascending alphabetical order.
+4. Finally, one customer is trying to find good deals. She considers "cost per star" as the nightly cost of a double room divided by the star rating. Get the name and cost per star of all hotels that offer double rooms, ordered by the cost per star in ascending order, then by their star rating in decreasing order.

@@ -1,20 +1,40 @@
 {
   "statements": [
     {
-      "column_names": ["word"],
-      "rows": [["jar"]]
+      "column_names": ["name", "price_twin"],
+      "rows": [
+        ["Dotombori Dream", 3000],
+        ["Namba Oasis", 2950]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["task"], ["toss"]]
+      "column_names": ["name", "total_cost"],
+      "rows": [
+        ["Amemura ArtStay", 9600],
+        ["Shinsekai Sakura", 15000],
+        ["Tenma Riverside", 15600],
+        ["Dotombori Dream", 18750]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["quick"]]
+      "column_names": ["name", "stars"],
+      "rows": [
+        ["Dotombori Dream", 5],
+        ["Namba Oasis", 5],
+        ["Tenma Riverside", 5],
+        ["Amemura ArtStay", 4],
+        ["Shinsekai Sakura", 4],
+        ["Umeda SkyView", 4]
+      ]
     },
     {
-      "column_names": ["word"],
-      "rows": [["zephyr"]]
+      "column_names": ["name", "cost_per_star"],
+      "rows": [
+        ["Amemura ArtStay", 400.0],
+        ["Tenma Riverside", 520.0],
+        ["Dotombori Dream", 625.0],
+        ["Shinsekai Sakura", 625.0]
+      ]
     }
   ]
 }

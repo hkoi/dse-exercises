@@ -1,23 +1,20 @@
 {
   "statements": [
     {
-      "column_names": ["visit_date"],
-      "rows": [
-        ["2023-09-20"],
-        ["2021-04-12"]
-      ]
+      "column_names": ["count"],
+      "rows": [[4]]
     },
     {
-      "column_names": ["month"],
-      "rows": [[3], [5]]
+      "column_names": ["count"],
+      "rows": [[5]]
     },
     {
-      "column_names": ["city"],
-      "rows": [["Bangkok"]]
+      "column_names": ["count"],
+      "rows": [[2]]
     },
     {
-      "column_names": ["city"],
-      "rows": [["Amsterdam"], ["Bali"], ["Paris"]]
+      "column_names": ["fastest_time", "average_time"],
+      "rows": [[27.92, 28.59]]
     }
   ]
 }

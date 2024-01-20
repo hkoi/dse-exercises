@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "name": "dictionary",
+      "field_names": ["word"],
+      "rows": [
+        ["jar"],
+        ["char"],
+        ["task"],
+        ["toss"],
+        ["tabs"],
+        ["queuing"],
+        ["quick"],
+        ["lazy"],
+        ["zephyr"]
+      ]
+    }
+  ]
+}

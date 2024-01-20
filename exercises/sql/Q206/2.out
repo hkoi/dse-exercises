@@ -1,27 +1,45 @@
 {
   "statements": [
     {
-      "column_names": ["id"],
-      "rows": []
-    },
-    {
-      "column_names": ["id"],
-      "rows": []
-    },
-    {
-      "column_names": ["id"],
+      "column_names": ["name"],
       "rows": [
-        [1],
-        [7],
-        [9],
-        [10]
+        ["Blueberry Cheesecake"],
+        ["Chocolate Mousse Cake"],
+        ["Hazelnut Coffee Cake"],
+        ["Mango Passionfruit Cake"],
+        ["Matcha Green Tea Cake"],
+        ["Strawberry Shortcake"]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "weight"],
       "rows": [
-        [4],
-        [9]
+        ["Hazelnut Coffee Cake", 500],
+        ["Strawberry Shortcake", 650],
+        ["Chocolate Mousse Cake", 720],
+        ["Mango Passionfruit Cake", 880],
+        ["Matcha Green Tea Cake", 1000],
+        ["Blueberry Cheesecake", 1300]
+      ]
+    },
+    {
+      "column_names": ["name", "price"],
+      "rows": [
+        ["Hazelnut Coffee Cake", 25],
+        ["Strawberry Shortcake", 32],
+        ["Chocolate Mousse Cake", 40],
+        ["Mango Passionfruit Cake", 55]
+      ]
+    },
+    {
+      "column_names": ["name", "gross_profit"],
+      "rows": [
+        ["Mango Passionfruit Cake", 23],
+        ["Blueberry Cheesecake", 20],
+        ["Matcha Green Tea Cake", 18],
+        ["Chocolate Mousse Cake", 15],
+        ["Strawberry Shortcake", 14],
+        ["Hazelnut Coffee Cake", 10]
       ]
     }
   ]

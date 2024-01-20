@@ -1,20 +1,17 @@
 {
   "tables": [
     {
-      "name": "travel_log",
-      "field_names": ["city", "visit_date"],
+      "name": "record",
+      "field_names": ["name", "distance", "finish_time"],
       "rows": [
-        ["New York", "2016-08-15"],
-        ["Tokyo", "2019-04-10"],
-        ["Rome", "2019-06-28"],
-        ["Tokyo", "2020-06-21"],
-        ["London", "2020-10-31"],
-        ["Seoul", "2021-03-28"],
-        ["Singapore", "2021-03-15"],
-        ["Macau", "2021-06-15"],
-        ["Tokyo", "2023-04-15"],
-        ["Macau", "2023-05-31"],
-        ["Tokyo", "2023-07-20"]
+        ["Chan Tai Man", 100, 13.25],
+        ["Chan Tai Man", 200, 28.93],
+        ["Lee Yat Sum", 100, 14.15],
+        ["Choi Kwun Lok", 400, 59.22],
+        ["Wong Ka Wai", 100, 13.57],
+        ["Wong Ka Wai", 400, 60.35],
+        ["Ng Siu Ki", 200, 28.78],
+        ["Poon Lok Yin", 200, 30.11]
       ]
     }
   ]

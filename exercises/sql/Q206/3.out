@@ -1,46 +1,45 @@
 {
   "statements": [
     {
-      "column_names": ["id"],
+      "column_names": ["name"],
       "rows": [
-        [9],
-        [10]
+        ["Banana Cream Pie"],
+        ["Chocolate Mousse Cake"],
+        ["Funfetti Cake"],
+        ["Key Lime Pie"],
+        ["NY Cheesecake"],
+        ["Triple Chocolate Cake"]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "weight"],
       "rows": [
-        [3],
-        [8],
-        [19],
-        [20]
+        ["Key Lime Pie", 520],
+        ["NY Cheesecake", 650],
+        ["Chocolate Mousse Cake", 780],
+        ["Banana Cream Pie", 900],
+        ["Funfetti Cake", 1000],
+        ["Triple Chocolate Cake", 1350]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "price"],
       "rows": [
-        [3],
-        [4],
-        [9],
-        [10],
-        [11],
-        [12],
-        [13],
-        [14],
-        [15],
-        [16],
-        [17]
+        ["Key Lime Pie", 30],
+        ["NY Cheesecake", 34],
+        ["Chocolate Mousse Cake", 45],
+        ["Banana Cream Pie", 55]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "gross_profit"],
       "rows": [
-        [4],
-        [8],
-        [11],
-        [12],
-        [13],
-        [14]
+        ["Banana Cream Pie", 23],
+        ["Chocolate Mousse Cake", 20],
+        ["Triple Chocolate Cake", 17],
+        ["NY Cheesecake", 16],
+        ["Key Lime Pie", 14],
+        ["Funfetti Cake", 12]
       ]
     }
   ]

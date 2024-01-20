@@ -1,8 +1,8 @@
 {
-  "name_en": "String: Scrabble",
-  "name_zh": "字串: Scrabble",
+  "name_en": "Order: Hotel reservation",
+  "name_zh": "日期: 酒店預訂",
   "strict_column_names": false,
   "strict_column_order": true,
-  "strict_row_order": false,
+  "strict_row_order": true,
   "num_cases": 3
 }

@@ -1,19 +1,15 @@
 {
   "tables": [
     {
-      "name": "ticket",
-      "field_names": ["id", "first_number", "second_number", "third_number", "fourth_number", "fifth_number", "sixth_number"],
+      "name": "cake",
+      "field_names": ["name", "weight", "price", "cost"],
       "rows": [
-        [1, 3, 4, 9, 10, 14, 15],
-        [2, 2, 12, 17, 20, 26, 37],
-        [3, 17, 18, 19, 23, 33, 49],
-        [4, 5, 11, 13, 29, 36, 45],
-        [5, 1, 3, 15, 24, 46, 48],
-        [6, 8, 25, 38, 39, 40, 43],
-        [7, 14, 15, 20, 25, 26, 31],
-        [8, 1, 4, 6, 9, 14, 16],
-        [9, 3, 4, 5, 7, 22, 36],
-        [10, 4, 6, 10, 13, 30, 32]
+        ["Strawberry Shortcake", 650, 32, 18],
+        ["Chocolate Mousse Cake", 720, 40, 25],
+        ["Blueberry Cheesecake", 1300, 65, 45],
+        ["Mango Passionfruit Cake", 880, 55, 32],
+        ["Hazelnut Coffee Cake", 500, 25, 15],
+        ["Matcha Green Tea Cake", 1000, 48, 30]
       ]
     }
   ]

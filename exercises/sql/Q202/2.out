@@ -19,6 +19,16 @@
         ["The Art of Computer Programming Volume 3", 800],
         ["The Art of Computer Programming Volume 4 Fascicle 1", 272]
       ]
+    },
+    {
+      "column_names": ["author"],
+      "rows": [
+        ["Sterling Children's"],
+        ["Tatsuya Endo"],
+        ["Kohei Horikoshi"],
+        ["3A Corporation"],
+        ["Donald Knuth"]
+      ]
     }
   ]
 }

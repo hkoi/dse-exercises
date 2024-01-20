@@ -20,6 +20,17 @@
         ["The Art of Computer Programming Volume 1", 672],
         ["The Art of Computer Programming Volume 2", 784]
       ]
+    },
+    {
+      "column_names": ["author"],
+      "rows": [
+        ["Stephen R. Davis"],
+        ["Tatsuya Endo"],
+        ["George R. R. Martin"],
+        ["Donald Knuth"],
+        ["Koyoharu Gotouge"],
+        ["Hiromu Arakawa"]
+      ]
     }
   ]
 }

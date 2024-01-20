@@ -1,31 +1,44 @@
 {
   "statements": [
     {
-      "column_names": ["id"],
+      "column_names": ["name"],
       "rows": [
-        [5]
+        ["Black Forest"],
+        ["Carrot Cake"],
+        ["Lemon Tart"],
+        ["NY Cheesecake"],
+        ["Red Velvet"],
+        ["Tiramisu"]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "weight"],
       "rows": [
-        [8]
+        ["Lemon Tart", 450],
+        ["Tiramisu", 800],
+        ["Black Forest", 950],
+        ["Carrot Cake", 1050],
+        ["Red Velvet", 1100],
+        ["NY Cheesecake", 1200]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "price"],
       "rows": [
-        [1],
-        [3],
-        [5],
-        [6],
-        [10]
+        ["Lemon Tart", 28],
+        ["Tiramisu", 35],
+        ["Black Forest", 68]
       ]
     },
     {
-      "column_names": ["id"],
+      "column_names": ["name", "gross_profit"],
       "rows": [
-        [10]
+        ["Black Forest", 34],
+        ["NY Cheesecake", 21],
+        ["Carrot Cake", 20],
+        ["Red Velvet", 19],
+        ["Tiramisu", 15],
+        ["Lemon Tart", 13]
       ]
     }
   ]

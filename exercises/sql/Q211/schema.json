@@ -1,0 +1,19 @@
+{
+  "tables": [
+    {
+      "name": "ticket",
+      "fields": [
+        { "name": "id", "type": "INTEGER", "description_en": "Ticket ID", "description_zh": "彩票 ID", "nullable": false },
+        { "name": "first_number", "type": "INTEGER", "description_en": "First number (smallest)", "description_zh": "第一個號碼 (最小)", "nullable": false },
+        { "name": "second_number", "type": "INTEGER", "description_en": "Second number", "description_zh": "第二個號碼", "nullable": false },
+        { "name": "third_number", "type": "INTEGER", "description_en": "Third number", "description_zh": "第三個號碼", "nullable": false },
+        { "name": "fourth_number", "type": "INTEGER", "description_en": "Fourth number", "description_zh": "第四個號碼", "nullable": false },
+        { "name": "fifth_number", "type": "INTEGER", "description_en": "Fifth number", "description_zh": "第五個號碼", "nullable": false },
+        { "name": "sixth_number", "type": "INTEGER", "description_en": "Sixth number (largest)", "description_zh": "第六個號碼 (最大)", "nullable": false }
+      ],
+      "keys": [
+        { "type": "PRIMARY", "fields": ["id"] }
+      ]
+    }
+  ]
+}

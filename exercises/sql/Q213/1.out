@@ -1,0 +1,23 @@
+{
+  "statements": [
+    {
+      "column_names": ["visit_date"],
+      "rows": [
+        ["2021-06-15"],
+        ["2023-05-31"]
+      ]
+    },
+    {
+      "column_names": ["month"],
+      "rows": [[4], [7]]
+    },
+    {
+      "column_names": ["city"],
+      "rows": [["Seoul"], ["Singapore"]]
+    },
+    {
+      "column_names": ["city"],
+      "rows": [["London"], ["New York"], ["Tokyo"]]
+    }
+  ]
+}
