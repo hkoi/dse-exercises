@@ -1,6 +1,6 @@
 You are playing Scrabble with your friend, but you are not good at it. Write some SQL queries to help you find out what words you can make with certain tiles.
 
-The `dictionary` table contains a list of allowed words.
+The `dictionary` table contains a list of allowed words in lowercase letters.
 
 Write 4 SQL statements:
 
